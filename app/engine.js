@@ -7,8 +7,11 @@
   "use strict";
   const D = global.POE2_DATA;
 
-  /* ---------- 索引 ---------- */
-  const modsById = new Map(D.mods.map((m) => [m.id, m]));
+  /* ---------- 索引 ----------
+   * 词缀池（mods/classPoolsRaw/essenceModMap/anoints…）拆分到 data_pools.js 懒加载：
+   * 首屏只装核心包（基底/通货/预兆…），app.js 注入词缀池后调用 loadPools() 补建下列索引。 */
+  const modsById = new Map((D.mods || []).map((m) => [m.id, m]));
+  let poolsReady = !!(D.mods && D.mods.length && D.classPoolsRaw);
   /* 裂隙精华（Essence of the Breach）的保底词缀：Jewellery +20% to Maximum Quality（前缀，poe2db 确认）。
    * mods.json 未收录，合成注入以参与正常词缀流程（占前缀位、可被剥离/混沌移除）。 */
   const BREACH_QUALITY_MOD = {
@@ -20,15 +23,45 @@
   };
   modsById.set(BREACH_QUALITY_MOD.id, BREACH_QUALITY_MOD);
 
-  /* ---------- Runes of Aldur（0.5）：符文 / 创世树 / 蒸馏情感 / 时逝珠宝 ---------- */
+  /* ---------- Runes of Aldur（0.5）：符文 / 创世树 / 蒸馏情感 / 时逝珠宝 ----------
+   * runePools / genesisPools / timeLost / anoints 在词缀池包里，loadPools 时并入 */
   const ALDUR = D.aldur || { runes: [], runePools: {}, genesisPools: {}, genesisBases: {}, timeLost: { pool: { prefixes: [], suffixes: [] }, bases: [] }, liquid: [], sockets: { weapons: 2, armour: 2, jewellery: 1 } };
   const runeById = new Map(ALDUR.runes.map((r) => [r.id, r]));
   const liquidById = new Map(ALDUR.liquid.map((e) => [e.id, e]));
-  for (const pool of Object.values(ALDUR.runePools))
-    for (const m of [...pool.prefixes, ...pool.suffixes]) modsById.set(m.id, m);
-  for (const pool of Object.values(ALDUR.genesisPools))
-    for (const m of [...pool.prefixes, ...pool.suffixes]) modsById.set(m.id, m);
-  for (const m of [...ALDUR.timeLost.pool.prefixes, ...ALDUR.timeLost.pool.suffixes]) modsById.set(m.id, m);
+
+  /* 词缀池懒加载：data_pools.js 就绪后补建全部池相关索引 */
+  function loadPools(pools) {
+    const ald = (pools && pools.aldur) || {};
+    for (const m of (pools.mods || [])) modsById.set(m.id, m);
+    modsById.set(BREACH_QUALITY_MOD.id, BREACH_QUALITY_MOD);
+    if (ald.runePools) ALDUR.runePools = ald.runePools;
+    if (ald.genesisPools) ALDUR.genesisPools = ald.genesisPools;
+    if (ald.timeLost) ALDUR.timeLost = ald.timeLost;
+    for (const pool of Object.values(ALDUR.runePools || {}))
+      for (const m of [...pool.prefixes, ...pool.suffixes]) modsById.set(m.id, m);
+    for (const pool of Object.values(ALDUR.genesisPools || {}))
+      for (const m of [...pool.prefixes, ...pool.suffixes]) modsById.set(m.id, m);
+    for (const m of [...(ALDUR.timeLost.pool || { prefixes: [], suffixes: [] }).prefixes, ...(ALDUR.timeLost.pool || { prefixes: [], suffixes: [] }).suffixes]) modsById.set(m.id, m);
+    for (const n of (ald.anoints || [])) {
+      anointBySlug.set(n.slug, n);
+      anointByCombo.set(n.emotions.join("|"), n);
+    }
+    for (const [cid, bySrc] of Object.entries(pools.classPoolsRaw || {})) {
+      poolsByClass[cid] = {};
+      for (const [src, byType] of Object.entries(bySrc)) {
+        poolsByClass[cid][src] = {
+          prefixes: byType.prefixes.map((id) => modsById.get(id)).filter(Boolean),
+          suffixes: byType.suffixes.map((id) => modsById.get(id)).filter(Boolean),
+        };
+      }
+    }
+    for (const e of (pools.essenceModMap || [])) {
+      essenceIndex.set(e.classId + "|" + e.essence + "|" + e.tier, e);
+      if (!essencesByClass.has(e.classId)) essencesByClass.set(e.classId, new Map());
+      essencesByClass.get(e.classId).set(e.essence, e.essence);
+    }
+    poolsReady = true;
+  }
 
   /* ---------- 基础符文 + 魂核（0.5 Augment 全表，tools/build_augments.mjs 生成） ---------- */
   const AUGM = (typeof window !== "undefined" && window.POE2_AUGMENTS) || { runes: [], soulCores: [] };
@@ -113,9 +146,9 @@
       });
     });
   }
-  // 涂油注入（枯萎之树）：3 种有序液体情感 → 项链专精天赋（874 条配方）
-  const anointBySlug = new Map((ALDUR.anoints || []).map((n) => [n.slug, n]));
-  const anointByCombo = new Map((ALDUR.anoints || []).map((n) => [n.emotions.join("|"), n]));
+  // 涂油注入（枯萎之树）：3 种有序液体情感 → 项链专精天赋（874 条配方，词缀池包加载后填充）
+  const anointBySlug = new Map();
+  const anointByCombo = new Map();
   const anointEmotionById = new Map((ALDUR.anointEmotions || []).map((e) => [e.id, e]));
   // 合金对该物品部位的词条下标（classes 按物品类精确匹配；未收录类自然不命中）
   function alloyModFor(item, alloy) {
@@ -198,17 +231,8 @@
   const baseIndex = new Map(); // classId -> baseId -> base
   for (const c of classList) for (const b of c.bases) baseIndex.set(c.id + "/" + b.id, b);
 
-  // classId -> { normal: {prefixes:[mod], suffixes:[mod]}, desecrated: {...} }
+  // classId -> { normal: {prefixes:[mod], suffixes:[mod]}, desecrated: {...} }（loadPools 填充）
   const poolsByClass = {};
-  for (const [cid, pools] of Object.entries(D.classPoolsRaw)) {
-    poolsByClass[cid] = {};
-    for (const [src, byType] of Object.entries(pools)) {
-      poolsByClass[cid][src] = {
-        prefixes: byType.prefixes.map((id) => modsById.get(id)).filter(Boolean),
-        suffixes: byType.suffixes.map((id) => modsById.get(id)).filter(Boolean),
-      };
-    }
-  }
 
   /* 防具基底按属性挂不同词缀池：基底带 poolClass 时优先于部位类（如 Helmets_str） */
   function poolKeyOf(item) {
@@ -216,17 +240,9 @@
     return (base && base.poolClass) || item.classId;
   }
 
-  // (classId, essenceName, tier) -> {modId, tierIndex}
+  // (classId, essenceName, tier) -> {modId, tierIndex}；classId -> Set(essenceName)（loadPools 填充）
   const essenceIndex = new Map();
-  for (const e of D.essenceModMap) {
-    essenceIndex.set(e.classId + "|" + e.essence + "|" + e.tier, e);
-  }
-  // classId -> Set(essenceName) 可用精华
   const essencesByClass = new Map();
-  for (const e of D.essenceModMap) {
-    if (!essencesByClass.has(e.classId)) essencesByClass.set(e.classId, new Map());
-    essencesByClass.get(e.classId).set(e.essence, e.essence);
-  }
 
   const omenById = new Map(D.omens.map((o) => [o.id, o]));
   const TIER_FLOOR = { base: 0, greater: 35, perfect: 50 };
@@ -981,6 +997,8 @@
     modsById, classById, classList, baseIndex, poolsByClass, poolKeyOf,
     essenceIndex, essencesByClass, omenById, CAPS, capsFor, TIER_FLOOR,
     makeRng, defaultRng,
+    get poolsReady() { return poolsReady; },
+    loadPools,
     newItem, clone, affixCounts, freeTypes,
     eligiblePairs, probabilityTable,
     rollAffixValues, rollName,
@@ -1002,4 +1020,6 @@
 
   if (typeof module !== "undefined" && module.exports) module.exports = ENGINE;
   global.POE2_ENGINE = ENGINE;
+  /* 兼容旧版全量 data.js（自带词缀池）：直接补建索引；拆分包则由 app.js 注入 data_pools.js 后调用 */
+  if (poolsReady) loadPools(D);
 })(typeof window !== "undefined" ? window : globalThis);

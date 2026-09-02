@@ -44,7 +44,9 @@ app/                   前端应用（纯静态，无依赖，可直接整体拷
   engine.js            概率与做装引擎（与 POE2_HTC 一致的加权抽取）
   stats.js             武器 DPS / 防具防御 / 首饰属性汇总
   i18n_mods.js         词缀中英对齐补译
-  data.js              全量数据包（基底 / 词缀 / 通货 / 预兆 / 精华 / 价格，开箱即用）
+  data.js              核心数据包（基底 / 通货 / 预兆 / 精华 / 价格 —— 首屏只加载这个，gz ≈ 59KB）
+  data_pools.js        词缀池包（mods / 池映射 / 涂油配方 874 条，后台懒加载，gz ≈ 226KB）
+  sw.js                Service Worker（静态资源缓存优先 + 后台更新，二次访问秒开、可离线）
   assets.js            本地图标清单（键 → assets/ 路径）
   _icons_preview.html  图标自检页（浏览器打开可逐类核对，开发调试用）
   augments.js           0.5 基础符文 + 魂核数据（build_augments.mjs 生成）
@@ -59,7 +61,7 @@ app/                   前端应用（纯静态，无依赖，可直接整体拷
 
 ## 数据与图标更新
 
-- `app/data.js` 为预打包的全量数据（生成于 2026-08，对应 0.5 版本），直接改它即可；早期版本的提取/打包脚本（`tools/build_data.py` 等）保留在本仓库 git 历史中，可从历史提交找回。
+- `app/data.js`（核心）+` app/data_pools.js`（词缀池）由全量包经 `node tools/split_data.mjs` 拆分而来（生成于 2026-09，对应 0.5 版本）；引擎启动时只建核心索引，app.js 首屏渲染后注入词缀池并调用 `ENGINE.loadPools()` 补建。早期提取/打包脚本（`tools/build_data.py` 等）在本仓库 git 历史中。
 - 图标源为 `cdn.poe2db.tw/image/Art/2DItems/...`，缺哪张按 `app/assets.js` 清单里的键补抓到对应路径即可（例如基底插画在 `assets/weapons/<类别>/<基底ID>.webp`）。
 
 ## 已知简化（与游戏的差异）

@@ -304,8 +304,7 @@
       S.ilvl = +$("#ilvl-input").value;
       S.item.ilvl = S.ilvl;
       $("#craft-title").textContent = `${cls2.zh} · ${b.zh}`;
-      renderCraft();
-      nav("screen-craft");
+      enterCraftWhenReady();
       save();
     }));
   }
@@ -732,9 +731,14 @@
 
   /* ───────── 概率面板 ───────── */
   function renderProb() {
-    const cur = S.focusCur || defaultCurrency();
     const sub = $("#prob-sub");
     const list = $("#prob-list");
+    if (!E.poolsReady) {
+      sub.textContent = "结果预测";
+      list.innerHTML = `<div class="log-empty">词缀池加载中 —— 概率面板马上就好…</div>`;
+      return;
+    }
+    const cur = S.focusCur || defaultCurrency();
     const m = CUR_META[cur];
     const { opts } = rFor(cur);
     const omenId = omenListOf(cur)[0] || null;
@@ -2221,8 +2225,7 @@ function openLiquidModal() {
       const cls = E.classById.get(S.classId), b = E.baseIndex.get(S.classId + "/" + S.baseId);
       $("#craft-title").textContent = `${cls.zh} · ${b.zh}`;
       renderBases();
-      renderCraft(false);
-      nav("screen-craft");
+      enterCraftWhenReady();
       toast("已载入分享的物品", "info");
       return true;
     } catch (e) { return false; }
@@ -2230,6 +2233,32 @@ function openLiquidModal() {
 
   /* ───────── 启动 ───────── */
   renderCategories();
+  /* 词缀池懒加载：首屏（核心包 ~60KB gz）渲染后注入 data_pools.js（~230KB gz）补建概率引擎索引 */
+  const poolWaiters = [];
+  let poolToastShown = false;
+  function whenPoolsReady(cb) {
+    if (E.poolsReady) { cb(); return; }
+    poolWaiters.push(cb);
+    if (!poolToastShown) { poolToastShown = true; toast("词缀数据加载中，马上就好…", "info"); }
+  }
+  function enterCraftWhenReady() {
+    whenPoolsReady(() => { renderCraft(false); nav("screen-craft"); });
+  }
+  function flushPoolWaiters() {
+    for (const cb of poolWaiters.splice(0)) { try { cb(); } catch (e) {} }
+  }
+  function loadPoolsPackage() {
+    if (E.poolsReady) { flushPoolWaiters(); return; }
+    const s = document.createElement("script");
+    s.src = "data_pools.js";
+    s.onload = () => {
+      E.loadPools(window.POE2_POOLS);
+      if (S.item && document.getElementById("screen-craft").classList.contains("active")) renderCraft(false);
+      flushPoolWaiters();
+    };
+    s.onerror = () => toast("词缀池加载失败，请刷新重试", "warn");
+    document.head.appendChild(s);
+  }
   /* 直达做装台/基底页的入口（hash/分享/会话恢复）没经过大类点击，
      类型页（#class-grid）不会被渲染，返回「换类型」时会得到空白页 —— 这里统一预渲染 */
   function prerenderClassScreen() {
@@ -2262,8 +2291,7 @@ function openLiquidModal() {
     $("#craft-title").textContent = cls0.zh + " · " + b0.zh;
     prerenderClassScreen();
     renderBases(); // 直达做装台时也预渲染基底列表，保证「换基底」返回时有内容
-    renderCraft(false);
-    nav("screen-craft");
+    enterCraftWhenReady();
   } else if (restore()) {
     $("#ilvl-input").value = S.ilvl;
     $$("#tier-switch button").forEach((x) => x.classList.toggle("on", x.dataset.tier === S.tier));
@@ -2272,10 +2300,14 @@ function openLiquidModal() {
     $("#craft-title").textContent = `${cls.zh} · ${b.zh}`;
     prerenderClassScreen();
     renderBases(); // 会话恢复直达做装台，同样预渲染基底列表
-    renderCraft(false);
-    nav("screen-craft");
+    enterCraftWhenReady();
     toast("已恢复上次的做装进度", "info");
   } else {
     $$("#tier-switch button").forEach((x) => x.classList.toggle("on", x.dataset.tier === "base"));
+  }
+  /* 首屏已渲染：后台拉词缀池（含首页直进做装台的等待队列）；HTTPS 环境注册 Service Worker 加速二次访问 */
+  loadPoolsPackage();
+  if ("serviceWorker" in navigator && location.protocol === "https:") {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
   }
 })();
