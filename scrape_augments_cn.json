@@ -1,0 +1,1552 @@
+[
+ {
+  "icon": "Art/2DItems/Currency/Runes/FireRune.webp",
+  "id": "Desert_Rune",
+  "text": "沙漠符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 附加 7 - 11 火焰伤害\n法杖或长杖: 获得相当于伤害 8% 的额外火焰伤害\n护甲: 火焰抗性 +14%\n羁绊：\n战斗武器: 点燃强度提高 30%\n法杖或长杖: 点燃强度提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ColdRune.webp",
+  "id": "Glacial_Rune",
+  "text": "冰川符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 附加 6 - 10 冰霜伤害\n法杖或长杖: 获得相当于伤害 8% 的额外冰霜伤害\n护甲: 冰霜抗性 +14%\n羁绊：\n战斗武器: 冻结积蓄值提高 30%\n法杖或长杖: 冻结积蓄值提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRune.webp",
+  "id": "Storm_Rune",
+  "text": "风暴符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 附加 1 - 20 闪电伤害\n法杖或长杖: 获得相当于伤害 8% 的额外闪电伤害\n护甲: 闪电抗性 +14%\n羁绊：\n战斗武器: 你造成的感电强度提高 30%\n法杖或长杖: 你造成的感电强度提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/EnhanceRune.webp",
+  "id": "Iron_Rune",
+  "text": "钢铁符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 物理伤害提高 16%\n法杖或长杖: 法术伤害提高 25%\n护甲: 护甲、闪避和能量护盾提高 16%\n羁绊：\n战斗武器: 护甲完全破损效果提高 20%\n法杖或长杖: 法术暴击会粉碎护甲，相当于造成物理伤害的 12%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRune.webp",
+  "id": "Body_Rune",
+  "text": "身躯符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 物理伤害的 4% 转化为生命偷取\n法杖或长杖: +40 能量护盾上限\n护甲: +45 生命上限\n羁绊：\n战斗武器: 生命上限提高 5%\n法杖或长杖: 生命上限提高 5%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRune.webp",
+  "id": "Mind_Rune",
+  "text": "心灵符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 物理伤害的 3% 转化为魔力偷取\n法杖或长杖: +60 魔力上限\n护甲: +30 魔力上限\n羁绊：\n战斗武器: 魔力上限提高 5%\n法杖或长杖: 魔力上限提高 5%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRecoveryRune.webp",
+  "id": "Rebirth_Rune",
+  "text": "重生符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 每击败一名敌人获得 25 点生命\n法杖或长杖: 能量护盾充能率提高 8%\n护甲: 生命每秒再生 0.4%\n羁绊：\n战斗武器: 生命每秒再生 0.4%\n法杖或长杖: 将所受伤害的8%吸纳为生命\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRecoveryRune.webp",
+  "id": "Inspiration_Rune",
+  "text": "启迪符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 每击败一名敌人获得 20 点魔力\n法杖或长杖: 魔力再生率提高 25%\n护甲: 魔力再生率提高 15%\n羁绊：\n战斗武器: 技能的魔力消耗的 12% 转化为生命消耗\n法杖或长杖: 魔力消耗效能提高 16%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StunRune.webp",
+  "id": "Stone_Rune",
+  "text": "磐石符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 造成的晕眩积蓄值提高 30%\n法杖或长杖: 获得相当于能量护盾上限 12% 的晕眩阈值\n护甲: +75 晕眩阈值\n羁绊：\n战斗武器: 对不可移动敌人的伤害提高 40%\n法杖或长杖: 不可移动积蓄提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/AccuracyRune.webp",
+  "id": "Vision_Rune",
+  "text": "幻象符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: +90 命中值\n法杖或长杖: 法术暴击率提高 20%\n护甲: 药剂的生命和魔力回复提高 12%\n羁绊：\n战斗武器: 攻击的暴击率 +1%\n法杖或长杖: 暴击伤害加成提高 25%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/FireRuneTier1.webp",
+  "id": "Lesser_Desert_Rune",
+  "text": "次级沙漠符文\n堆叠数量: 1 / 10\n战斗武器: 附加 4 - 6 火焰伤害\n法杖或长杖: 获得相当于伤害 6% 的额外火焰伤害\n护甲: 火焰抗性 +10%\n羁绊：\n战斗武器: 点燃强度提高 30%\n法杖或长杖: 点燃强度提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ColdRuneTier1.webp",
+  "id": "Lesser_Glacial_Rune",
+  "text": "次级冰川符文\n堆叠数量: 1 / 10\n战斗武器: 附加 3 - 5 冰霜伤害\n法杖或长杖: 获得相当于伤害 6% 的额外冰霜伤害\n护甲: 冰霜抗性 +10%\n羁绊：\n战斗武器: 冻结积蓄值提高 30%\n法杖或长杖: 冻结积蓄值提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneTier1.webp",
+  "id": "Lesser_Storm_Rune",
+  "text": "次级风暴符文\n堆叠数量: 1 / 10\n战斗武器: 附加 1 - 10 闪电伤害\n法杖或长杖: 获得相当于伤害 6% 的额外闪电伤害\n护甲: 闪电抗性 +10%\n羁绊：\n战斗武器: 你造成的感电强度提高 30%\n法杖或长杖: 你造成的感电强度提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/EnhanceRuneTier1.webp",
+  "id": "Lesser_Iron_Rune",
+  "text": "次级钢铁符文\n堆叠数量: 1 / 10\n战斗武器: 物理伤害提高 14%\n法杖或长杖: 法术伤害提高 20%\n护甲: 护甲、闪避和能量护盾提高 14%\n羁绊：\n战斗武器: 护甲完全破损效果提高 20%\n法杖或长杖: 法术暴击会粉碎护甲，相当于造成物理伤害的 12%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRuneTier1.webp",
+  "id": "Lesser_Body_Rune",
+  "text": "次级身躯符文\n堆叠数量: 1 / 10\n战斗武器: 物理伤害的 3% 转化为生命偷取\n法杖或长杖: +30 能量护盾上限\n护甲: +30 生命上限\n羁绊：\n战斗武器: 生命上限提高 5%\n法杖或长杖: 生命上限提高 5%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRuneTier1.webp",
+  "id": "Lesser_Mind_Rune",
+  "text": "次级心灵符文\n堆叠数量: 1 / 10\n战斗武器: 物理伤害的 2% 转化为魔力偷取\n法杖或长杖: +45 魔力上限\n护甲: +20 魔力上限\n羁绊：\n战斗武器: 魔力上限提高 5%\n法杖或长杖: 魔力上限提高 5%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRecoveryRuneTier1.webp",
+  "id": "Lesser_Rebirth_Rune",
+  "text": "次级重生符文\n堆叠数量: 1 / 10\n战斗武器: 每击败一名敌人获得 15 点生命\n法杖或长杖: 能量护盾充能率提高 6%\n护甲: 生命每秒再生 0.35%\n羁绊：\n战斗武器: 生命每秒再生 0.4%\n法杖或长杖: 将所受伤害的8%吸纳为生命\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRecoveryRuneTier1.webp",
+  "id": "Lesser_Inspiration_Rune",
+  "text": "次级启迪符文\n堆叠数量: 1 / 10\n战斗武器: 每击败一名敌人获得 10 点魔力\n法杖或长杖: 魔力再生率提高 20%\n护甲: 魔力再生率提高 12%\n羁绊：\n战斗武器: 技能的魔力消耗的 12% 转化为生命消耗\n法杖或长杖: 魔力消耗效能提高 16%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StunRuneTier1.webp",
+  "id": "Lesser_Stone_Rune",
+  "text": "次级磐石符文\n堆叠数量: 1 / 10\n战斗武器: 造成的晕眩积蓄值提高 20%\n法杖或长杖: 获得相当于能量护盾上限 10% 的晕眩阈值\n护甲: +50 晕眩阈值\n羁绊：\n战斗武器: 对不可移动敌人的伤害提高 40%\n法杖或长杖: 不可移动积蓄提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/AccuracyRuneTier1.webp",
+  "id": "Lesser_Vision_Rune",
+  "text": "次级幻象符文\n堆叠数量: 1 / 10\n战斗武器: +60 命中值\n法杖或长杖: 法术暴击率提高 16%\n护甲: 药剂的生命和魔力回复提高 8%\n羁绊：\n战斗武器: 攻击的暴击率 +1%\n法杖或长杖: 暴击伤害加成提高 25%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/FireRuneTier2.webp",
+  "id": "Greater_Desert_Rune",
+  "text": "高级沙漠符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 附加 13 - 16 火焰伤害\n法杖或长杖: 获得相当于伤害 10% 的额外火焰伤害\n护甲: 火焰抗性 +18%\n羁绊：\n战斗武器: 点燃强度提高 30%\n法杖或长杖: 点燃强度提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ColdRuneTier2.webp",
+  "id": "Greater_Glacial_Rune",
+  "text": "高级冰川符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 附加 9 - 15 冰霜伤害\n法杖或长杖: 获得相当于伤害 10% 的额外冰霜伤害\n护甲: 冰霜抗性 +18%\n羁绊：\n战斗武器: 冻结积蓄值提高 30%\n法杖或长杖: 冻结积蓄值提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneTier2.webp",
+  "id": "Greater_Storm_Rune",
+  "text": "高级风暴符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 附加 1 - 30 闪电伤害\n法杖或长杖: 获得相当于伤害 10% 的额外闪电伤害\n护甲: 闪电抗性 +18%\n羁绊：\n战斗武器: 你造成的感电强度提高 30%\n法杖或长杖: 你造成的感电强度提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/EnhanceRuneTier2.webp",
+  "id": "Greater_Iron_Rune",
+  "text": "高级钢铁符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 物理伤害提高 18%\n法杖或长杖: 法术伤害提高 30%\n护甲: 护甲、闪避和能量护盾提高 18%\n羁绊：\n战斗武器: 护甲完全破损效果提高 20%\n法杖或长杖: 法术暴击会粉碎护甲，相当于造成物理伤害的 12%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRuneTier2.webp",
+  "id": "Greater_Body_Rune",
+  "text": "高级身躯符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 物理伤害的 5% 转化为生命偷取\n法杖或长杖: +50 能量护盾上限\n护甲: +60 生命上限\n羁绊：\n战斗武器: 生命上限提高 5%\n法杖或长杖: 生命上限提高 5%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRuneTier2.webp",
+  "id": "Greater_Mind_Rune",
+  "text": "高级心灵符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 物理伤害的 4% 转化为魔力偷取\n法杖或长杖: +75 魔力上限\n护甲: +40 魔力上限\n羁绊：\n战斗武器: 魔力上限提高 5%\n法杖或长杖: 魔力上限提高 5%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRecoveryRuneTier2.webp",
+  "id": "Greater_Rebirth_Rune",
+  "text": "高级重生符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 每击败一名敌人获得 35 点生命\n法杖或长杖: 能量护盾充能率提高 10%\n护甲: 生命每秒再生 0.45%\n羁绊：\n战斗武器: 生命每秒再生 0.4%\n法杖或长杖: 将所受伤害的8%吸纳为生命\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRecoveryRuneTier2.webp",
+  "id": "Greater_Inspiration_Rune",
+  "text": "高级启迪符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 每击败一名敌人获得 30 点魔力\n法杖或长杖: 魔力再生率提高 30%\n护甲: 魔力再生率提高 18%\n羁绊：\n战斗武器: 技能的魔力消耗的 12% 转化为生命消耗\n法杖或长杖: 魔力消耗效能提高 16%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StunRuneTier2.webp",
+  "id": "Greater_Stone_Rune",
+  "text": "高级磐石符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 造成的晕眩积蓄值提高 40%\n法杖或长杖: 获得相当于能量护盾上限 14% 的晕眩阈值\n护甲: +100 晕眩阈值\n羁绊：\n战斗武器: 对不可移动敌人的伤害提高 40%\n法杖或长杖: 不可移动积蓄提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/AccuracyRuneTier2.webp",
+  "id": "Greater_Vision_Rune",
+  "text": "高级幻象符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: +120 命中值\n法杖或长杖: 法术暴击率提高 24%\n护甲: 药剂的生命和魔力回复提高 16%\n羁绊：\n战斗武器: 攻击的暴击率 +1%\n法杖或长杖: 暴击伤害加成提高 25%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneFire.webp",
+  "id": "Perfect_Desert_Rune",
+  "text": "完美沙漠符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: 附加 17 - 20 火焰伤害\n法杖或长杖: 获得相当于伤害 12% 的额外火焰伤害\n护甲: 火焰抗性 +22%\n羁绊：\n战斗武器: 点燃强度提高 30%\n法杖或长杖: 点燃强度提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneCold.webp",
+  "id": "Perfect_Glacial_Rune",
+  "text": "完美冰川符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: 附加 16 - 20 冰霜伤害\n法杖或长杖: 获得相当于伤害 12% 的额外冰霜伤害\n护甲: 冰霜抗性 +22%\n羁绊：\n战斗武器: 冻结积蓄值提高 30%\n法杖或长杖: 冻结积蓄值提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneLightning.webp",
+  "id": "Perfect_Storm_Rune",
+  "text": "完美风暴符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: 附加 1 - 40 闪电伤害\n法杖或长杖: 获得相当于伤害 12% 的额外闪电伤害\n护甲: 闪电抗性 +22%\n羁绊：\n战斗武器: 你造成的感电强度提高 30%\n法杖或长杖: 你造成的感电强度提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneEnhance.webp",
+  "id": "Perfect_Iron_Rune",
+  "text": "完美钢铁符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: 物理伤害提高 20%\n法杖或长杖: 法术伤害提高 35%\n护甲: 护甲、闪避和能量护盾提高 20%\n羁绊：\n战斗武器: 护甲完全破损效果提高 20%\n法杖或长杖: 法术暴击会粉碎护甲，相当于造成物理伤害的 12%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneLife.webp",
+  "id": "Perfect_Body_Rune",
+  "text": "完美身躯符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: 物理伤害的 6% 转化为生命偷取\n法杖或长杖: +60 能量护盾上限\n护甲: +75 生命上限\n羁绊：\n战斗武器: 生命上限提高 5%\n法杖或长杖: 生命上限提高 5%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneMana.webp",
+  "id": "Perfect_Mind_Rune",
+  "text": "完美心灵符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: 物理伤害的 5% 转化为魔力偷取\n法杖或长杖: +90 魔力上限\n护甲: +50 魔力上限\n羁绊：\n战斗武器: 魔力上限提高 5%\n法杖或长杖: 魔力上限提高 5%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneLifeRecovery.webp",
+  "id": "Perfect_Rebirth_Rune",
+  "text": "完美重生符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: 每击败一名敌人获得 45 点生命\n法杖或长杖: 能量护盾充能率提高 12%\n护甲: 生命每秒再生 0.5%\n羁绊：\n战斗武器: 生命每秒再生 0.4%\n法杖或长杖: 将所受伤害的8%吸纳为生命\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneManaRecovery.webp",
+  "id": "Perfect_Inspiration_Rune",
+  "text": "完美启迪符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: 每击败一名敌人获得 40 点魔力\n法杖或长杖: 魔力再生率提高 35%\n护甲: 魔力再生率提高 21%\n羁绊：\n战斗武器: 技能的魔力消耗的 12% 转化为生命消耗\n法杖或长杖: 魔力消耗效能提高 16%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneStun.webp",
+  "id": "Perfect_Stone_Rune",
+  "text": "完美磐石符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: 造成的晕眩积蓄值提高 50%\n法杖或长杖: 获得相当于能量护盾上限 16% 的晕眩阈值\n护甲: +125 晕眩阈值\n羁绊：\n战斗武器: 对不可移动敌人的伤害提高 40%\n法杖或长杖: 不可移动积蓄提高 30%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneAccuracy.webp",
+  "id": "Perfect_Vision_Rune",
+  "text": "完美幻象符文\n堆叠数量: 1 / 10\n需求： 等级 50\n战斗武器: +150 命中值\n法杖或长杖: 法术暴击率提高 28%\n护甲: 药剂的生命和魔力回复提高 20%\n羁绊：\n战斗武器: 攻击的暴击率 +1%\n法杖或长杖: 暴击伤害加成提高 25%\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StrengthRuneTier1.webp",
+  "id": "Lesser_Robust_Rune",
+  "text": "次级健壮符文\n堆叠数量: 1 / 10\n所有装备: +6 力量\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 6 - 10 基础火焰伤害\n法杖或长杖: +100 护甲\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StrengthRune.webp",
+  "id": "Robust_Rune",
+  "text": "健壮符文\n堆叠数量: 1 / 10\n需求： 等级 15\n所有装备: +9 力量\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 6 - 10 基础火焰伤害\n法杖或长杖: +100 护甲\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StrengthRuneTier3.webp",
+  "id": "Greater_Robust_Rune",
+  "text": "高级健壮符文\n堆叠数量: 1 / 10\n需求： 等级 30\n所有装备: +12 力量\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 6 - 10 基础火焰伤害\n法杖或长杖: +100 护甲\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneStrength.webp",
+  "id": "Perfect_Robust_Rune",
+  "text": "完美健壮符文\n堆叠数量: 1 / 10\n需求： 等级 50\n所有装备: +15 力量\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 6 - 10 基础火焰伤害\n法杖或长杖: +100 护甲\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/DexRuneTier1.webp",
+  "id": "Lesser_Adept_Rune",
+  "text": "次级行家符文\n堆叠数量: 1 / 10\n所有装备: +6 敏捷\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 1 - 16 基础闪电伤害\n法杖或长杖: +80 点闪避值\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/DexRune.webp",
+  "id": "Adept_Rune",
+  "text": "行家符文\n堆叠数量: 1 / 10\n需求： 等级 15\n所有装备: +9 敏捷\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 1 - 16 基础闪电伤害\n法杖或长杖: +80 点闪避值\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/DexRuneTier3.webp",
+  "id": "Greater_Adept_Rune",
+  "text": "高级行家符文\n堆叠数量: 1 / 10\n需求： 等级 30\n所有装备: +12 敏捷\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 1 - 16 基础闪电伤害\n法杖或长杖: +80 点闪避值\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneDexterity.webp",
+  "id": "Perfect_Adept_Rune",
+  "text": "完美行家符文\n堆叠数量: 1 / 10\n需求： 等级 50\n所有装备: +15 敏捷\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 1 - 16 基础闪电伤害\n法杖或长杖: +80 点闪避值\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/IntRuneTier1.webp",
+  "id": "Lesser_Resolve_Rune",
+  "text": "次级坚毅符文\n堆叠数量: 1 / 10\n所有装备: +6 智慧\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 5 - 8 基础冰霜伤害\n法杖或长杖: +50 能量护盾上限\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/IntRune.webp",
+  "id": "Resolve_Rune",
+  "text": "坚毅符文\n堆叠数量: 1 / 10\n需求： 等级 15\n所有装备: +9 智慧\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 5 - 8 基础冰霜伤害\n法杖或长杖: +50 能量护盾上限\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/IntRuneTier3.webp",
+  "id": "Greater_Resolve_Rune",
+  "text": "高级坚毅符文\n堆叠数量: 1 / 10\n需求： 等级 30\n所有装备: +12 智慧\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 5 - 8 基础冰霜伤害\n法杖或长杖: +50 能量护盾上限\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneIntelligence.webp",
+  "id": "Perfect_Resolve_Rune",
+  "text": "完美坚毅符文\n堆叠数量: 1 / 10\n需求： 等级 50\n所有装备: +15 智慧\n羁绊：\n战斗武器: 攻击附加 6 - 10 物理伤害, 攻击附加 5 - 8 基础冰霜伤害\n法杖或长杖: +50 能量护盾上限\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PhyDmgRuneTier1.webp",
+  "id": "Lesser_Tempered_Rune",
+  "text": "次级淬炼符文\n堆叠数量: 1 / 10\n战斗武器: 附加 3 - 4 物理伤害\n护甲: 6 - 9 物理荆棘伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PhyDmgRune.webp",
+  "id": "Tempered_Rune",
+  "text": "淬炼符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 附加 6 - 9 物理伤害\n护甲: 14 - 21 物理荆棘伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PhyDmgRuneTier3.webp",
+  "id": "Greater_Tempered_Rune",
+  "text": "高级淬炼符文\n堆叠数量: 1 / 10\n需求： 等级 30\n战斗武器: 附加 9 - 12 物理伤害\n护甲: 31 - 52 物理荆棘伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneSpecial1.webp",
+  "id": "Greater_Rune_of_Leadership",
+  "text": "高级领袖符文\n堆叠数量: 1 / 10\n战斗武器: 召唤生物获得相当于物理伤害 10% 的额外闪电伤害\n护甲: 召唤生物受到物理伤害的 10% 转化为闪电伤害\n羁绊：\n战斗武器: 召唤生物的伤害提高 20%\n护甲: 召唤生物有 +10% 元素抗性"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneSpecial2.webp",
+  "id": "Greater_Rune_of_Tithing",
+  "text": "高级奉纳符文\n堆叠数量: 1 / 10\n战斗武器: 非凡技能获得的能量提高 10%\n护甲: 1 - 100 闪电荆棘伤害\n羁绊：\n战斗武器: 祈唤法术有 25% 的几率消耗一半能量\n护甲: 荆棘伤害提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneSpecial3.webp",
+  "id": "Greater_Rune_of_Alacrity",
+  "text": "高级迅捷符文\n堆叠数量: 1 / 10\n战斗武器: 技能速度提高 8%\n护甲: 你身上的减益消失速度加快 8%\n羁绊：\n战斗武器: 捷技能的保留效能提高 15%\n护甲: 元素异常状态阈值提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneSpecial4.webp",
+  "id": "Greater_Rune_of_Nobility",
+  "text": "高级尊贵符文\n堆叠数量: 1 / 10\n战斗武器: 使用该武器攻击时有 10% 的几率造成曝露\n护甲: 你受到的感电效果降低 10%\n羁绊：\n战斗武器: 曝露效果提高 20%\n护甲: 你被感电的持续时间降低 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune1.webp",
+  "id": "Hedgewitch_Assandras_Rune_of_Wisdom",
+  "text": "女巫阿桑德拉的智慧符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n法杖或长杖: 所有法术技能等级 +1\n羁绊：\n法杖或长杖: 执政官间隔期的消减速度加快 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune2.webp",
+  "id": "Saqawals_Rune_of_the_Sky",
+  "text": "萨奇沃的苍空符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 获得相当于伤害 5% 的所有元素额外伤害\n法杖或长杖: 获得相当于伤害 5% 的所有元素额外伤害\n羁绊：\n战斗武器: 获得一个能量球时，有 8% 的几率随机获得一个额外的能量球\n法杖或长杖: 收集元素灌注时有 12% 的几率\n额外获得一个同类型的元素灌注"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune3.webp",
+  "id": "Fenumus_Rune_of_Agony",
+  "text": "费努姆斯的痛苦符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 获得相当于伤害 13% 的额外混沌伤害\n法杖或长杖: 获得相当于伤害 13% 的额外混沌伤害\n羁绊：\n战斗武器: 获得相当于伤害 8% 的额外物理伤害\n法杖或长杖: 获得相当于伤害 8% 的额外物理伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune4.webp",
+  "id": "Farruls_Rune_of_Grace",
+  "text": "法瑞尔的优雅符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n鞋子: 移动时偏转值提高 8%\n羁绊：\n鞋子: 阻止 +3% 的偏转击中伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune5.webp",
+  "id": "Farruls_Rune_of_the_Chase",
+  "text": "法瑞尔的追逐符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n鞋子: 移动速度提高 5%\n羁绊：\n鞋子: 冷却回复速度提高 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune6.webp",
+  "id": "Craiceanns_Rune_of_Warding",
+  "text": "克林斯昂的守护符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n护甲: 你受到的诅咒效果降低 50%\n羁绊：\n护甲: 诅咒强度提高 8%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune7.webp",
+  "id": "Saqawals_Rune_of_Memory",
+  "text": "萨奇沃的回忆符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: 获得的经验值提高 2%\n羁绊：\n头盔: 所有元素抗性 +10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune8.webp",
+  "id": "Saqawals_Rune_of_Erosion",
+  "text": "萨奇沃的碎砾符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: 曝露效果提高 25%\n羁绊：\n头盔: 你造成的非伤害性异常状态强度提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune9.webp",
+  "id": "Farruls_Rune_of_the_Hunt",
+  "text": "法瑞尔的狩猎符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 对稀有或传奇敌人的攻击伤害提高 50%\n羁绊：\n战斗武器: 所有攻击技能等级 +1"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune10.webp",
+  "id": "Craiceanns_Rune_of_Recovery",
+  "text": "克林斯昂的回复符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n护甲: 能量护盾充能率提高 30%\n羁绊：\n护甲: 获得额外异常状态阈值，相当于能量护盾上限的 50%, 获得相当于能量护盾上限 50% 的晕眩阈值"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune11.webp",
+  "id": "Courtesan_Mannans_Rune_of_Cruelty",
+  "text": "交际花曼南的残酷符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n手套: 你造成的伤害性异常状态强度提高 20%\n羁绊：\n手套: 敌人受到伤害性异常状态的持续时间提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune12.webp",
+  "id": "Thane_Grannells_Rune_of_Mastery",
+  "text": "格兰内尔领主的掌控符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n手套: 你造成的非伤害性异常状态强度提高 30%\n羁绊：\n手套: 敌人受到的元素异常状态时间提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune13.webp",
+  "id": "Fenumus_Rune_of_Spinning",
+  "text": "费努姆斯的飞旋符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n手套: 施法速度提高 8%\n羁绊：\n手套: 在低魔时，魔力消耗效能提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune14.webp",
+  "id": "Countess_Seskes_Rune_of_Archery",
+  "text": "塞丝克伯爵夫人的箭术符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n弓类: 弓类攻击发射 1 支额外箭矢\n羁绊：\n弓类: 投射物速度提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune15.webp",
+  "id": "Thane_Girts_Rune_of_Wildness",
+  "text": "吉尔特领主的荒野符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n法杖或长杖: 法术技能有 25% 的几率发射 2 个额外投射物\n羁绊：\n法杖或长杖: 每一点怒火还会使法术伤害提高 1%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune16.webp",
+  "id": "Fenumus_Rune_of_Draining",
+  "text": "费努姆斯的流失符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n手套: 死亡凋零强度提高 20%\n羁绊：\n手套: 混沌抗性 +7%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune17.webp",
+  "id": "Thane_Myrks_Rune_of_Summer",
+  "text": "默克领主的仲夏符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 攻击点燃目标时附加 23 - 34 基础火焰伤害\n羁绊：\n战斗武器: +2% 火焰抗性上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune18.webp",
+  "id": "Lady_Hestras_Rune_of_Winter",
+  "text": "赫丝特拉女士的寒冬符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 对冰缓敌人附加 19 - 28 基础冰霜伤害\n羁绊：\n战斗武器: +2% 冰霜抗性上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune19.webp",
+  "id": "Thane_Lelds_Rune_of_Spring",
+  "text": "雷尔德领主的春光符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 对被感电敌人附加 1 - 60 基础闪电伤害\n羁绊：\n战斗武器: +2%闪电抗性上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune20.webp",
+  "id": "The_Greatwolfs_Rune_of_Claws",
+  "text": "巨狼之利爪符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n手套: 攻击附加 5 - 12 物理伤害\n羁绊：\n手套: 裂缝技能的上限 +2"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune21.webp",
+  "id": "The_Greatwolfs_Rune_of_Willpower",
+  "text": "巨狼之意志符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n护甲: 15% 的伤害优先从魔力扣除\n羁绊：\n护甲: 生命上限的 8% 转化为能量护盾"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/UpgradeRune.webp",
+  "id": "Masterwork_Rune",
+  "text": "大师符文\n堆叠数量: 1 / 10\n所有装备: 晋升一个镶嵌的符文"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableWolfSpecial.webp",
+  "id": "Idol_of_Sirrius",
+  "text": "西里乌斯之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n手套: 攻击速度提高 8%\n权杖: 在场范围内的友军的移动速度提高 8%\n羁绊：\n手套: 你受到的异常状态的减速强度降低 20%\n权杖: 移动速度提高 4%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableSnakeSpecial.webp",
+  "id": "Idol_of_Thruldana",
+  "text": "舒尔达纳之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 中毒持续时间降低 25%, 目标可以同时受到你造成的 +1 个中毒效果影响\n权杖: 在场的友军附加 13 - 27 攻击混沌伤害\n羁绊：\n战斗武器: 获得额外混沌伤害，其数值等同于物理伤害的 13%\n权杖: 死亡凋零强度提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableBearSpecial.webp",
+  "id": "Idol_of_Grold",
+  "text": "格罗尔德之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n鞋子: 战吼计入的总威力值提高 50%\n权杖: 在场每有一种不同的伙伴，伤害提高 15%\n羁绊：\n鞋子: 荣耀产生速度提高 30%\n权杖: 伙伴技能的保留效能提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableOwlSpecial.webp",
+  "id": "Idol_of_Eeshta",
+  "text": "埃什塔之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: 消耗效能提高 15%\n权杖: 伙伴在场时，魔力回复速度提高 15%\n羁绊：\n头盔: 非凡技能的保留效能提高 15%\n权杖: 当你的伙伴在场时，生命回复率提高 8%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableCatSpecial.webp",
+  "id": "Idol_of_Egrin",
+  "text": "艾格林之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: 受到你诅咒的敌人承受的伤害提高 6%\n权杖: 诅咒持续时间提高 20%\n羁绊：\n头盔: 诅咒的效果范围提高 20%\n权杖: 诅咒区域爆发延迟降低 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableStagSpecial.webp",
+  "id": "Idol_of_Maxarius",
+  "text": "玛萨留斯之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n护甲: 咒符栏 +1\n权杖: 药剂每秒获得 0.2 次充能\n羁绊：\n护甲: 风暴技能的上限 +1\n权杖: 药剂的生命和魔力回复提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableMonkeySpecial.webp",
+  "id": "Idol_of_Ralakesh",
+  "text": "拉克斯之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: 召唤生物技能的保留效能提高 8%\n权杖: 当你的伙伴在你在场范围内时，护甲，闪避与能量护盾提高 40%\n羁绊：\n头盔: 召唤生物的复活速度加快 8%\n权杖: 伙伴的生命上限提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofGreust.webp",
+  "id": "Idol_of_Greust",
+  "text": "古斯特之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n盾牌: +25% 的护甲同样作用于元素伤害\n轻盾: 获得相当于闪避值 20% 的偏转值\n权杖: 每有一种不同类型的死亡伙伴，伙伴造成的伤害总增 10%\n羁绊：\n盾牌: 敌人每受到一种元素异常状态影响，伤害提高 12%\n轻盾: 敌人每受到一种元素异常状态影响，伤害提高 12%\n权杖: 当你的一个召唤生物复活时，回复生命上限的 3%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofYeena.webp",
+  "id": "Idol_of_Yeena",
+  "text": "伊娜之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n鞋子: 植物技能的效果持续时间提高 30%\n权杖: 植物首次进入在场范围时，有 25% 的几率立即过度生长\n羁绊：\n鞋子: 植物首次进入在场范围时，有 25% 的几率立即过度生长\n权杖: 植物技能的效果持续时间提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofEramir.webp",
+  "id": "Idol_of_Eramir",
+  "text": "艾米尔之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n护甲: 技能有 10% 的几率不移除能量球，但仍视作消耗了它们\n权杖: 在场的友军与你共享能量球\n羁绊：\n护甲: 你使用的咒符有 15% 的几率不消耗充能\n权杖: 耐力球，狂怒球，以及暴击球的持续时间提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofOak.webp",
+  "id": "Idol_of_Oak",
+  "text": "欧克之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n鞋子: 获得耐力球时有 15% 的几率额外获得一个耐力球\n权杖: 若你可以获得耐力球，则在场的友军直接获得相应的能量球\n羁绊：\n鞋子: 耐力球数量上限 +1\n权杖: 若你近期消耗过耐力球，护甲提高 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdoloAlira.webp",
+  "id": "Idol_of_Alira",
+  "text": "阿莉亚之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: 获得暴击球时有 15% 的几率额外获得一个暴击球\n权杖: 若你可以获得暴击球，则在场的友军直接获得相应的能量球\n羁绊：\n头盔: 暴击球数量上限 +1\n权杖: 若你近期消耗过暴击球，则能量护盾上限提高 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdoloKraityn.webp",
+  "id": "Idol_of_Kraityn",
+  "text": "克雷顿之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n手套: 获得狂怒球时有 15% 的几率额外获得一个狂怒球\n权杖: 若你可以获得狂怒球，则在场的友军直接获得相应的能量球\n羁绊：\n手套: 狂怒球数量上限 +1\n权杖: 若你近期消耗过狂怒球，闪避值提高 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofSilk.webp",
+  "id": "Idol_of_Silk",
+  "text": "流丝之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n盾牌: 在场伙伴的格挡几率提高 15%\n轻盾: companions gain onslaught when you parry [1]\n权杖: 在场伙伴击中时获得 1 点怒火\n羁绊：\n盾牌: +3% 格挡几率上限\n轻盾: 招架范围提高 30%\n权杖: 伙伴的效果范围提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/RitualCorruptedIdol1.webp",
+  "id": "Idol_of_the_Sycophant",
+  "text": "谄媚者之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器，法杖或长杖: 所有元素抗性 -20%, 获得等同 20% 伤害的 1 个随机元素伤害\n权杖: 当你在场时，伙伴有 -20% 的几率拥有所有元素抗性, 当你在场时，伙伴获得 20% 的伤害作为额外随机元素伤害\n羁绊：\n战斗武器，法杖或长杖: 混沌抗性 -20%, 获得相当于伤害 20% 的额外混沌伤害\n权杖: 在场的友军获得相当于伤害 20% 的额外混沌伤害, 当你在场时，伙伴有 -20% 的几率拥有混沌抗性"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/RitualCorruptedIdol2.webp",
+  "id": "Idol_of_the_Martyr",
+  "text": "殉道者之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器，法杖或长杖: 精魂降低 25%, 非凡技能获得的能量提高 40%\n权杖: 在场范围降低 40%, 光环技能的强度提高 25%\n羁绊：\n战斗武器，法杖或长杖: 祈唤技能的能量上限提高 25%, 非凡技能的保留效能降低 25%\n权杖: 在场的友军每秒回复相当于你生命上限 3% 的生命, 生命再生率降低 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/RitualCorruptedIdol3.webp",
+  "id": "Idol_of_the_Pharisee",
+  "text": "法利赛之雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器，法杖或长杖: 魔力上限降低 30%, 每损失百分之十的魔力，获得等同于伤害 2% 的额外物理伤害\n权杖: 命令技能的魔力消耗效能降低 30%, 召唤生物使用命令技能造成的伤害提高 60%\n羁绊：\n战斗武器，法杖或长杖: 魔力消耗效能降低 30%, 处于低魔时，技能速度提高 12%\n权杖: 召唤生物技能的保留效能降低 25%, 临时召唤生物技能的召唤生物上限 +2"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketablePanther.webp",
+  "id": "Panther_Idol",
+  "text": "黑豹雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n护甲: +10% 的护甲同样作用于混沌伤害\n权杖: 召唤生物有 +20% 混沌抗性\n羁绊：\n护甲: 混沌抗性 +8%\n权杖: 召唤生物有 20% 额外物理伤害减免"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableHawk.webp",
+  "id": "Hawk_Idol",
+  "text": "鹰隼雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n护甲: 偏转值提高 10%\n权杖: 伙伴的攻击速度提高 12%\n羁绊：\n护甲: 冰霜抗性 +12%\n权杖: 当你的伙伴在你在场范围内时，攻击速度提高 8%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableStoat.webp",
+  "id": "Stoat_Idol",
+  "text": "白鼬雕像\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n护甲: 受到伤害的 5% 穿透能量护盾\n权杖: 伙伴的生命上限提高 25%\n羁绊：\n护甲: 闪电抗性 +12%\n权杖: 当你的伙伴在场时，伤害提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreIce.webp",
+  "id": "Hayoxis_Soul_Core_of_Heatproofing",
+  "text": "海幽夏的耐热灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: +40% 的护甲同样作用于冰霜伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreLightning.webp",
+  "id": "Zalatls_Soul_Core_of_Insulation",
+  "text": "扎拉迪的绝缘灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n鞋子: +40% 的护甲同样作用于闪电伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreFire.webp",
+  "id": "Topotantes_Soul_Core_of_Dampening",
+  "text": "托钵塔特的抑制灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n手套: +40% 的护甲同样作用于火焰伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreEnergyShield.webp",
+  "id": "Atmohuas_Soul_Core_of_Retreat",
+  "text": "阿特莫瓦的退却灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n护甲: 获得额外异常状态阈值，相当于能量护盾上限的 15%, 获得相当于能量护盾上限 15% 的晕眩阈值\n法器: 获得额外异常状态阈值，相当于能量护盾上限的 15%, 获得相当于能量护盾上限 15% 的晕眩阈值"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreTimeCooldown.webp",
+  "id": "Quipolatls_Soul_Core_of_Flow",
+  "text": "奎波拉特尔的波流灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: 技能效果持续时间提高 8%, 冷却回复速度提高 8%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreRage.webp",
+  "id": "Tzamotos_Soul_Core_of_Ferocity",
+  "text": "提扎墨脱的狂暴灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: +4 怒火上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreCurses2.webp",
+  "id": "Uromotis_Soul_Core_of_Attenuation",
+  "text": "武罗摩提的弱化灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n鞋子: 诅咒持续时间提高 15%, 中毒持续时间提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreFrenzyCharge.webp",
+  "id": "Opilotis_Soul_Core_of_Assault",
+  "text": "欧佩罗蒂的突袭灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 获得狂怒球时有 50% 的几率额外获得一个狂怒球\n法杖或长杖: 获得狂怒球时有 50% 的几率额外获得一个狂怒球"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreEnduranceCharge.webp",
+  "id": "Guatelitzis_Soul_Core_of_Endurance",
+  "text": "瓜铁雷兹的耐力灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 获得耐力球时有 50% 的几率额外获得一个耐力球\n法杖或长杖: 获得耐力球时有 50% 的几率额外获得一个耐力球"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCorePowerCharge.webp",
+  "id": "Xopecs_Soul_Core_of_Power",
+  "text": "肖佩克的力量灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 获得暴击球时有 50% 的几率额外获得一个暴击球\n法杖或长杖: 获得暴击球时有 50% 的几率额外获得一个暴击球"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreTimeSlow.webp",
+  "id": "Estazuntis_Soul_Core_of_Convalescence",
+  "text": "埃斯塔祖提的康复灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n鞋子: 吸纳效果的速度提高 12%\n头盔: 将所受伤害的8%吸纳为生命"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreChaos1.webp",
+  "id": "Tacatis_Soul_Core_of_Affliction",
+  "text": "塔卡提的折磨灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n头盔: 受到你诅咒的敌人 -5% 混沌抗性"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreProjectile.webp",
+  "id": "Cholotls_Soul_Core_of_War",
+  "text": "查罗特的战争灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n弓类: 投射物速度提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreChaos2.webp",
+  "id": "Citaqualotls_Soul_Core_of_Foulness",
+  "text": "奇塔夸雷特的腐秽灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n战斗武器: 该装备附加 19 - 29 基础混沌伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreMinion.webp",
+  "id": "Xipocados_Soul_Core_of_Dominion",
+  "text": "夏波卡多的统御灵核\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 50\n法杖或长杖: 召唤生物使用命令技能造成的伤害提高 40%\n权杖: 召唤生物使用命令技能造成的伤害提高 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreChaos.webp",
+  "id": "Soul_Core_of_Tacati",
+  "text": "塔卡提的灵核\n堆叠数量: 1 / 10\n战斗武器: 此武器击中时有 15% 的几率使目标中毒\n护甲: 混沌抗性 +11%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCorePhysical.webp",
+  "id": "Soul_Core_of_Opiloti",
+  "text": "欧佩罗蒂的灵核\n堆叠数量: 1 / 10\n战斗武器: 击中有 15% 的几率造成流血\n头盔: 获得的咒符充能提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreLife.webp",
+  "id": "Soul_Core_of_Jiquani",
+  "text": "佳华尼的灵核\n堆叠数量: 1 / 10\n战斗武器: 生命在击败敌人时恢复 2%\n护甲: 生命上限提高 3%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreMana.webp",
+  "id": "Soul_Core_of_Zalatl",
+  "text": "扎拉迪的灵核\n堆叠数量: 1 / 10\n战斗武器: 魔力在击败敌人时恢复 2%\n头盔: 魔力上限提高 3%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreElementalResist.webp",
+  "id": "Soul_Core_of_Citaqualotl",
+  "text": "奇塔夸雷特的灵核\n堆叠数量: 1 / 10\n战斗武器: 攻击技能的元素伤害提高 30%\n护甲: 所有元素抗性 +5%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreFire.webp",
+  "id": "Soul_Core_of_Puhuarte",
+  "text": "普华特的灵核\n堆叠数量: 1 / 10\n战斗武器: 易燃强度提高 30%\n手套: +1% 火焰抗性上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreCold.webp",
+  "id": "Soul_Core_of_Tzamoto",
+  "text": "提扎墨脱的灵核\n堆叠数量: 1 / 10\n战斗武器: 冻结积蓄值提高 30%\n头盔: +1% 冰霜抗性上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreLightning.webp",
+  "id": "Soul_Core_of_Xopec",
+  "text": "肖佩克的灵核\n堆叠数量: 1 / 10\n战斗武器: 感电几率提高 30%\n鞋子: +1%闪电抗性上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreWealthRarity.webp",
+  "id": "Soul_Core_of_Azcapa",
+  "text": "阿兹卡帕的灵核\n堆叠数量: 1 / 10\n战斗武器: +15 精魂\n手套: 被击败的敌人掉落的金币数量提高 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreTriElement.webp",
+  "id": "Soul_Core_of_Topotante",
+  "text": "托钵塔特的灵核\n堆叠数量: 1 / 10\n战斗武器: 该武器的攻击穿透 15% 的元素抗性\n鞋子: 元素异常状态阈值提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreSpeed.webp",
+  "id": "Soul_Core_of_Quipolatl",
+  "text": "奎波拉特尔的灵核\n堆叠数量: 1 / 10\n战斗武器: 攻击速度提高 5%\n鞋子: 你受到的异常状态的减速强度降低 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreCrit.webp",
+  "id": "Soul_Core_of_Ticaba",
+  "text": "提卡巴的灵核\n堆叠数量: 1 / 10\n战斗武器: +5% 暴击伤害加成\n护甲: 对你的击中的暴击伤害加成降低 20%\n盾牌和轻盾: 对你的击中的暴击伤害加成降低 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreStrength.webp",
+  "id": "Soul_Core_of_Atmohua",
+  "text": "阿特莫瓦的灵核\n堆叠数量: 1 / 10\n战斗武器: 需求的 20% 转化为力量\n护甲: 需求的 20% 转化为力量"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreDex.webp",
+  "id": "Soul_Core_of_Cholotl",
+  "text": "查罗特的灵核\n堆叠数量: 1 / 10\n战斗武器: 需求的 20% 转化为敏捷\n护甲: 需求的 20% 转化为敏捷"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreint.webp",
+  "id": "Soul_Core_of_Zantipi",
+  "text": "赞提佩的灵核\n堆叠数量: 1 / 10\n战斗武器: 需求的 20% 转化为智慧\n护甲: 需求的 20% 转化为智慧"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableSnake.webp",
+  "id": "Snake_Idol",
+  "text": "毒蛇雕像\n堆叠数量: 1 / 10\n手套: 诅咒强度提高 8%\n权杖: 在场的友军的攻击速度提高 10%\n羁绊：\n手套: 你生成的残片效果提高 15%\n权杖: 变形时，技能速度提高 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableMonkey.webp",
+  "id": "Primate_Idol",
+  "text": "狂猿雕像\n堆叠数量: 1 / 10\n头盔: 召唤生物的生命上限提高 15%\n权杖: 在场的友军造成的伤害提高 40%\n羁绊：\n头盔: 残片收集距离延长 30%\n权杖: 变形时伤害提高 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableOwl.webp",
+  "id": "Owl_Idol",
+  "text": "猫头鹰雕像\n堆叠数量: 1 / 10\n法器: 冷却回复速度提高 12%\n权杖: 在场的友军的施法速度提高 10%\n羁绊：\n法器: 你身上的执政官增益效果提高 20%\n权杖: 变形时，技能速度提高 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableCat.webp",
+  "id": "Cat_Idol",
+  "text": "灵猫雕像\n堆叠数量: 1 / 10\n手套: 命中值提高 25%\n权杖: 在场的友军的暴击几率提高 14%\n羁绊：\n手套: 获得的咒符充能提高 30%\n权杖: 变形时，暴击几率提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableWolf.webp",
+  "id": "Wolf_Idol",
+  "text": "恶狼雕像\n堆叠数量: 1 / 10\n手套: 你造成的流血强度提高 15%\n权杖: 在场的友军的暴击伤害加成提高 20%\n羁绊：\n手套: 你身上的流血强度降低 25%\n权杖: 变形时，暴击几率提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableStag.webp",
+  "id": "Stag_Idol",
+  "text": "雄鹿雕像\n堆叠数量: 1 / 10\n仅限: 1\n头盔: 投射物有 15% 的几率分叉\n权杖: 在场的友军附加 1 - 40 攻击闪电伤害\n羁绊：\n头盔: 投射物分叉时，有 25% 的几率发射一个额外投射物\n权杖: 变形时攻击伤害提高 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableBoar.webp",
+  "id": "Boar_Idol",
+  "text": "野猪雕像\n堆叠数量: 1 / 10\n手套: 近战击中时获得 1 怒火\n权杖: 在场的友军每秒回复相当于你生命上限 0.5% 的生命\n羁绊：\n手套: 战吼冷却回复速度提高 25%\n权杖: 变形时，生命再生速度提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableBear.webp",
+  "id": "Bear_Idol",
+  "text": "巨熊雕像\n堆叠数量: 1 / 10\n头盔: 效果区域提高 10%\n权杖: 在场的友军附加 12 - 18 攻击物理伤害\n羁绊：\n头盔: 伙伴技能的保留效能提高 12%\n权杖: 变形时攻击伤害提高 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableOx.webp",
+  "id": "Ox_Idol",
+  "text": "公牛雕像\n堆叠数量: 1 / 10\n盾牌和轻盾: 格挡几率提高 15%\n权杖: 在场的友军的所有元素抗性 +12%\n羁绊：\n盾牌和轻盾: 敌人击中你的伤害有 15% 的几率不幸\n权杖: 变形时，+20% 的护甲同样作用于元素伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableRabbit.webp",
+  "id": "Rabbit_Idol",
+  "text": "狡兔雕像\n堆叠数量: 1 / 10\n仅限: 1\n护甲: 物品稀有度提高 12%\n权杖: 该装备精魂提高 15%\n羁绊：\n护甲: 被击败的敌人掉落的金币数量提高 10%\n权杖: 召唤生物的命令技能的冷却回复速度提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableFox.webp",
+  "id": "Fox_Idol",
+  "text": "狐狸雕像\n堆叠数量: 1 / 10\n仅限: 1\n护甲: 镶嵌在该物品上的雕像获得其自身的绑定词缀的强化效果, display additional socketable mods for idols [1]\n权杖: 在场范围提高 50%\n羁绊：\n护甲: 所有技能品质 +5%\n权杖: 召唤生物的效果区域提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/AbyssalEyeSocketables/AmanamusGaze.webp",
+  "id": "Amanamus_Gaze",
+  "text": "埃曼纳姆的凝视\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 使用命令技能时移除一个伤害性异常状态\n护甲: 每 1 点精魂提供 +2 点护甲\n鞋子: 每 15 点精魂使移动速度提高 1%，最高 40%\n其他除冲刺外的移动速度词缀无法生效"
+ },
+ {
+  "icon": "Art/2DItems/Currency/AbyssalEyeSocketables/TecrodsGaze.webp",
+  "id": "Tecrods_Gaze",
+  "text": "特克罗的凝视\n仅限: 1 个远古增幅器\n需求： 等级 60\n护甲: 生命每秒再生 1.5%\n手套: 生命消耗效能提高 25%\n鞋子: 低血时移动速度提高 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/AbyssalEyeSocketables/KurgalsGaze.webp",
+  "id": "Kurgals_Gaze",
+  "text": "古加尔的凝视\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 生命再生率的增幅与减益也作用于魔力再生率\n手套: 你受到的秘术增强效果提高 40%\n鞋子: 若你近期没有闪避翻滚，魔力消耗效能提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/AbyssalEyeSocketables/UlamansGaze.webp",
+  "id": "Ulamans_Gaze",
+  "text": "乌拉曼的凝视\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 装备头盔每有 1 点物品闪避值，命中 +1\n手套: 对被招架敌人的暴击几率特别幸运\n护甲: 阻止 +3% 的偏转击中伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/PerfectSoulCores/SoulCoreBlood.webp",
+  "id": "Guatelitzis_Thesis",
+  "text": "瓜铁雷兹的圣典\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 在过去 8 秒内被击中时，根据损失的生命值获得相当于 35% 的护甲\n护甲: 阻挡的物理伤害的 10% 吸纳为生命\n鞋子: 奔跑时，每秒损失生命上限的 5%, 奔跑时移动速度提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/PerfectSoulCores/SoulCoreSacrifice.webp",
+  "id": "Citaqualotls_Thesis",
+  "text": "奇塔夸雷特的圣典\n仅限: 1 个远古增幅器\n需求： 等级 60\n护甲: 将你的奉献所承受的 50% 伤害吸纳为生命\n手套: 当一个奉献消失时，你的永久性召唤生物之一会复活\n鞋子: 闪避翻滚时，献祭生命上限的 10% 以获得同等防卫"
+ },
+ {
+  "icon": "Art/2DItems/Currency/PerfectSoulCores/SoulCoreSoul.webp",
+  "id": "Jiquanis_Thesis",
+  "text": "佳华尼的圣典\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 已装备头盔每有 2 点物品能量护盾，魔力上限 +1\n手套: 总共消耗 2000 点魔力后，能量护盾充能开始，每 2 秒最多触发一次\n鞋子: 移动速度的增强与减弱效果也作用于能量护盾充能率"
+ },
+ {
+  "icon": "Art/2DItems/Currency/PerfectSoulCores/SoulCoreScience.webp",
+  "id": "Quipolatls_Thesis",
+  "text": "奎波拉特尔的圣典\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 你的印记激活时，随机一个需要荣耀的技能会再生其荣耀上限的 50%\n手套: 当你的召唤生物被重塑时，你的能量护盾开始充能\n护甲: 能量护盾全满时，+75% 的护甲同样作用于混沌伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ExpeditionReligionAncientAugment.webp",
+  "id": "Emergent_Vigour",
+  "text": "新生活力\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 已装备的头盔每有 8 点护甲，生命上限 +1\n护甲: 获得的能量护盾上限等同于装备护甲物品的力量需求总和的 50%\n鞋子: 处于奉献地面上时，对你造成的击中没有暴击伤害加成\n羁绊：\n头盔: +20 精魂\n护甲: +20 力量\n鞋子: 你产生的奉献地面效果提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ExpeditionScienceAncientAugment.webp",
+  "id": "Emergent_Possibility",
+  "text": "新生可能\n仅限: 1 个远古增幅器\n需求： 等级 60\n护甲: 受到混沌击中伤害的 15% 转化为一种随机元素伤害\n手套: 已装备物品上每有一个镶嵌的符文，获得等同于伤害 1% 的额外随机元素伤害\n鞋子: 冲刺时符文结界回复速度提高 50%\n羁绊：\n护甲: 混沌抗性 +13%\n手套: 元素伤害提高 20%\n鞋子: 符文结界消耗效能提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ExpeditionValorAncientAugment.webp",
+  "id": "Emergent_Protection",
+  "text": "新生防护\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 低血时获得 1 个耐力能量球，每 2 秒只能获得次\n手套: 旗帜同样使受影响目标每秒回复 2% 的生命\n鞋子: 停止冲刺时，每冲刺了一秒，获得等同于生命上限 4% 的防卫，最多获得 20%，持续 4 秒\n羁绊：\n头盔: 耐力球持续时间提高 40%\n手套: 生命每秒再生 0.5%\n鞋子: 获得的防卫提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ExpeditionWarAncientAugment.webp",
+  "id": "Emergent_Instinct",
+  "text": "新生本能\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 致盲，瘫痪和流血的目标无法闪避击中\n手套: 若你近期使用过命令技能，每秒回复生命上限的 5%\n护甲: 对护甲完全破损的目标造成的荆棘伤害为幸运\n羁绊：\n头盔: 不可移动积蓄提高 30%\n手套: 生命再生率提高 20%\n护甲: 荆棘伤害提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Ritual/RitualAmbushPredators.webp",
+  "id": "Carved_Cunning",
+  "text": "雕琢诡诈\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 满血的敌人无法闪避击中\n护甲: 若你近期没有偏转击中，避免 +5% 的\n偏转击中伤害\n鞋子: 印记激活时获得猛攻，持续 4 秒\n羁绊：\n头盔: 命中值提高 30%\n护甲: 偏转值提高 8%\n鞋子: 你受到的增益消减速度减慢 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Ritual/RitualMajesticBeasts.webp",
+  "id": "Carved_Majesty",
+  "text": "雕琢威严\n仅限: 1 个远古增幅器\n需求： 等级 60\n护甲: 你的装备中每镶嵌一个雕像，+3 点精魂\n手套: 伙伴击中标记的目标时获得 4 秒猛攻\n鞋子: 每有一个永久性召唤生物，冲刺时移动速度提高 1%\n羁绊：\n护甲: 精魂提高 5%\n手套: 伙伴的伤害提高 30%\n鞋子: 召唤生物的生命上限提高 12%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Ritual/RitualMischievousCreatures.webp",
+  "id": "Carved_Mischief",
+  "text": "雕琢祸心\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 受到凶蛮击中时，获得等同于生命上限 10% 的 防卫，持续 4 秒\n手套: 若你近期使用盾牌进行过格挡，格挡几率上限 +5%\n护甲: 若你近期被晕眩，晕眩阈值提高 200%\n羁绊：\n头盔: 你受到的增益消减速度减慢 10%\n手套: 格挡几率提高 20%\n护甲: 晕眩阈值提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Ritual/RitualTenaciousBeasts.webp",
+  "id": "Carved_Tenacity",
+  "text": "雕琢坚韧\n仅限: 1 个远古增幅器\n需求： 等级 60\n头盔: 被你致盲的敌人失去暴击伤害加成，持续 4 秒\n手套: 你暴击击中的敌人生命回复速度降低 100%，持续 4 秒\n鞋子: 冲刺时，你的速度不受影响且不会减速\n羁绊：\n头盔: 致盲效果提高 20%\n手套: 暴击率提高 15%\n鞋子: 奔跑时移动速度提高 8%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Delirium/DeliriumEndgameSocketable.webp",
+  "id": "Raven-Touched_Shard",
+  "text": "渡鸦之触碎片\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 60\n插槽绑定\n头盔: 渡鸦触碰"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/AddedWardLesser.webp",
+  "id": "Lesser_Ward_Rune",
+  "text": "次级结界符文\n堆叠数量: 1 / 10\n护甲: +15 符文结界上限\n羁绊：\n护甲: 全局护甲，闪避与能量护盾提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/AddedWardNormal.webp",
+  "id": "Ward_Rune",
+  "text": "结界符文\n堆叠数量: 1 / 10\n需求： 等级 15\n护甲: +20 符文结界上限\n羁绊：\n护甲: 全局护甲，闪避与能量护盾提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/AddedWardGreater.webp",
+  "id": "Greater_Ward_Rune",
+  "text": "高级结界符文\n堆叠数量: 1 / 10\n需求： 等级 30\n护甲: +25 符文结界上限\n羁绊：\n护甲: 全局护甲，闪避与能量护盾提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/AddedWardPerfect.webp",
+  "id": "Perfect_Ward_Rune",
+  "text": "完美结界符文\n堆叠数量: 1 / 10\n需求： 等级 50\n护甲: +30 符文结界上限\n羁绊：\n护甲: 全局护甲，闪避与能量护盾提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/WardRegenerationLesser.webp",
+  "id": "Lesser_Charging_Rune",
+  "text": "次级充能符文\n堆叠数量: 1 / 10\n护甲: 符文结界再生率提高 8%\n羁绊：\n护甲: 每秒回复 10 符文结界"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/WardRegenerationNormal.webp",
+  "id": "Charging_Rune",
+  "text": "充能符文\n堆叠数量: 1 / 10\n需求： 等级 15\n护甲: 符文结界再生率提高 12%\n羁绊：\n护甲: 每秒回复 15 符文结界"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/WardRegenerationGreater.webp",
+  "id": "Greater_Charging_Rune",
+  "text": "高级充能符文\n堆叠数量: 1 / 10\n需求： 等级 30\n护甲: 符文结界再生率提高 16%\n羁绊：\n护甲: 每秒回复 20 符文结界"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/WardRegenerationPerfect.webp",
+  "id": "Perfect_Charging_Rune",
+  "text": "完美充能符文\n堆叠数量: 1 / 10\n需求： 等级 50\n护甲: 符文结界再生率提高 20%\n羁绊：\n护甲: 每秒回复 25 符文结界"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard1.webp",
+  "id": "Warding_Rune_of_Reinforcement",
+  "text": "巩固之结界符文\n堆叠数量: 1 / 10\n需求： 等级 15\n护甲: 符文结界提高 20%\n羁绊：\n护甲: 获得相当于生命上限 2% 的额外符文结界上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard2.webp",
+  "id": "Warding_Rune_of_Protection",
+  "text": "保护之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n护甲: 每 4 秒，获得相当于符文结界上限 20% 的 防卫，持续 2 秒\n羁绊：\n护甲: 获得的防卫提高 8%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard3.webp",
+  "id": "Warding_Rune_of_Disintegration",
+  "text": "瓦解之结界符文\n堆叠数量: 1 / 10\n需求： 等级 15\n战斗武器: 攻击粉碎护甲，相当于符文结界上限的 15%\n羁绊：\n战斗武器: 粉碎的护甲提高 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard4.webp",
+  "id": "Warding_Rune_of_Desperation",
+  "text": "迫急之结界符文\n堆叠数量: 1 / 10\n需求： 等级 15\n法杖或长杖: 低符文结界时，法术伤害穿透敌人 25% 的元素抗性\n羁绊：\n法杖或长杖: 元素伤害提高 12%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard8.webp",
+  "id": "Warding_Rune_of_Symbiosis",
+  "text": "共生之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n鞋子: 每 30 点符文结界上限使能量护盾充能速度提高 1%\n羁绊：\n鞋子: 每秒回复 1% 能量护盾"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard9.webp",
+  "id": "Warding_Rune_of_Courage",
+  "text": "勇气之结界符文\n堆叠数量: 1 / 10\n需求： 等级 15\n头盔: 低符文结界时，护甲和闪避值提高 25%\n羁绊：\n头盔: 低血时，护甲和闪避值提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard10.webp",
+  "id": "Warding_Rune_of_Stability",
+  "text": "稳定之结界符文\n堆叠数量: 1 / 10\n需求： 等级 30\n盾牌和轻盾: 每 10 点符文结界上限，+4 晕眩阈值\n羁绊：\n盾牌和轻盾: 变形时，晕眩积蓄值提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard13.webp",
+  "id": "Warding_Rune_of_Glancing",
+  "text": "瞥视之结界符文\n堆叠数量: 1 / 10\n需求： 等级 30\n护甲: 每 10 点符文结界上限使偏转值 +3\n羁绊：\n护甲: 阻止 +1% 的偏转击中伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard14.webp",
+  "id": "Warding_Rune_of_Heart",
+  "text": "心脏之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n护甲: 获得相当于生命上限 5% 的额外符文结界上限\n羁绊：\n护甲: 你近期因击中失去的每 2% 符文结界上限，使符文结界再生率总增 1%，最多总增 100%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard15.webp",
+  "id": "Warding_Rune_of_Nourishment",
+  "text": "滋养之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n护甲: 药剂的 15% 生命回复效果也作用于符文结界\n羁绊：\n护甲: 药剂的生命回复提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard16.webp",
+  "id": "Warding_Rune_of_Annihilation",
+  "text": "湮灭之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n战斗武器: 攻击消耗你符文结界上限的 5%，并获得等量的附加物理伤害\n羁绊：\n战斗武器: 符文结界消耗效能降低 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard18.webp",
+  "id": "Warding_Rune_of_Armature",
+  "text": "电枢之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 45\n战斗武器: 获得等同于该武器伤害上限 15% 的符文结界上限\n羁绊：\n战斗武器: 损失符文结界时攻击速度提高 5%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard19.webp",
+  "id": "Warding_Rune_of_Obsession",
+  "text": "痴迷之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 45\n法杖: 承受的所有伤害穿透符文结界, 符文结界回复速度翻倍\n羁绊：\n法杖: 符文结界上限提高 12%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard20.webp",
+  "id": "Warding_Rune_of_Equinox",
+  "text": "分点之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 45\n施法武器: 魔力回复速度总降 40%, 魔力回复同样作用于符文结界\n羁绊：\n施法武器: 若你近期内造成过暴击，则符文结界回复速度提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard21.webp",
+  "id": "Warding_Rune_of_Salvaging",
+  "text": "回收之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n权杖: 当你的复活召唤生物被击败时，回复 3% 的符文结界上限\n羁绊：\n权杖: 当你的一个召唤生物复活时，回复生命上限的 3%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard23.webp",
+  "id": "Warding_Rune_of_Bodyguards",
+  "text": "护卫之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 45\n权杖: 你处于低符文结界时，在场的召唤生物拥有猛攻\n羁绊：\n权杖: 若你的符文结界近���受到伤害，\n则击中你的��人造成的伤害为不幸"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard24.webp",
+  "id": "Warding_Rune_of_Hollowing",
+  "text": "虚化之结界符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 45\n施法武器: 获得相当于生命上限 15% 的额外符文结界上限, 生命上限总降 15%\n羁绊：\n施法武器: 符文结界全满时，所有元素抗性上限 +1%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ElementalConversionRuneFire.webp",
+  "id": "Passion_of_Aldur",
+  "text": "奥杜尔之热情\n堆叠数量: 1 / 10\n插槽绑定\n武器: 将物品上的所有冰霜与闪电词缀转化为等值的火焰词缀\n羁绊：\n武器: 火焰伤害提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ElementalConversionRuneCold.webp",
+  "id": "Breath_of_Aldur",
+  "text": "奥杜尔之呼吸\n堆叠数量: 1 / 10\n插槽绑定\n武器: 镶嵌时，将所有火焰与闪电词缀转化为等值的冰霜词缀\n羁绊：\n武器: 冰霜伤害提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ElementalConversionRuneLightning.webp",
+  "id": "Ire_of_Aldur",
+  "text": "奥杜尔之忿怒\n堆叠数量: 1 / 10\n插槽绑定\n武器: 将物品上的所有火焰与冰霜词缀转化为等值的闪电词缀\n羁绊：\n武器: 闪电伤害提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ElementalConversionRuneChaos.webp",
+  "id": "Betrayal_of_Aldur",
+  "text": "奥杜尔之背叛\n堆叠数量: 1 / 10\n插槽绑定\n武器: 将物品上的所有火焰、冰霜与闪电词缀转化为等值的混沌词缀\n羁绊：\n武器: 混沌伤害提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune1.webp",
+  "id": "Ancient_Rune_of_Splinters",
+  "text": "碎片之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n弓类: +50% 的溢出几率发射一支额外箭矢\n羁绊：\n弓类: 投射物速度提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune2.webp",
+  "id": "Ancient_Rune_of_Dueling",
+  "text": "决斗之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n轻盾: 被招架减益状态强度提高 30%\n羁绊：\n轻盾: 格挡几率提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune3.webp",
+  "id": "Ancient_Rune_of_the_Titan",
+  "text": "泰坦之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n双手锤: 你对自己使用的猛击技能有 10% 的几率造成一次额外余震\n羁绊：\n双手锤: 攻击技能的效果区域提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune4.webp",
+  "id": "Ancient_Rune_of_Shattering",
+  "text": "碎离之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n单手锤: 护甲完全破损效果提高 40%\n羁绊：\n单手锤: 粉碎的护甲提高 50%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune5.webp",
+  "id": "Ancient_Rune_of_Prowess",
+  "text": "英勇之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n战矛: 获得能量球时有 30% 的几率获得一个额外能量球\n羁绊：\n战矛: 耐力球，狂怒球，以及暴击球的持续时间提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune6.webp",
+  "id": "Ancient_Rune_of_Control",
+  "text": "操控之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n节杖: 不可移动积蓄提高 50%\n羁绊：\n节杖: 对不可移动敌人的伤害提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune7.webp",
+  "id": "Ancient_Rune_of_Discovery",
+  "text": "披露之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n长杖: 有 30% 的几率产生一个额外残片\n羁绊：\n长杖: 元素灌注数量上限 +1"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune8.webp",
+  "id": "Ancient_Rune_of_Decay",
+  "text": "腐朽之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n法杖: 死亡凋零强度提高 25%\n羁绊：\n法杖: 你的无常被引爆时，你有 15% 的几率重新获得等量的无常"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune9.webp",
+  "id": "Ancient_Rune_of_Witchcraft",
+  "text": "巫术之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n法器: 诅咒的效果范围提高 40%\n羁绊：\n法器: 诅咒激活速度加快 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune10.webp",
+  "id": "Ancient_Rune_of_the_Horde",
+  "text": "部落之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n权杖: 召唤生物的攻击和施法速度提高 8%\n羁绊：\n权杖: 召唤生物的移动速度提高 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune11.webp",
+  "id": "Ancient_Rune_of_Animosity",
+  "text": "憎恨之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n魔符: 当你对稀有或传奇敌人造成重度晕眩时，获得 2 层 德鲁伊之威\n羁绊：\n魔符: 晕眩积蓄值提高 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune12.webp",
+  "id": "Ancient_Rune_of_Detonation",
+  "text": "引爆之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n战弩: 榴弹有 10% 的几率再次激活\n羁绊：\n战弩: 战弩装填速度提高 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune13.webp",
+  "id": "Ancient_Rune_of_Retaliation",
+  "text": "报复之远古符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 30\n盾牌: 若你近期内有过格挡，则攻击速度提高 8%\n羁绊：\n盾牌: +3% 格挡几率上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune1.webp",
+  "id": "Rune_of_Vitality",
+  "text": "活力符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n武器: +80 生命上限\n盾牌和轻盾: 生命在你格挡时恢复 15 点\n羁绊：\n武器: 生命偷取量提高 15%\n盾牌和轻盾: 生命上限提高 5%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune2.webp",
+  "id": "Rune_of_the_Hunt",
+  "text": "狩猎符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n鞋子: 奔跑时移动速度提高 8%\n权杖: 伙伴的伤害提高 30%\n羁绊：\n鞋子: 晕眩回复提高 50%\n权杖: 伙伴在场时，魔力回复速度提高 8%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune3.webp",
+  "id": "Rune_of_Acrobatics",
+  "text": "杂技符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n武器: 药剂每秒获得 0.2 次充能\n鞋子: 闪避翻滚距离 +0.3 米\n羁绊：\n武器: 咒符每秒获得 0.25 次充能\n鞋子: 若你近期没有使用闪避翻滚，则护甲提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune4.webp",
+  "id": "Rune_of_Culmination",
+  "text": "巅峰符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n手套: 击中时有 50% 的几率额外积累一次连击\n单手锤或节杖: 物理伤害只会选取下限或上限的伤害值\n羁绊：\n手套: 攻击速度提高 5%\n单手锤或节杖: 流血持续时间提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune5.webp",
+  "id": "Rune_of_Renown",
+  "text": "声望符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n手套: 荣耀产生速度提高 50%\n施法武器: 执政官间隔期的消减速度加快 30%\n羁绊：\n手套: 战旗技能的光环强度提高 20%\n施法武器: 执政官增益状态持续时间提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune6.webp",
+  "id": "Rune_of_Accumulation",
+  "text": "积累符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n手套: 攻击每击中一名敌人获得3点生命, 攻击每击中一名敌人获得1点魔力\n战弩，弓或战矛: 击中敌人时，获得等同于敌人威力值的附加冰霜伤害上限，持续 20 秒，最多总共获得 32\n羁绊：\n手套: +30 生命上限, +30 魔力上限\n战弩，弓或战矛: 冻结积蓄值提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune7.webp",
+  "id": "Rune_of_Foundations",
+  "text": "根基符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n护甲: +30 护甲, +30 点闪避值, +10 能量护盾上限\n羁绊：\n护甲: +20 生命上限, +20 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune8.webp",
+  "id": "Rune_of_the_Prism",
+  "text": "棱镜符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n护甲: -10% 元素抗性上限, 所有元素抗性 +20%\n羁绊：\n护甲: 20% 的伤害优先从魔力扣除"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune9.webp",
+  "id": "Rune_of_the_Blossom",
+  "text": "绽放符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n护甲: +50 精魂, 每 2 级 -1 精魂\n羁绊：\n护甲: 技能的精魂保留效能提高 5%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune10.webp",
+  "id": "Rune_of_Consistency",
+  "text": "连贯符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n头盔: 暴击率提高 200%, 你没有暴击伤害加成\n施法武器: 你的伙伴在场时，法术伤害提高 50%\n羁绊：\n头盔: 对你的击中的暴击伤害加成降低 25%\n施法武器: 伙伴在场时，魔力回复速度提高 8%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune11.webp",
+  "id": "Rune_of_Reach",
+  "text": "延伸符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n头盔: 你生成的残片效果提高 15%\n法杖或长杖: 残片收集距离延长 50%, 你生成的残片效果降低 25%\n羁绊：\n头盔: 收集残片时恢复 3% 魔力上限\n法杖或长杖: 曝露效果提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune12.webp",
+  "id": "Rune_of_Vital_Flame",
+  "text": "命焰符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n单手锤，双手锤或魔符: 附加 13 - 16 火焰伤害, 技能的魔力消耗的 15% 转化为生命消耗\n羁绊：\n单手锤，双手锤或魔符: 点燃强度提高 30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune13.webp",
+  "id": "Rune_of_Confrontation",
+  "text": "冲突符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15\n节杖或战矛: 近战击中时获得 4 怒火, -10 怒火上限\n羁绊：\n节杖或战矛: rage effect +% [10]"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune14.webp",
+  "id": "DNT-Unused_Rune_of_Wild_Ferocity",
+  "text": "野性凶残符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune15.webp",
+  "id": "DNT-Unused_Rune_of_Partnership",
+  "text": "伙伴符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune16.webp",
+  "id": "DNT-Unused_Rune_of_Reverberation",
+  "text": "回响符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune17.webp",
+  "id": "DNT-Unused_Rune_of_Vital_Flame",
+  "text": "活火符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune18.webp",
+  "id": "DNT-Unused_Rune_of_Confrontation",
+  "text": "对抗符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune19.webp",
+  "id": "DNT-Unused_Rune_of_Chance",
+  "text": "机遇符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune12.webp",
+  "id": "DNT-Unused_Rune_of_Confidence",
+  "text": "自信符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune16.webp",
+  "id": "DNT-Unused_Rune_of_Duplication",
+  "text": "复制符文\n堆叠数量: 1 / 10\n仅限: 1\n需求： 等级 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRune2.webp",
+  "id": "Serles_Triumph",
+  "text": "瑟尔的凯旋\n堆叠数量: 1 / 10\n仅限: 1\n插槽绑定\n所有装备: 允许的后缀 +1, local maximum mods allowed + [1]"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRune3.webp",
+  "id": "Cadigans_Epiphany",
+  "text": "卡迪甘的顿悟\n堆叠数量: 1 / 10\n仅限: 1\n插槽绑定\n手套: 摧毁该物品上的所有增幅器插槽，以生成一个珠宝插槽"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRune1.webp",
+  "id": "Astrids_Creativity",
+  "text": "阿斯特丽德的创造\n堆叠数量: 1 / 10\n仅限: 1\n所有装备: 可以有1 个额外工艺词缀"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneTime.webp",
+  "id": "Uhtreds_Sidereus",
+  "text": "乌崔德的星辰\n堆叠数量: 1 / 10\n仅限: 1\n插槽绑定\n鞋子: 可以重置塑时术师词缀\n羁绊：\n鞋子: 冷却回复速度提高 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneDex.webp",
+  "id": "Kolrs_Hunt",
+  "text": "克尔的狩猎\n堆叠数量: 1 / 10\n仅限: 1\n插槽绑定\n手套: 可以重置神射手词缀\n羁绊：\n手套: 投射物伤害提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRunePhysical.webp",
+  "id": "Voranas_Carnage",
+  "text": "沃拉娜的屠戮\n堆叠数量: 1 / 10\n仅限: 1\n插槽绑定\n头盔: 可以重置盛怒词缀\n羁绊：\n头盔: 近战击中时获得 2 怒火"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneFire.webp",
+  "id": "Thruds_Might",
+  "text": "斯鲁德的神力\n堆叠数量: 1 / 10\n仅限: 1\n插槽绑定\n武器: 可以选取毁灭词缀\n羁绊：\n武器: 所有元素抗性 +5%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneCold.webp",
+  "id": "Medveds_Tending",
+  "text": "梅德维德的照料\n堆叠数量: 1 / 10\n仅限: 1\n插槽绑定\n护甲: 可以重置灵魂词缀\n羁绊：\n护甲: 生命上限提高 3%, 魔力上限提高 3%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneChaos.webp",
+  "id": "Katlas_Gloom",
+  "text": "卡塔拉的阴霾\n堆叠数量: 1 / 10\n仅限: 1\n插槽绑定\n手套: 可以重置腐蚀词缀\n羁绊：\n手套: 你受到的非伤害性异常状态的效果降低 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUnique.webp",
+  "id": "Aldurs_Legacy",
+  "text": "奥杜尔的遗产\n堆叠数量: 1 / 10\n所有装备: 当镶嵌在稀有的卡古兰或艾兹麦物品上时，摧毁该物品以创造一个灌注其力量的符文"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Bramblejack",
+  "text": "刺棘宝甲之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n护甲: 受到近战物理伤害的 250% 会反射给攻击者\n羁绊：\n护甲: 被包围每秒再生 3% 生命"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Blackbraid",
+  "text": "黑髻之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n护甲: +50% 的护甲同样作用于元素伤害\n羁绊：\n护甲: 所有元素抗性 +15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Edyrns_Tusks",
+  "text": "艾丁的獠牙之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n护甲: 击中时有 50% 的几率造成流血, 你受到的异常状态的减速强度降低 50%\n羁绊：\n护甲: 荆棘伤害提高 35%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Kingsguard",
+  "text": "皇家卫甲之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n护甲: 每消耗一个耐力球，回复 5% 生命\n羁绊：\n护甲: +30 生命上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Bristleboar",
+  "text": "棘体猪肤之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n护甲: 被敌人击中时获得 5 点怒火, 被敌人暴击时获得 10 点怒火\n羁绊：\n护甲: +3 怒火上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Foxshade",
+  "text": "狐毛铠之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n护甲: 满血时移动速度提高 10%, 满血时闪避值提高 100%\n羁绊：\n护甲: 该装备的闪避值提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Ashrend",
+  "text": "拂烬之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n护甲: 无法被点燃, 攻击击中承受 -10 物理伤害\n羁绊：\n护甲: 火焰抗性 +35%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Briskwrap",
+  "text": "荒途之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n护甲: 获得相当于闪避值 30% 的偏转值\n羁绊：\n护甲: 药剂魔力回复速度提高 35%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Unleashed",
+  "text": "破禁者之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n护甲: 能量护盾低于一半时，受到击中的伤害的 25% 会穿透能量护盾\n羁绊：\n护甲: 变形时护甲提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Horns_of_Bynden",
+  "text": "柏安登的犄角之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 每一点怒火还会使护甲提高 1%, 近战击中时获得 1 怒火\n羁绊：\n头盔: +3 怒火上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Wings_of_Caelyn",
+  "text": "凯琳飞翼之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 近战击中时获得 1 怒火, 每一点怒火还会使晕眩阈值提高 1%\n羁绊：\n头盔: 每五点怒火同样使你的移动速度提高 1%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Ezomyte_Peak",
+  "text": "艾兹麦的荣光之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 效果区域提高 15%, 烈士意志\n羁绊：\n头盔: 你受到的异常状态的减速强度降低 50%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Deidbell",
+  "text": "丧钟之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 战吼引爆灵柩，造成其生命 10% 的物理伤害\n羁绊：\n头盔: 战吼技能的效果范围提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Elevore",
+  "text": "艾尔弗雷之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 咒符每秒获得 1 次充能, 咒符栏 +1\n羁绊：\n头盔: 咒符每秒获得 0.5 次充能"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Starkonjas_Head",
+  "text": "斯塔空加之首之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 低血时闪避值上限提高 100%, 击中伤害的 5% 在你承受之前，由你的可受伤伙伴的生命承受\n羁绊：\n头盔: 击中伤害的 5% 在你承受之前，由你的可受伤伙伴的生命承受"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Crown_of_Thorns",
+  "text": "刺棘之冠之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 苦痛灵曲\n羁绊：\n头盔: 17 - 26 物理荆棘伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Greymake",
+  "text": "苍髯皓首之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 全属性 +50\n羁绊：\n头盔: 每级 +1 生命上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Erians_Cobble",
+  "text": "阿里安的拼凑之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: +30 命中值, +10 生命上限, +10 魔力上限, 物品稀有度提高 10%, 暴击率提高 10%, +5 全属性, 所有元素抗性 +5%, 生命每秒再生 3\n羁绊：\n头盔: +20 护甲, +20 点闪避值, +20 能量护盾上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Smiling_Knight",
+  "text": "笑面骑士之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 攻击暴击使目标身上的流血效果变为恶性\n羁绊：\n头盔: 暴击率提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Vile_Knight",
+  "text": "厄难骑士之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 稀有或传奇敌人每在场一秒，对其造成的击中伤害提高 4%，上限为 200%\n羁绊：\n头盔: 在场范围提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Northpaw",
+  "text": "北境凶爪之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n手套: 基础战斗武器攻击时的暴击率为 7%\n羁绊：\n手套: 暴击伤害加成提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Candlemaker",
+  "text": "塑烛者之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n手套: 火焰伤害提高 40%, 易燃强度翻倍\n羁绊：\n手套: 敌人被点燃的持续时间提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Deathblow",
+  "text": "死神的袭击之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n手套: 终结\n羁绊：\n手套: 每击败一名敌人获得 30 点生命"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Legionstride",
+  "text": "军团的进击之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n鞋子: 格挡几率 +10%\n羁绊：\n鞋子: 受到的投射物击中伤害降低 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Trampletoe",
+  "text": "踏趾靴之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n鞋子: 对被击败的敌人 2 米内的敌人造成相当于溢出伤害 10% 的伤害\n羁绊：\n鞋子: 全局物理伤害提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Briarpatch",
+  "text": "荆皮护靴之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n鞋子: 荆棘暴击几率 +15%\n羁绊：\n鞋子: 荆棘暴击伤害加成提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Bushwhack",
+  "text": "踏林长靴之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n鞋子: 物理伤害可以造成定身\n羁绊：\n鞋子: +20 敏捷"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Wanderlust",
+  "text": "苦行之履之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n鞋子: 你的速度不受减速效果影响\n羁绊：\n鞋子: 移动速度提高 5%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Knight-errant",
+  "text": "豪侠骑士之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n鞋子: 霸体\n羁绊：\n鞋子: 元素异常状态阈值提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Oberns_Bastion",
+  "text": "欧本的壁垒之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n鞋子: 晕眩回复提高 200%\n羁绊：\n鞋子: 你被冰缓的持续时间降低 40%, 你被冻结的持续时间降低 40%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Dionadair",
+  "text": "御身守卫之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n盾牌: 举起盾牌时晕眩阈值翻倍\n羁绊：\n盾牌: 晕眩阈值提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Wulfsbane",
+  "text": "伍夫之难之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n盾牌: 格挡时威吓敌人 8 秒\n羁绊：\n盾牌: +25 力量"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Chernobogs_Pillar",
+  "text": "五芒屏障之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n盾牌: 每 2% 格挡几率获得相当于伤害 1% 的火焰伤害\n羁绊：\n盾牌: 混沌抗性 +30%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Alkem_Eira",
+  "text": "神谕之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n盾牌: 被格挡伤害的 30% 吸纳为魔力\n羁绊：\n盾牌: 被格挡伤害的 20% 吸纳为魔力"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Oaksworn",
+  "text": "橡木盟誓之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n盾牌: 生命再生率提高 50%\n羁绊：\n盾牌: 生命每秒再生 50"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Dunkelhalt",
+  "text": "黑暗止步之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n轻盾: 被招架减益状态强度提高 50%\n羁绊：\n轻盾: 招架伤害提高 50%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Rondel_de_Ezo",
+  "text": "艾佐的诗篇之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n轻盾: 格挡时对敌人附加衰弱诅咒\n羁绊：\n轻盾: 对投射物的格挡几率提高 100%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Brynhands_Mark",
+  "text": "布琳翰德印记之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n单手锤: 造成的晕眩积蓄值翻倍\n羁绊：\n单手锤: 附加 14 - 20 基础物理伤害"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Trenchtimbre",
+  "text": "战壕砥柱之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n单手锤: 你能获得召唤生物攻击速度的增强与减弱效果\n羁绊：\n单手锤: 所有召唤生物技能等级 +1"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Mj%C3%B6lner",
+  "text": "沉默之雷之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n单手锤: +200 智慧需求, 所有闪电技能等级 +3\n羁绊：\n单手锤: 所有闪电技能等级 +1"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Twisted_Empyrean",
+  "text": "扭曲天穹之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n双手锤: 使用该武器攻击时附加冰霜伤害，等同于魔力上限的 6% 至 10%\n羁绊：\n双手锤: 15% 的伤害优先从魔力扣除"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Hoghunt",
+  "text": "猎猪大棒之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n双手锤: 暴击几率 +5%, 暴击造成瘫痪\n羁绊：\n双手锤: 对抗瘫痪的敌人时，攻击伤害提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Hrimnors_Hymn",
+  "text": "雷姆诺的夺命凶器之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n双手锤: 你对自己使用的猛击技能有 25% 的几率造成一次额外余震\n羁绊：\n双手锤: 你对自己使用的猛击技能有 15% 的几率造成一次额外余震"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Brain_Rattler",
+  "text": "脑乱者之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n双手锤: 该武器的所有伤害造成触电积蓄\n羁绊：\n双手锤: 伤害穿透 10% 的闪电抗性"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Lifesprig",
+  "text": "生机之记之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n法杖: 所有法术技能等级 +2\n羁绊：\n法杖: 当你施放法术时，获得生命上限 1% 的生命偷取"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Duality",
+  "text": "二元一体之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n节杖: 使用技能时，每消耗一个连击，获得 250 层 防卫，持续 0.5 秒\n羁绊：\n节杖: 使用技能时，每消耗一个连击，获得殒殁，持续 0.2 秒"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Tyrannys_Grip",
+  "text": "暴政之握之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n战矛: 打击造成溅射伤害\n羁绊：\n战矛: 击中时击退敌人"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Sentry",
+  "text": "哨望之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n节杖: 攻击附加 23 - 34 基础火焰伤害, 易燃强度提高 100%\n羁绊：\n节杖: +2% 火焰抗性上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Adonias_Ego",
+  "text": "阿多尼娅的自我之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n法杖: 暴击球数量上限 +1\n羁绊：\n法杖: +65 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Cursecarver",
+  "text": "刻咒之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n法杖: 所有诅咒技能等级 +3\n羁绊：\n法杖: 魔力再生率提高 35%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Dusk_Vigil",
+  "text": "暮色守望之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n长杖: 获得额外火焰伤害， 其数值等同于物理伤害的 30%\n羁绊：\n长杖: 被触发法术的法术伤害提高 20%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Blood_Thorn",
+  "text": "血棘之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n节杖: 附加 4 - 8 物理伤害, 击中造成流血\n羁绊：\n节杖: 你造成的流血强度提高 10%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Quill_Rain",
+  "text": "骤雨之弦之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n弓类: 攻击速度提高 50%, 攻击伤害总降 20%\n羁绊：\n弓类: 箭矢速度提高 70%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Ironbound",
+  "text": "铁箍战弓之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n弓类: 使用该武器击中时，每有 1% 格挡几率，附加 1 - 3 的物理伤害\n羁绊：\n弓类: 已装备护甲物品每有 100 点物品护甲值，格挡几率提高 3%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Amor_Mandragora",
+  "text": "爱神曼陀罗之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n魔符: 每消耗总计 20 点怒火，获得 1 点德鲁伊之力\n羁绊：\n魔符: 当你在场时，敌人受到阻滞效果"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Spiteful_Floret",
+  "text": "怨毒之花之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n魔符: 每 5 点怒火使所受伤害的 5% 吸纳为生命\n羁绊：\n魔符: 攻击有 20% 的几率导致流血"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Svalinn",
+  "text": "斯瓦林之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n盾牌: 格挡伤害的几率特别幸运, 击中被格挡时，你承受伤害的 20%\n羁绊：\n盾牌: +50 符文结界上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Keeper_of_the_Arc",
+  "text": "弧光守护者之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n头盔: 每 5 秒交替：\n受到的击中伤害总降 20%\n受到的持续伤害总降 20%\n羁绊：\n头盔: 魔力再生率提高 25%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Olrovasara",
+  "text": "欧罗瓦萨拉之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n单手锤: 击中敌人时，获得相当于敌人威力值的\n额外闪电伤害上限，最多 120，持续 20 秒\n羁绊：\n单手锤: 攻击速度提高 15%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_A_Worthy_Foe",
+  "text": "劲敌之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n盾牌: 副手武器击中会施加符文先祖的挑战\n羁绊：\n盾牌: 冰霜抗性 +45%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Serles_Grit",
+  "text": "瑟尔的坚毅之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n单手锤: 品质上限为 40%\n羁绊：\n单手锤: 强化攻击的技能有 20% 的几率不计算该次攻击"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Runeseekers_Call",
+  "text": "符文猎手的呼唤之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n法杖: 镶嵌的符文效果提高 75%\n羁绊：\n法杖: +100 魔力上限"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Facebreaker",
+  "text": "毁面者之遗产\n仅限: 1 奥杜尔的遗产\n需求： 等级 65\n手套: 每点力量使护甲 +1\n羁绊：\n手套: 每 15 点力量可使伤害提高 1%"
+ },
+ {
+  "icon": "Art/2DItems/Belts/Uniques/DarknessEnthroned.webp",
+  "id": "Darkness_Enthroned",
+  "text": "夜临 精致腰带\n需求： 等级 62\n具有 (1—3) 个咒符位\n药剂每秒获得 0.17 次充能\n镶嵌的增幅器物品效果提高 (50—100)%\n此物品可作为胸甲获得镶嵌物的加成\nHas 2 Augment Sockets (Hidden)"
+ },
+ {
+  "icon": "Art/2DItems/Currency/CurrencyAddEquipmentSocket.webp",
+  "id": "Artificers_Orb",
+  "text": "巧匠石\n堆叠数量: 1 / 20\n为一件战斗武器、法杖、长杖或护甲添加一个增幅器插槽。"
+ },
+ {
+  "icon": "Art/2DItems/Currency/IncursionCraftingOrbs/IncursionSocketableExtractorCurrency.webp",
+  "id": "Orb_of_Extraction",
+  "text": "萃取石\n堆叠数量: 1 / 10\n摧毁一件装备物品，并返还其中镶嵌的所有非插槽绑定的增幅器"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Essence/CorruptedEssenceHorror.webp",
+  "id": "Essence_of_Horror",
+  "text": "极恐精华\n堆叠数量: 1 / 10\n移除一条随机词缀，并为一件稀有物品添加一条新的必定出现的词缀。\n手套或鞋子: 镶嵌的增幅器物品效果提高 60%"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/Alloy1.webp",
+  "id": "Sovereign_Alloy",
+  "text": "君王合金\n堆叠数量: 1 / 10\n移除一条随机词缀，并为一件稀有物品添加一条新的必定出现的词缀。\n武器: 镶嵌的增幅器物品效果提高 (20—30)%\n护甲: 符文结界提高 (24—30)%\n饰品或腰带: 外延抗性词缀增幅提高 (20—30)%"
+ },
+ {
+  "icon": "Art/2DArt/SkillIcons/passives/Wildspeaker/WildspeakerBonusPerSocketedTalisman.webp",
+  "id": "/cn/Idolatry",
+  "text": "偶像崇拜\n升华: 灵魂行者\n角色: 女猎手\n你装备中的每个雕像使伙伴造成的伤害提高 10%\n你的装备中每有一个雕像，技能的保留效能提高 2%\n你的装备中每有一个非雕像增幅器，-4% 点所有元素抗性"
+ },
+ {
+  "icon": null,
+  "id": "Soul_Core",
+  "text": "灵核\n灵核是古代瓦尔帝国的遗物，其功能相当于一种增幅器。"
+ },
+ {
+  "icon": null,
+  "id": "Abyssal_Eye",
+  "text": "深渊之眼\n深渊之眼是从深渊生物身上回收的遗物，其功能相当于一种增幅器。"
+ },
+ {
+  "icon": null,
+  "id": "Rune",
+  "text": "符文\n符文是卡古兰文明所制的增幅器。"
+ },
+ {
+  "icon": null,
+  "id": "Idol",
+  "text": "雕像\n雕像是由阿兹莫里人所制作的一种增幅器。"
+ },
+ {
+  "icon": null,
+  "id": "Ancient_Augment",
+  "text": "远古增幅器\n此类增幅器虽拥有强大的单一特效，但限制也更为严格。一次只能镶嵌一个这种类型的增幅器。"
+ },
+ {
+  "icon": null,
+  "id": "Exceptional_Item",
+  "text": "卓越物品\n卓越物品要么拥有超过上限的品质，要么拥有一个额外的[[Augment|增幅器]插槽。\n发现的高阶稀有物品，有几率以卓越普通物品的形态掉落。"
+ },
+ {
+  "icon": null,
+  "id": "Socket-bound_Augments",
+  "text": "插槽绑定的增幅器\n插槽绑定的增幅器物品会永久填充它们所放入的增幅器插槽。\n一旦镶嵌，便无法以任何方式移除、替换或提取。"
+ },
+ {
+  "icon": null,
+  "id": "Congealed_Mist",
+  "text": "凝结之雾\n一个神秘而闪烁的增幅器。你是否听到了低语？"
+ },
+ {
+  "icon": null,
+  "id": "Aldurs_Legacies",
+  "text": "奥杜尔的遗产\n奥杜尔的遗产是一种增幅器，汲取了艾兹麦或卡古兰传奇物品的力量。你每次无法镶嵌超过 1 个此类增幅器物品。"
+ }
+]

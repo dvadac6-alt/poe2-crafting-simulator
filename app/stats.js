@@ -48,7 +48,8 @@
     const rng = E.defaultRng;
 
     const flatPhysLo = sumRange(item, FLAT.phys, 0), flatPhysHi = sumRange(item, FLAT.phys, 1);
-    const incPhys = sumField(item, INC_PHYS, 0) + hybridPhysReducedAS(item).inc;
+    const aug = (E.augmentStatsOf && E.augmentStatsOf(item)) || { physInc: 0, ele: {} }; // 镶嵌符文的固定加成
+    const incPhys = sumField(item, INC_PHYS, 0) + hybridPhysReducedAS(item).inc + aug.physInc;
     const redAS = hybridPhysReducedAS(item).red;
     const incAS = sumField(item, INC_AS, 0) - redAS;
     const incEle = sumField(item, INC_ELE_ATK, 0);
@@ -68,6 +69,11 @@
     if (base.ele && base.ele.chaos) {
       const lo = base.ele.chaos[0], hi = base.ele.chaos[1];
       if (lo || hi) eles.chaos = [lo, hi];
+    }
+    // 镶嵌符文的附加元素伤害（如 沙漠/冰川/风暴符文 在武器上）
+    for (const [k, [lo, hi]] of Object.entries(aug.ele || {})) {
+      eles[k] = eles[k] || [0, 0];
+      eles[k][0] += lo; eles[k][1] += hi;
     }
 
     const aps = (base.aps || 1) * (1 + incAS / 100);

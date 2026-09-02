@@ -29,6 +29,65 @@
   for (const pool of Object.values(ALDUR.genesisPools))
     for (const m of [...pool.prefixes, ...pool.suffixes]) modsById.set(m.id, m);
   for (const m of [...ALDUR.timeLost.pool.prefixes, ...ALDUR.timeLost.pool.suffixes]) modsById.set(m.id, m);
+
+  /* ---------- 基础符文 + 魂核（0.5 Augment 全表，tools/build_augments.mjs 生成） ---------- */
+  const AUGM = (typeof window !== "undefined" && window.POE2_AUGMENTS) || { runes: [], soulCores: [] };
+  const augmentById = new Map([...AUGM.runes, ...AUGM.soulCores].map((a) => [a.id, a]));
+  const ARTIFICER_PRICE = 3; // 巧匠石：+1 插槽（种子估值）
+  function socketsUsedOf(item) {
+    return ((item.runes || []).length + (item.augments || []).length);
+  }
+  function augmentEffectFor(item, aug) {
+    if (!aug) return null;
+    return (aug.effects || []).find((f) => f.targets.includes(item.classId)) || null;
+  }
+  function augmentApplicable(item, aug) {
+    if (!item.classId) return "无部位";
+    return augmentEffectFor(item, aug) ? null : "该物品不能镶嵌此增幅物";
+  }
+  function socketAugment(item, augId) {
+    const aug = augmentById.get(augId);
+    if (!aug) return { ok: false, reason: "未知增幅物" };
+    const err = augmentApplicable(item, aug);
+    if (err) return { ok: false, reason: err };
+    const cur = item.augments || [];
+    if (aug.limited && cur.includes(augId)) return { ok: false, reason: "该增幅物每件限 1" };
+    if (socketsUsedOf(item) >= runeSlotsOf(item)) return { ok: false, reason: "增幅器插槽数不足（该部位 " + runeSlotsOf(item) + " 个）" };
+    const it = clone(item);
+    it.augments = cur.concat(augId);
+    return { ok: true, item: it, cost: aug.price || 0, events: [{ type: "augment", augId }] };
+  }
+  function unsocketAugment(item, augId) {
+    const cur = item.augments || [];
+    if (!cur.includes(augId)) return { ok: false, reason: "该增幅物未镶嵌" };
+    const it = clone(item);
+    it.augments = cur.filter((x) => x !== augId);
+    return { ok: true, item: it, events: [{ type: "augment-remove", augId }] };
+  }
+  /* 巧匠石：为武器/护甲 +1 插槽（每件最多 1 次；首饰/珠宝不可用） */
+  function addSocket(item) {
+    if (item.classId && (item.classId.indexOf("Jewels") === 0 || ["Rings", "Amulets", "Belts"].includes(item.classId)))
+      return { ok: false, reason: "巧匠石只能用于武器与护甲" };
+    if (runeSlotsOf(item) === 0) return { ok: false, reason: "该物品没有增幅器插槽" };
+    if (item.socketsBonus) return { ok: false, reason: "巧匠石每件物品只能使用一次" };
+    const it = clone(item);
+    it.socketsBonus = 1;
+    return { ok: true, item: it, cost: ARTIFICER_PRICE, events: [{ type: "socket-add" }] };
+  }
+  /* 已镶嵌增幅物对武器面板的数值加成（附加元素伤害 / 物理伤害提高），来自效果级 stats */
+  function augmentStatsOf(item) {
+    const out = { physInc: 0, ele: {} };
+    for (const id of (item.augments || [])) {
+      const fx = augmentEffectFor(item, augmentById.get(id));
+      if (!fx || !fx.stats) continue;
+      if (fx.stats.physInc) out.physInc += fx.stats.physInc;
+      if (fx.stats.ele) for (const [k, v] of Object.entries(fx.stats.ele)) {
+        out.ele[k] = out.ele[k] || [0, 0];
+        out.ele[k][0] += v[0]; out.ele[k][1] += v[1];
+      }
+    }
+    return out;
+  }
   // 蒸馏情感保证词缀注册为伪 mod（tier 权重 0：不参与随机池，仅由 liquidEmotion 注入）
   for (const e of ALDUR.liquid) {
     for (const [slot, aff] of Object.entries(e.affixes)) {
@@ -94,12 +153,13 @@
     const b = item && baseIndex.get(item.classId + "/" + item.baseId);
     return !!(b && b.timeLost);
   }
-  // 增幅器插槽数（简化：武器/护甲 2，首饰 1，珠宝 0；基础属性符文未收录，仅计特殊符文）
+  // 增幅器插槽数（武器/护甲 2、首饰 1、珠宝 0；巧匠石 +1 计入 socketsBonus）
   function runeSlotsOf(item) {
     const cid = item && item.classId;
     if (!cid || cid.indexOf("Jewels") === 0) return 0;
+    const bonus = item.socketsBonus || 0;
     if (cid === "Rings" || cid === "Amulets" || cid === "Belts") return ALDUR.sockets.jewellery;
-    return ALDUR.sockets.armour;
+    return ALDUR.sockets.armour + bonus;
   }
   const WEAPON_CLASS_IDS = new Set(["Bows", "Spears", "Crossbows", "Quarterstaves", "OneHand_Maces", "TwoHand_Maces", "Staves", "Wands", "Sceptres", "Foci", "Quivers", "Talismans", "Shields", "Bucklers"]);
   function runeApplicable(item, rune) {
@@ -116,7 +176,7 @@
     if (err) return { ok: false, reason: err };
     const runes = item.runes || [];
     if (runes.includes(runeId)) return { ok: false, reason: "该符文已镶嵌（每件限 1 颗）" };
-    if (runes.length >= runeSlotsOf(item)) return { ok: false, reason: "增幅器插槽数不足（该部位 " + runeSlotsOf(item) + " 个）" };
+    if (socketsUsedOf(item) >= runeSlotsOf(item)) return { ok: false, reason: "增幅器插槽数不足（该部位 " + runeSlotsOf(item) + " 个）" };
     const it = clone(item);
     it.runes = runes.concat(runeId);
     return { ok: true, item: it, cost: rune.price || 0, events: [{ type: "rune", runeId }] };
@@ -928,6 +988,8 @@
     qualityMultFor, maxQualityOf, BREACH_QUALITY_MOD,
     boneNameFor, omenEffects, BONE_TIER,
     ALDUR, runeById, liquidById, LIQUID_CAP_ADJ,
+    AUGM, augmentById, augmentEffectFor, augmentApplicable,
+    socketAugment, unsocketAugment, addSocket, socketsUsedOf, augmentStatsOf,
     alloyById, anointBySlug, anointByCombo, anointEmotionById, alloyModFor, alloyClassZh,
     runeSlotsOf, runeApplicable, socketRune, unsocketRune,
     liquidCapOf, jewelColorOf, isTimeLostJewel, extraPoolsOf,

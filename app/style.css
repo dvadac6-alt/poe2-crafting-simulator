@@ -236,6 +236,29 @@ main { max-width: 1440px; margin: 0 auto; padding: 26px 30px 40px; }
 }
 .omen-chip:disabled { opacity: .3; cursor: not-allowed; }
 
+/* ─────────── 增幅器面板（基础符文 / 魂核 / 特殊符文） ─────────── */
+.aug-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  margin: 10px 0 6px; font-size: 11px; color: var(--text-faint);
+  border-bottom: 1px solid rgba(255,255,255,.06); padding-bottom: 4px;
+}
+.aug-head:first-child { margin-top: 0; }
+.aug-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+.tier-row { display: inline-flex; gap: 4px; }
+.tier-chip {
+  font-size: 10.5px; padding: 2px 8px; border-radius: 999px; cursor: pointer;
+  background: rgba(0,0,0,.3); border: 1px solid var(--panel-border); color: var(--text-dim);
+}
+.tier-chip.on { border-color: #d9ab5c; color: var(--gold-hi); background: rgba(217,171,92,.12); font-weight: 600; }
+.omen-chip .tier-mark { font-size: 9.5px; opacity: .65; margin-left: 2px; }
+.mini-btn {
+  font-size: 10.5px; padding: 2px 8px; border-radius: 999px; cursor: pointer; margin-left: 6px;
+  background: rgba(217,171,92,.1); border: 1px solid rgba(217,171,92,.35); color: var(--gold-hi);
+}
+.mini-btn:hover { background: rgba(217,171,92,.2); }
+.ic-aug { font-size: 12.5px; color: #a8c98f; text-align: center; line-height: 1.5; }
+.ic-aug .aug-src { color: var(--text-faint); font-size: 11px; }
+
 /* ─────────── 物品卡片 ─────────── */
 #item-card-wrap { display: flex; justify-content: center; padding: 8px 0 2px; }
 .item-card {

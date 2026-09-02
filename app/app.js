@@ -614,8 +614,17 @@
     const st = E.weaponStats(item);
     const boneBanner = item.bonePhantom
       ? `<div class="ic-bone-pending">☠ 渎灵骨已加 —— 再使用一次进行揭示（三选一）</div>` : "";
-    const runesLine = (item.runes && item.runes.length)
-      ? `<div class="ic-runes">ᚣ ${item.runes.map((id) => (E.runeById.get(id) || {}).zh || id).join(" · ")}</div>` : "";
+    const runesLine = (item.runes && item.runes.length) || (item.augments && item.augments.length)
+      ? `<div class="ic-runes">ᚣ ${[
+          ...(item.runes || []).map((id) => (E.runeById.get(id) || {}).zh || id),
+          ...(item.augments || []).map((id) => (E.augmentById.get(id) || {}).zh || id),
+        ].join(" · ")}${item.socketsBonus ? " <span class=\"hint\">+1 插槽</span>" : ""}</div>` : "";
+    /* 镶嵌的增幅物按当前部位生效的效果行（魂核/基础符文） */
+    const augEffectHtml = (item.augments || []).map((id) => {
+      const a = E.augmentById.get(id);
+      const fx = a && E.augmentEffectFor(item, a);
+      return fx ? `<div class="ic-aug">${esc(fx.textZh)}<span class="aug-src"> · ${esc(a.zh)}</span></div>` : "";
+    }).join("");
     const liquidCount = item.affixes.filter((a) => a.source === "liquid").length;
     const liquidLine = liquidCount
       ? `<div class="ic-liquid">◈ 工艺词缀 ${liquidCount}/${E.liquidCapOf(item)}</div>` : "";
@@ -683,6 +692,7 @@
       ${item.foresee ? `<div class="ic-foresee">⟡ 辛格拉的预示已就绪 —— 下一个通货可预览结果</div>` : ""}
       ${boneBanner}
       ${runesLine}
+      ${augEffectHtml}
       ${liquidLine}
       ${anointLine}
       ${qLine}
@@ -1440,26 +1450,144 @@
     });
   }
 
-  /* ───────── 符文镶嵌（Runes of Aldur，0.5）─────────
-   * 特殊符文（每件限 1 颗，占用增幅器插槽）：
-   * 瑟尔的凯旋 +1 允许后缀；阿斯特丽德的创造 +1 工艺词缀上限；
-   * 六颗部位符文解锁专属词缀池（塑时术师/神射手/盛怒/毁灭/灵魂/腐蚀）。 */
+  /* ───────── 符文镶嵌（0.5 Augment 系统）─────────
+   * 三类增幅物共用装备的增幅器插槽：
+   * ① 基础符文（元素/属性/守望等家族，低阶/中阶/高阶/完美品级）——按部位给固定加成；
+   * ② 魂核（限定部位，每件限 1）；
+   * ③ 特殊符文（Runes of Aldur，每件限 1）：瑟尔的凯旋 +1 允许后缀；阿斯特丽德的创造 +1 工艺词缀上限；
+   *    六颗部位符文解锁专属词缀池（塑时术师/神射手/盛怒/毁灭/灵魂/腐蚀）。
+   * 巧匠石可为武器/护甲 +1 插槽（每件 1 次）。 */
+  const TIER_ZH = { lesser: "次级", normal: "标准", greater: "高级", perfect: "完美" };
+  const TIER_ORDER = ["lesser", "normal", "greater", "perfect"];
+  const augIcon = (id) => {
+    const p = asset("augments", id);
+    return p ? `<img class="game-icon" src="${p}" alt="" draggable="false" style="width:20px;height:20px">` : "";
+  };
+  function runeFamilies() {
+    /* 基础符文按家族分组（id 去掉品级前缀），只保留当前物品可镶嵌的家族 */
+    const fams = new Map();
+    for (const r of E.AUGM.runes) {
+      const fam = r.id.replace(/^(Lesser|Greater|Perfect)_/, "");
+      if (!fams.has(fam)) fams.set(fam, {});
+      fams.get(fam)[r.tier] = r;
+    }
+    return [...fams.entries()]
+      .map(([fam, tiers]) => ({ fam, tiers, ok: Object.values(tiers).some((r) => !E.augmentApplicable(S.item, r)) }))
+      .filter((f) => f.ok);
+  }
+  function familyEffectTooltip(tiers) {
+    const lines = [];
+    for (const t of TIER_ORDER) {
+      const r = tiers[t];
+      if (!r) continue;
+      const fx = E.augmentEffectFor(S.item, r);
+      if (!fx) continue;
+      lines.push(`【${TIER_ZH[t]}】${fx.textZh}（≈${r.price} 崇）`);
+      if (r.bonded) for (const b of r.bonded) if (b.targets.includes(S.item.classId)) lines.push(`　羁绊：${b.textZh}`);
+    }
+    return lines.join("\n");
+  }
   function renderRunes() {
     const box = $("#rune-box");
     if (!S.item || E.runeSlotsOf(S.item) === 0) { box.style.display = "none"; return; }
     box.style.display = "";
     const slots = E.runeSlotsOf(S.item);
-    const socketed = S.item.runes || [];
-    $("#rune-cur").textContent = `· 插槽 ${socketed.length}/${slots}`;
-    const avail = E.ALDUR.runes.filter((r) => !E.runeApplicable(S.item, r));
-    $("#rune-list").innerHTML = avail.map((r) => {
-      const on = socketed.includes(r.id) ? "on" : "";
-      const rIco = asset("runes", r.id)
-        ? `<img class="game-icon" src="${asset("runes", r.id)}" alt="" draggable="false" style="width:20px;height:20px">`
-        : "";
-      return `<button class="omen-chip ${on}" data-rune="${r.id}" title="${esc(r.desc)}${r.bonded ? "；羁绊（需对应升华）：" + r.bonded : ""}（≈${r.price} 崇）">${on ? "✓ " : ""}${rIco}${r.zh}</button>`;
-    }).join("");
-    $$("#rune-list .omen-chip").forEach((b) => b.addEventListener("click", () => toggleRune(b.dataset.rune)));
+    const socketedRunes = S.item.runes || [];
+    const socketedAugs = S.item.augments || [];
+    const artificerOk = !S.item.socketsBonus && !(["Rings", "Amulets", "Belts"].includes(S.item.classId));
+    $("#rune-cur").innerHTML = `· 插槽 ${socketedRunes.length + socketedAugs.length}/${slots}` +
+      (S.item.socketsBonus ? ' <span class="hint">（含巧匠石 +1）</span>' : "") +
+      (artificerOk ? ` <button class="mini-btn" id="artificer-btn" title="为武器/护甲增加 1 个增幅器插槽（每件限一次，≈3 崇）">⚒ 巧匠石 +1 插槽</button>` : "");
+    const artBtn = $("#artificer-btn");
+    if (artBtn) artBtn.addEventListener("click", applyArtificer);
+
+    const html = [];
+    /* 基础符文（家族分组 + 品级选择） */
+    const fams = runeFamilies();
+    if (fams.length) {
+      const selTier = S.runeTier || "normal";
+      const tierBtns = TIER_ORDER.map((t) => `<button class="tier-chip ${selTier === t ? "on" : ""}" data-tier="${t}">${TIER_ZH[t]}</button>`).join("");
+      html.push(`<div class="aug-head"><span>基础符文</span><span class="tier-row">${tierBtns}</span></div><div class="aug-grid">`);
+      for (const f of fams) {
+        const want = f.tiers[selTier] ? selTier : TIER_ORDER.slice().reverse().find((t) => f.tiers[t]);
+        const r = f.tiers[want];
+        const on = socketedAugs.some((id) => id.replace(/^(Lesser|Greater|Perfect)_/, "") === f.fam) ? "on" : "";
+        const famZh = (f.tiers.normal || Object.values(f.tiers)[0]).zh.replace(/^(低阶|高阶|完美)/, "");
+        html.push(`<button class="omen-chip ${on}" data-fam="${f.fam}" data-tier="${want}" title="${esc(familyEffectTooltip(f.tiers))}">${on ? "✓ " : ""}${augIcon(r.id)}${famZh}<span class="tier-mark">${TIER_ZH[want]}</span></button>`);
+      }
+      html.push("</div>");
+    }
+    /* 魂核 */
+    const cores = E.AUGM.soulCores.filter((c) => !E.augmentApplicable(S.item, c));
+    if (cores.length) {
+      html.push(`<div class="aug-head"><span>魂核${["Helmets", "Body_Armours", "Boots", "Gloves"].includes(S.item.classId) ? "（限定部位，每件限 1）" : ""}</span></div><div class="aug-grid">`);
+      for (const c of cores) {
+        const on = socketedAugs.includes(c.id) ? "on" : "";
+        const fx = E.augmentEffectFor(S.item, c);
+        html.push(`<button class="omen-chip ${on}" data-aug="${c.id}" title="${esc(fx ? fx.textZh + `（≈${c.price} 崇）` : c.zh)}${c.limited ? "；每件限 1" : ""}">${on ? "✓ " : ""}${augIcon(c.id)}${c.zh}</button>`);
+      }
+      html.push("</div>");
+    }
+    /* 特殊符文（Runes of Aldur） */
+    const specials = E.ALDUR.runes.filter((r) => !E.runeApplicable(S.item, r));
+    if (specials.length) {
+      html.push(`<div class="aug-head"><span>特殊符文（Runes of Aldur）</span></div><div class="aug-grid">`);
+      for (const r of specials) {
+        const on = socketedRunes.includes(r.id) ? "on" : "";
+        const rIco = asset("runes", r.id) ? `<img class="game-icon" src="${asset("runes", r.id)}" alt="" draggable="false" style="width:20px;height:20px">` : "";
+        html.push(`<button class="omen-chip ${on}" data-rune="${r.id}" title="${esc(r.desc)}${r.bonded ? "；羁绊（需对应升华）：" + r.bonded : ""}（≈${r.price} 崇）">${on ? "✓ " : ""}${rIco}${r.zh}</button>`);
+      }
+      html.push("</div>");
+    }
+    $("#rune-list").innerHTML = html.join("");
+    $$("#rune-list .omen-chip[data-rune]").forEach((b) => b.addEventListener("click", () => toggleRune(b.dataset.rune)));
+    $$("#rune-list .omen-chip[data-aug]").forEach((b) => b.addEventListener("click", () => toggleAugment(b.dataset.aug)));
+    $$("#rune-list .omen-chip[data-fam]").forEach((b) => b.addEventListener("click", () => toggleAugmentFamily(b.dataset.fam, b.dataset.tier)));
+    $$(".tier-chip").forEach((b) => b.addEventListener("click", () => { S.runeTier = b.dataset.tier; renderRunes(); }));
+  }
+  function applyAugmentResult(r, zhName, actionZh, kind) {
+    S.undoStack.push({ item: S.item, usage: JSON.parse(JSON.stringify(S.usage)), steps: S.steps, log: S.log.slice() });
+    S.item = r.item;
+    S.steps++;
+    countUsage(kind || "augment", zhName);
+    S.log.push({ html: `<span class="l-cost">≈${fmtC(r.cost)} 崇</span><span class="l-t">增幅器 · ${zhName}${actionZh}</span>` });
+    renderCraft(true);
+    save();
+  }
+  function toggleAugment(augId) {
+    const aug = E.augmentById.get(augId);
+    if (!aug) return;
+    const socketed = (S.item.augments || []).includes(augId);
+    const r = socketed ? E.unsocketAugment(S.item, augId) : E.socketAugment(S.item, augId);
+    if (!r.ok) { toast(r.reason, "warn"); return; }
+    applyAugmentResult(r, aug.zh, socketed ? "（取下）" : "（镶嵌）");
+  }
+  function toggleAugmentFamily(fam, tier) {
+    const socketedIds = (S.item.augments || []).filter((id) => id.replace(/^(Lesser|Greater|Perfect)_/, "") === fam);
+    if (socketedIds.length) {
+      let item = S.item;
+      for (const id of socketedIds) { const r = E.unsocketAugment(item, id); if (r.ok) { item = r.item; } }
+      S.undoStack.push({ item: S.item, usage: JSON.parse(JSON.stringify(S.usage)), steps: S.steps, log: S.log.slice() });
+      S.item = item;
+      countUsage("augment", "取下 · " + fam);
+      S.log.push({ html: `<span class="l-t">增幅器 · 取下 ${esc(fam)} 家族符文</span>` });
+      renderCraft(true);
+      save();
+      return;
+    }
+    /* data-tier 由 renderRunes 兜底为该家族实际存在的品级 */
+    const pfx = { lesser: "Lesser_", normal: "", greater: "Greater_", perfect: "Perfect_" }[tier] || "";
+    const id = pfx + fam;
+    const aug = E.augmentById.get(id);
+    if (!aug) { toast("该品级不存在", "warn"); return; }
+    const r = E.socketAugment(S.item, id);
+    if (!r.ok) { toast(r.reason, "warn"); return; }
+    applyAugmentResult(r, aug.zh, "（镶嵌）");
+  }
+  function applyArtificer() {
+    const r = E.addSocket(S.item);
+    if (!r.ok) { toast(r.reason, "warn"); return; }
+    applyAugmentResult(r, "巧匠石", "（+1 插槽）", "artificer");
   }
   function toggleRune(runeId) {
     const rune = E.runeById.get(runeId);
@@ -2002,6 +2130,8 @@ function openLiquidModal() {
           : u.kind === "liquid" ? '<span class="usage-ico liq-ico">◈</span>'
           : u.kind === "alloy" ? '<span class="usage-ico alloy-ico">⬢</span>'
           : u.kind === "anoint" ? '<span class="usage-ico an-ico">✦</span>'
+          : u.kind === "augment" ? '<span class="usage-ico rune-ico">ᚣ</span>'
+          : u.kind === "artificer" ? '<span class="usage-ico q-ico">⚒</span>'
           : curIcon(u.kind, 20);
         return `<span class="usage-chip">${icon}<b>${esc(label)}</b>×${u.count}</span>`;
       }).join("");
@@ -2048,6 +2178,8 @@ function openLiquidModal() {
       it: {
         r: S.item.rarity, a: S.item.affixes,
         ru: S.item.runes && S.item.runes.length ? S.item.runes : undefined,
+        au: S.item.augments && S.item.augments.length ? S.item.augments : undefined,
+        sb: S.item.socketsBonus || undefined,
         an: S.item.anoint ? S.item.anoint.slug : undefined,
         q: S.item.quality || undefined,
         co: S.item.corrupted || undefined,
@@ -2075,6 +2207,8 @@ function openLiquidModal() {
       item.rarity = d.it.r || "normal";
       item.affixes = (d.it.a || []).filter((a) => E.modsById.get(a.modId));
       if (d.it.ru) item.runes = d.it.ru.filter((id) => E.runeById && E.runeById.get(id));
+      if (d.it.au) item.augments = d.it.au.filter((id) => E.augmentById && E.augmentById.get(id));
+      if (d.it.sb) item.socketsBonus = 1;
       if (d.it.an && E.anointBySlug && E.anointBySlug.get(d.it.an)) item.anoint = { slug: d.it.an };
       if (d.it.q) item.quality = d.it.q;
       if (d.it.co) item.corrupted = true;

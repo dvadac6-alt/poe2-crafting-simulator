@@ -1,0 +1,1552 @@
+[
+ {
+  "icon": "Art/2DItems/Currency/Runes/FireRune.webp",
+  "id": "Desert_Rune",
+  "text": "Desert Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Adds 7 to 11 Fire Damage\nWand or Staff: Gain 8% of Damage as Extra Fire Damage\nArmour: +14% to Fire Resistance\nBonded:\nMartial Weapon: 30% increased Ignite Magnitude\nWand or Staff: 30% increased Ignite Magnitude\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ColdRune.webp",
+  "id": "Glacial_Rune",
+  "text": "Glacial Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Adds 6 to 10 Cold Damage\nWand or Staff: Gain 8% of Damage as Extra Cold Damage\nArmour: +14% to Cold Resistance\nBonded:\nMartial Weapon: 30% increased Freeze Buildup\nWand or Staff: 30% increased Freeze Buildup\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRune.webp",
+  "id": "Storm_Rune",
+  "text": "Storm Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Adds 1 to 20 Lightning Damage\nWand or Staff: Gain 8% of Damage as Extra Lightning Damage\nArmour: +14% to Lightning Resistance\nBonded:\nMartial Weapon: 30% increased Magnitude of Shock you inflict\nWand or Staff: 30% increased Magnitude of Shock you inflict\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/EnhanceRune.webp",
+  "id": "Iron_Rune",
+  "text": "Iron Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: 16% increased Physical Damage\nWand or Staff: 25% increased Spell Damage\nArmour: 16% increased Armour, Evasion and Energy Shield\nBonded:\nMartial Weapon: 20% increased effect of Fully Broken Armour\nWand or Staff: Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRune.webp",
+  "id": "Body_Rune",
+  "text": "Body Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Leeches 4% of Physical Damage as Life\nWand or Staff: +40 to maximum Energy Shield\nArmour: +45 to maximum Life\nBonded:\nMartial Weapon: 5% increased maximum Life\nWand or Staff: 5% increased maximum Life\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRune.webp",
+  "id": "Mind_Rune",
+  "text": "Mind Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Leeches 3% of Physical Damage as Mana\nWand or Staff: +60 to maximum Mana\nArmour: +30 to maximum Mana\nBonded:\nMartial Weapon: 5% increased maximum Mana\nWand or Staff: 5% increased maximum Mana\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRecoveryRune.webp",
+  "id": "Rebirth_Rune",
+  "text": "Rebirth Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Gain 25 Life per enemy killed\nWand or Staff: 8% increased Energy Shield Recharge Rate\nArmour: Regenerate 0.4% of maximum Life per second\nBonded:\nMartial Weapon: Regenerate 0.4% of maximum Life per second\nWand or Staff: 8% of Damage taken Recouped as Life\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRecoveryRune.webp",
+  "id": "Inspiration_Rune",
+  "text": "Inspiration Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Gain 20 Mana per enemy killed\nWand or Staff: 25% increased Mana Regeneration Rate\nArmour: 15% increased Mana Regeneration Rate\nBonded:\nMartial Weapon: 12% of Skill Mana Costs Converted to Life Costs\nWand or Staff: 16% increased Mana Cost Efficiency\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StunRune.webp",
+  "id": "Stone_Rune",
+  "text": "Stone Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Causes 30% increased Stun Buildup\nWand or Staff: Gain additional Stun Threshold equal to 12% of maximum Energy Shield\nArmour: +75 to Stun Threshold\nBonded:\nMartial Weapon: 40% increased Damage against Immobilised Enemies\nWand or Staff: 30% increased Immobilisation buildup\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/AccuracyRune.webp",
+  "id": "Vision_Rune",
+  "text": "Vision Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: +90 to Accuracy Rating\nWand or Staff: 20% increased Critical Hit Chance for Spells\nArmour: 12% increased Life and Mana Recovery from Flasks\nBonded:\nMartial Weapon: Attacks have +1% to Critical Hit Chance\nWand or Staff: 25% increased Critical Damage Bonus\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/FireRuneTier1.webp",
+  "id": "Lesser_Desert_Rune",
+  "text": "Lesser Desert Rune\nStack Size: 1 / 10\nMartial Weapon: Adds 4 to 6 Fire Damage\nWand or Staff: Gain 6% of Damage as Extra Fire Damage\nArmour: +10% to Fire Resistance\nBonded:\nMartial Weapon: 30% increased Ignite Magnitude\nWand or Staff: 30% increased Ignite Magnitude\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ColdRuneTier1.webp",
+  "id": "Lesser_Glacial_Rune",
+  "text": "Lesser Glacial Rune\nStack Size: 1 / 10\nMartial Weapon: Adds 3 to 5 Cold Damage\nWand or Staff: Gain 6% of Damage as Extra Cold Damage\nArmour: +10% to Cold Resistance\nBonded:\nMartial Weapon: 30% increased Freeze Buildup\nWand or Staff: 30% increased Freeze Buildup\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneTier1.webp",
+  "id": "Lesser_Storm_Rune",
+  "text": "Lesser Storm Rune\nStack Size: 1 / 10\nMartial Weapon: Adds 1 to 10 Lightning Damage\nWand or Staff: Gain 6% of Damage as Extra Lightning Damage\nArmour: +10% to Lightning Resistance\nBonded:\nMartial Weapon: 30% increased Magnitude of Shock you inflict\nWand or Staff: 30% increased Magnitude of Shock you inflict\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/EnhanceRuneTier1.webp",
+  "id": "Lesser_Iron_Rune",
+  "text": "Lesser Iron Rune\nStack Size: 1 / 10\nMartial Weapon: 14% increased Physical Damage\nWand or Staff: 20% increased Spell Damage\nArmour: 14% increased Armour, Evasion and Energy Shield\nBonded:\nMartial Weapon: 20% increased effect of Fully Broken Armour\nWand or Staff: Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRuneTier1.webp",
+  "id": "Lesser_Body_Rune",
+  "text": "Lesser Body Rune\nStack Size: 1 / 10\nMartial Weapon: Leeches 3% of Physical Damage as Life\nWand or Staff: +30 to maximum Energy Shield\nArmour: +30 to maximum Life\nBonded:\nMartial Weapon: 5% increased maximum Life\nWand or Staff: 5% increased maximum Life\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRuneTier1.webp",
+  "id": "Lesser_Mind_Rune",
+  "text": "Lesser Mind Rune\nStack Size: 1 / 10\nMartial Weapon: Leeches 2% of Physical Damage as Mana\nWand or Staff: +45 to maximum Mana\nArmour: +20 to maximum Mana\nBonded:\nMartial Weapon: 5% increased maximum Mana\nWand or Staff: 5% increased maximum Mana\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRecoveryRuneTier1.webp",
+  "id": "Lesser_Rebirth_Rune",
+  "text": "Lesser Rebirth Rune\nStack Size: 1 / 10\nMartial Weapon: Gain 15 Life per enemy killed\nWand or Staff: 6% increased Energy Shield Recharge Rate\nArmour: Regenerate 0.35% of maximum Life per second\nBonded:\nMartial Weapon: Regenerate 0.4% of maximum Life per second\nWand or Staff: 8% of Damage taken Recouped as Life\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRecoveryRuneTier1.webp",
+  "id": "Lesser_Inspiration_Rune",
+  "text": "Lesser Inspiration Rune\nStack Size: 1 / 10\nMartial Weapon: Gain 10 Mana per enemy killed\nWand or Staff: 20% increased Mana Regeneration Rate\nArmour: 12% increased Mana Regeneration Rate\nBonded:\nMartial Weapon: 12% of Skill Mana Costs Converted to Life Costs\nWand or Staff: 16% increased Mana Cost Efficiency\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StunRuneTier1.webp",
+  "id": "Lesser_Stone_Rune",
+  "text": "Lesser Stone Rune\nStack Size: 1 / 10\nMartial Weapon: Causes 20% increased Stun Buildup\nWand or Staff: Gain additional Stun Threshold equal to 10% of maximum Energy Shield\nArmour: +50 to Stun Threshold\nBonded:\nMartial Weapon: 40% increased Damage against Immobilised Enemies\nWand or Staff: 30% increased Immobilisation buildup\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/AccuracyRuneTier1.webp",
+  "id": "Lesser_Vision_Rune",
+  "text": "Lesser Vision Rune\nStack Size: 1 / 10\nMartial Weapon: +60 to Accuracy Rating\nWand or Staff: 16% increased Critical Hit Chance for Spells\nArmour: 8% increased Life and Mana Recovery from Flasks\nBonded:\nMartial Weapon: Attacks have +1% to Critical Hit Chance\nWand or Staff: 25% increased Critical Damage Bonus\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/FireRuneTier2.webp",
+  "id": "Greater_Desert_Rune",
+  "text": "Greater Desert Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: Adds 13 to 16 Fire Damage\nWand or Staff: Gain 10% of Damage as Extra Fire Damage\nArmour: +18% to Fire Resistance\nBonded:\nMartial Weapon: 30% increased Ignite Magnitude\nWand or Staff: 30% increased Ignite Magnitude\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ColdRuneTier2.webp",
+  "id": "Greater_Glacial_Rune",
+  "text": "Greater Glacial Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: Adds 9 to 15 Cold Damage\nWand or Staff: Gain 10% of Damage as Extra Cold Damage\nArmour: +18% to Cold Resistance\nBonded:\nMartial Weapon: 30% increased Freeze Buildup\nWand or Staff: 30% increased Freeze Buildup\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneTier2.webp",
+  "id": "Greater_Storm_Rune",
+  "text": "Greater Storm Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: Adds 1 to 30 Lightning Damage\nWand or Staff: Gain 10% of Damage as Extra Lightning Damage\nArmour: +18% to Lightning Resistance\nBonded:\nMartial Weapon: 30% increased Magnitude of Shock you inflict\nWand or Staff: 30% increased Magnitude of Shock you inflict\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/EnhanceRuneTier2.webp",
+  "id": "Greater_Iron_Rune",
+  "text": "Greater Iron Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: 18% increased Physical Damage\nWand or Staff: 30% increased Spell Damage\nArmour: 18% increased Armour, Evasion and Energy Shield\nBonded:\nMartial Weapon: 20% increased effect of Fully Broken Armour\nWand or Staff: Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRuneTier2.webp",
+  "id": "Greater_Body_Rune",
+  "text": "Greater Body Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: Leeches 5% of Physical Damage as Life\nWand or Staff: +50 to maximum Energy Shield\nArmour: +60 to maximum Life\nBonded:\nMartial Weapon: 5% increased maximum Life\nWand or Staff: 5% increased maximum Life\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRuneTier2.webp",
+  "id": "Greater_Mind_Rune",
+  "text": "Greater Mind Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: Leeches 4% of Physical Damage as Mana\nWand or Staff: +75 to maximum Mana\nArmour: +40 to maximum Mana\nBonded:\nMartial Weapon: 5% increased maximum Mana\nWand or Staff: 5% increased maximum Mana\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LifeRecoveryRuneTier2.webp",
+  "id": "Greater_Rebirth_Rune",
+  "text": "Greater Rebirth Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: Gain 35 Life per enemy killed\nWand or Staff: 10% increased Energy Shield Recharge Rate\nArmour: Regenerate 0.45% of maximum Life per second\nBonded:\nMartial Weapon: Regenerate 0.4% of maximum Life per second\nWand or Staff: 8% of Damage taken Recouped as Life\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/ManaRecoveryRuneTier2.webp",
+  "id": "Greater_Inspiration_Rune",
+  "text": "Greater Inspiration Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: Gain 30 Mana per enemy killed\nWand or Staff: 30% increased Mana Regeneration Rate\nArmour: 18% increased Mana Regeneration Rate\nBonded:\nMartial Weapon: 12% of Skill Mana Costs Converted to Life Costs\nWand or Staff: 16% increased Mana Cost Efficiency\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StunRuneTier2.webp",
+  "id": "Greater_Stone_Rune",
+  "text": "Greater Stone Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: Causes 40% increased Stun Buildup\nWand or Staff: Gain additional Stun Threshold equal to 14% of maximum Energy Shield\nArmour: +100 to Stun Threshold\nBonded:\nMartial Weapon: 40% increased Damage against Immobilised Enemies\nWand or Staff: 30% increased Immobilisation buildup\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/AccuracyRuneTier2.webp",
+  "id": "Greater_Vision_Rune",
+  "text": "Greater Vision Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: +120 to Accuracy Rating\nWand or Staff: 24% increased Critical Hit Chance for Spells\nArmour: 16% increased Life and Mana Recovery from Flasks\nBonded:\nMartial Weapon: Attacks have +1% to Critical Hit Chance\nWand or Staff: 25% increased Critical Damage Bonus\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneFire.webp",
+  "id": "Perfect_Desert_Rune",
+  "text": "Perfect Desert Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: Adds 17 to 20 Fire Damage\nWand or Staff: Gain 12% of Damage as Extra Fire Damage\nArmour: +22% to Fire Resistance\nBonded:\nMartial Weapon: 30% increased Ignite Magnitude\nWand or Staff: 30% increased Ignite Magnitude\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneCold.webp",
+  "id": "Perfect_Glacial_Rune",
+  "text": "Perfect Glacial Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: Adds 16 to 20 Cold Damage\nWand or Staff: Gain 12% of Damage as Extra Cold Damage\nArmour: +22% to Cold Resistance\nBonded:\nMartial Weapon: 30% increased Freeze Buildup\nWand or Staff: 30% increased Freeze Buildup\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneLightning.webp",
+  "id": "Perfect_Storm_Rune",
+  "text": "Perfect Storm Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: Adds 1 to 40 Lightning Damage\nWand or Staff: Gain 12% of Damage as Extra Lightning Damage\nArmour: +22% to Lightning Resistance\nBonded:\nMartial Weapon: 30% increased Magnitude of Shock you inflict\nWand or Staff: 30% increased Magnitude of Shock you inflict\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneEnhance.webp",
+  "id": "Perfect_Iron_Rune",
+  "text": "Perfect Iron Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: 20% increased Physical Damage\nWand or Staff: 35% increased Spell Damage\nArmour: 20% increased Armour, Evasion and Energy Shield\nBonded:\nMartial Weapon: 20% increased effect of Fully Broken Armour\nWand or Staff: Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneLife.webp",
+  "id": "Perfect_Body_Rune",
+  "text": "Perfect Body Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: Leeches 6% of Physical Damage as Life\nWand or Staff: +60 to maximum Energy Shield\nArmour: +75 to maximum Life\nBonded:\nMartial Weapon: 5% increased maximum Life\nWand or Staff: 5% increased maximum Life\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneMana.webp",
+  "id": "Perfect_Mind_Rune",
+  "text": "Perfect Mind Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: Leeches 5% of Physical Damage as Mana\nWand or Staff: +90 to maximum Mana\nArmour: +50 to maximum Mana\nBonded:\nMartial Weapon: 5% increased maximum Mana\nWand or Staff: 5% increased maximum Mana\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneLifeRecovery.webp",
+  "id": "Perfect_Rebirth_Rune",
+  "text": "Perfect Rebirth Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: Gain 45 Life per enemy killed\nWand or Staff: 12% increased Energy Shield Recharge Rate\nArmour: Regenerate 0.5% of maximum Life per second\nBonded:\nMartial Weapon: Regenerate 0.4% of maximum Life per second\nWand or Staff: 8% of Damage taken Recouped as Life\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneManaRecovery.webp",
+  "id": "Perfect_Inspiration_Rune",
+  "text": "Perfect Inspiration Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: Gain 40 Mana per enemy killed\nWand or Staff: 35% increased Mana Regeneration Rate\nArmour: 21% increased Mana Regeneration Rate\nBonded:\nMartial Weapon: 12% of Skill Mana Costs Converted to Life Costs\nWand or Staff: 16% increased Mana Cost Efficiency\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneStun.webp",
+  "id": "Perfect_Stone_Rune",
+  "text": "Perfect Stone Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: Causes 50% increased Stun Buildup\nWand or Staff: Gain additional Stun Threshold equal to 16% of maximum Energy Shield\nArmour: +125 to Stun Threshold\nBonded:\nMartial Weapon: 40% increased Damage against Immobilised Enemies\nWand or Staff: 30% increased Immobilisation buildup\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneAccuracy.webp",
+  "id": "Perfect_Vision_Rune",
+  "text": "Perfect Vision Rune\nStack Size: 1 / 10\nRequires: Level 50\nMartial Weapon: +150 to Accuracy Rating\nWand or Staff: 28% increased Critical Hit Chance for Spells\nArmour: 20% increased Life and Mana Recovery from Flasks\nBonded:\nMartial Weapon: Attacks have +1% to Critical Hit Chance\nWand or Staff: 25% increased Critical Damage Bonus\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StrengthRuneTier1.webp",
+  "id": "Lesser_Robust_Rune",
+  "text": "Lesser Robust Rune\nStack Size: 1 / 10\nAll Equipment: +6 to Strength\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 6 to 10 Fire damage to Attacks\nWand or Staff: +100 to Armour\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StrengthRune.webp",
+  "id": "Robust_Rune",
+  "text": "Robust Rune\nStack Size: 1 / 10\nRequires: Level 15\nAll Equipment: +9 to Strength\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 6 to 10 Fire damage to Attacks\nWand or Staff: +100 to Armour\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/StrengthRuneTier3.webp",
+  "id": "Greater_Robust_Rune",
+  "text": "Greater Robust Rune\nStack Size: 1 / 10\nRequires: Level 30\nAll Equipment: +12 to Strength\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 6 to 10 Fire damage to Attacks\nWand or Staff: +100 to Armour\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneStrength.webp",
+  "id": "Perfect_Robust_Rune",
+  "text": "Perfect Robust Rune\nStack Size: 1 / 10\nRequires: Level 50\nAll Equipment: +15 to Strength\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 6 to 10 Fire damage to Attacks\nWand or Staff: +100 to Armour\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/DexRuneTier1.webp",
+  "id": "Lesser_Adept_Rune",
+  "text": "Lesser Adept Rune\nStack Size: 1 / 10\nAll Equipment: +6 to Dexterity\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 1 to 16 Lightning damage to Attacks\nWand or Staff: +80 to Evasion Rating\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/DexRune.webp",
+  "id": "Adept_Rune",
+  "text": "Adept Rune\nStack Size: 1 / 10\nRequires: Level 15\nAll Equipment: +9 to Dexterity\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 1 to 16 Lightning damage to Attacks\nWand or Staff: +80 to Evasion Rating\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/DexRuneTier3.webp",
+  "id": "Greater_Adept_Rune",
+  "text": "Greater Adept Rune\nStack Size: 1 / 10\nRequires: Level 30\nAll Equipment: +12 to Dexterity\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 1 to 16 Lightning damage to Attacks\nWand or Staff: +80 to Evasion Rating\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneDexterity.webp",
+  "id": "Perfect_Adept_Rune",
+  "text": "Perfect Adept Rune\nStack Size: 1 / 10\nRequires: Level 50\nAll Equipment: +15 to Dexterity\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 1 to 16 Lightning damage to Attacks\nWand or Staff: +80 to Evasion Rating\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/IntRuneTier1.webp",
+  "id": "Lesser_Resolve_Rune",
+  "text": "Lesser Resolve Rune\nStack Size: 1 / 10\nAll Equipment: +6 to Intelligence\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 5 to 8 Cold damage to Attacks\nWand or Staff: +50 to maximum Energy Shield\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/IntRune.webp",
+  "id": "Resolve_Rune",
+  "text": "Resolve Rune\nStack Size: 1 / 10\nRequires: Level 15\nAll Equipment: +9 to Intelligence\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 5 to 8 Cold damage to Attacks\nWand or Staff: +50 to maximum Energy Shield\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/IntRuneTier3.webp",
+  "id": "Greater_Resolve_Rune",
+  "text": "Greater Resolve Rune\nStack Size: 1 / 10\nRequires: Level 30\nAll Equipment: +12 to Intelligence\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 5 to 8 Cold damage to Attacks\nWand or Staff: +50 to maximum Energy Shield\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PerfectRuneIntelligence.webp",
+  "id": "Perfect_Resolve_Rune",
+  "text": "Perfect Resolve Rune\nStack Size: 1 / 10\nRequires: Level 50\nAll Equipment: +15 to Intelligence\nBonded:\nMartial Weapon: Adds 6 to 10 Physical Damage to Attacks, Adds 5 to 8 Cold damage to Attacks\nWand or Staff: +50 to maximum Energy Shield\nArmour: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PhyDmgRuneTier1.webp",
+  "id": "Lesser_Tempered_Rune",
+  "text": "Lesser Tempered Rune\nStack Size: 1 / 10\nMartial Weapon: Adds 3 to 4 Physical Damage\nArmour: 6 to 9 Physical Thorns damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PhyDmgRune.webp",
+  "id": "Tempered_Rune",
+  "text": "Tempered Rune\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Adds 6 to 9 Physical Damage\nArmour: 14 to 21 Physical Thorns damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/PhyDmgRuneTier3.webp",
+  "id": "Greater_Tempered_Rune",
+  "text": "Greater Tempered Rune\nStack Size: 1 / 10\nRequires: Level 30\nMartial Weapon: Adds 9 to 12 Physical Damage\nArmour: 31 to 52 Physical Thorns damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneSpecial1.webp",
+  "id": "Greater_Rune_of_Leadership",
+  "text": "Greater Rune of Leadership\nStack Size: 1 / 10\nMartial Weapon: Minions gain 10% of their Physical Damage as Extra Lightning Damage\nArmour: Minions take 10% of Physical Damage as Lightning Damage\nBonded:\nMartial Weapon: Minions deal 20% increased Damage\nArmour: Minions have +10% to all Elemental Resistances"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneSpecial2.webp",
+  "id": "Greater_Rune_of_Tithing",
+  "text": "Greater Rune of Tithing\nStack Size: 1 / 10\nMartial Weapon: Meta Skills gain 10% increased Energy\nArmour: 1 to 100 Lightning Thorns damage\nBonded:\nMartial Weapon: Invocated Spells have 25% chance to consume half as much Energy\nArmour: 15% increased Thorns damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneSpecial3.webp",
+  "id": "Greater_Rune_of_Alacrity",
+  "text": "Greater Rune of Alacrity\nStack Size: 1 / 10\nMartial Weapon: 8% increased Skill Speed\nArmour: Debuffs on you expire 8% faster\nBonded:\nMartial Weapon: 15% increased Reservation Efficiency of Herald Skills\nArmour: 15% increased Elemental Ailment Threshold"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/LightningRuneSpecial4.webp",
+  "id": "Greater_Rune_of_Nobility",
+  "text": "Greater Rune of Nobility\nStack Size: 1 / 10\nMartial Weapon: Attacks with this Weapon have 10% chance to inflict Exposure\nArmour: 10% reduced effect of Shock on you\nBonded:\nMartial Weapon: 20% increased Exposure Effect\nArmour: 10% reduced Shock duration on you"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune1.webp",
+  "id": "Hedgewitch_Assandras_Rune_of_Wisdom",
+  "text": "Hedgewitch Assandra's Rune of Wisdom\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nWand or Staff: +1 to Level of all Spell Skills\nBonded:\nWand or Staff: Archon recovery period expires 30% faster"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune2.webp",
+  "id": "Saqawals_Rune_of_the_Sky",
+  "text": "Saqawal's Rune of the Sky\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: Gain 5% of Damage as Extra Damage of all Elements\nWand or Staff: Gain 5% of Damage as Extra Damage of all Elements\nBonded:\nMartial Weapon: 8% chance to gain an additional random Charge when you gain a Charge\nWand or Staff: 12% chance when collecting an Elemental Infusion to gain an\nadditional Elemental Infusion of the same type"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune3.webp",
+  "id": "Fenumus_Rune_of_Agony",
+  "text": "Fenumus' Rune of Agony\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: Gain 13% of Damage as Extra Chaos Damage\nWand or Staff: Gain 13% of Damage as Extra Chaos Damage\nBonded:\nMartial Weapon: Gain 8% of Damage as Extra Physical Damage\nWand or Staff: Gain 8% of Damage as Extra Physical Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune4.webp",
+  "id": "Farruls_Rune_of_Grace",
+  "text": "Farrul's Rune of Grace\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBoots: 8% increased Deflection Rating while moving\nBonded:\nBoots: Prevent +3% of Damage from Deflected Hits"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune5.webp",
+  "id": "Farruls_Rune_of_the_Chase",
+  "text": "Farrul's Rune of the Chase\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBoots: 5% increased Movement Speed\nBonded:\nBoots: 10% increased Cooldown Recovery Rate"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune6.webp",
+  "id": "Craiceanns_Rune_of_Warding",
+  "text": "Craiceann's Rune of Warding\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBody Armours: 50% reduced effect of Curses on you\nBonded:\nBody Armours: 8% increased Curse Magnitudes"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune7.webp",
+  "id": "Saqawals_Rune_of_Memory",
+  "text": "Saqawal's Rune of Memory\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: 2% increased Experience gain\nBonded:\nHelmets: +10% to all Elemental Resistances"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune8.webp",
+  "id": "Saqawals_Rune_of_Erosion",
+  "text": "Saqawal's Rune of Erosion\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: 25% increased Exposure Effect\nBonded:\nHelmets: 15% increased Magnitude of Non-Damaging Ailments you inflict"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune9.webp",
+  "id": "Farruls_Rune_of_the_Hunt",
+  "text": "Farrul's Rune of the Hunt\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: 50% increased Attack Damage against Rare or Unique Enemies\nBonded:\nMartial Weapon: +1 to Level of all Attack Skills"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune10.webp",
+  "id": "Craiceanns_Rune_of_Recovery",
+  "text": "Craiceann's Rune of Recovery\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBody Armours: 30% increased Energy Shield Recharge Rate\nBonded:\nBody Armours: Gain additional Ailment Threshold equal to 50% of maximum Energy Shield, Gain additional Stun Threshold equal to 50% of maximum Energy Shield"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune11.webp",
+  "id": "Courtesan_Mannans_Rune_of_Cruelty",
+  "text": "Courtesan Mannan's Rune of Cruelty\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nGloves: 20% increased Magnitude of Damaging Ailments you inflict\nBonded:\nGloves: 15% increased Duration of Damaging Ailments on Enemies"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune12.webp",
+  "id": "Thane_Grannells_Rune_of_Mastery",
+  "text": "Thane Grannell's Rune of Mastery\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nGloves: 30% increased Magnitude of Non-Damaging Ailments you inflict\nBonded:\nGloves: 15% increased Duration of Elemental Ailments on Enemies"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune13.webp",
+  "id": "Fenumus_Rune_of_Spinning",
+  "text": "Fenumus' Rune of Spinning\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nGloves: 8% increased Cast Speed\nBonded:\nGloves: 20% increased Mana Cost Efficiency while on Low Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune14.webp",
+  "id": "Countess_Seskes_Rune_of_Archery",
+  "text": "Countess Seske's Rune of Archery\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBows: Bow Attacks fire 1 additional Arrows\nBonded:\nBows: 20% increased Projectile Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune15.webp",
+  "id": "Thane_Girts_Rune_of_Wildness",
+  "text": "Thane Girt's Rune of Wildness\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nWand or Staff: 25% chance for Spell Skills to fire 2 additional Projectiles\nBonded:\nWand or Staff: Every Rage also grants 1% increased Spell Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune16.webp",
+  "id": "Fenumus_Rune_of_Draining",
+  "text": "Fenumus' Rune of Draining\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nGloves: 20% increased Withered Magnitude\nBonded:\nGloves: +7% to Chaos Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune17.webp",
+  "id": "Thane_Myrks_Rune_of_Summer",
+  "text": "Thane Myrk's Rune of Summer\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: Adds 23 to 34 Fire Damage to Attacks against Ignited Enemies\nBonded:\nMartial Weapon: +2% to Maximum Fire Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune18.webp",
+  "id": "Lady_Hestras_Rune_of_Winter",
+  "text": "Lady Hestra's Rune of Winter\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: Adds 19 to 28 Cold Damage against Chilled Enemies\nBonded:\nMartial Weapon: +2% to Maximum Cold Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune19.webp",
+  "id": "Thane_Lelds_Rune_of_Spring",
+  "text": "Thane Leld's Rune of Spring\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: Adds 1 to 60 Lightning Damage against Shocked Enemies\nBonded:\nMartial Weapon: +2% to Maximum Lightning Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune20.webp",
+  "id": "The_Greatwolfs_Rune_of_Claws",
+  "text": "The Greatwolf's Rune of Claws\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nGloves: Adds 5 to 12 Physical Damage to Attacks\nBonded:\nGloves: Fissure Skills have +2 to Limit"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Runes/NewRune21.webp",
+  "id": "The_Greatwolfs_Rune_of_Willpower",
+  "text": "The Greatwolf's Rune of Willpower\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBody Armours: 15% of Damage is taken from Mana before Life\nBonded:\nBody Armours: 8% of Maximum Life Converted to Energy Shield"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/UpgradeRune.webp",
+  "id": "Masterwork_Rune",
+  "text": "Masterwork Rune\nStack Size: 1 / 10\nAll Equipment: Upgrades a socketed Rune"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableWolfSpecial.webp",
+  "id": "Idol_of_Sirrius",
+  "text": "Idol of Sirrius\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nGloves: 8% increased Attack Speed\nSceptres: Allies in your Presence have 8% increased Movement Speed\nBonded:\nGloves: 20% reduced Slowing Potency of Debuffs on You\nSceptres: 4% increased Movement Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableSnakeSpecial.webp",
+  "id": "Idol_of_Thruldana",
+  "text": "Idol of Thruldana\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: 25% reduced Poison Duration, Targets can be affected by +1 of your Poisons at the same time\nSceptres: Allies in your Presence deal 13 to 27 added Attack Chaos Damage\nBonded:\nMartial Weapon: Gain 13% of Physical Damage as extra Chaos Damage\nSceptres: 15% increased Withered Magnitude"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableBearSpecial.webp",
+  "id": "Idol_of_Grold",
+  "text": "Idol of Grold\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBoots: 50% increased total Power counted by Warcries\nSceptres: 15% increased Damage per each different Companion in your Presence\nBonded:\nBoots: 30% increased Glory generation\nSceptres: 15% increased Reservation Efficiency of Companion Skills"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableOwlSpecial.webp",
+  "id": "Idol_of_Eeshta",
+  "text": "Idol of Eeshta\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: 15% increased Cost Efficiency\nSceptres: 15% increased Mana Recovery rate while your Companion is in your Presence\nBonded:\nHelmets: Meta Skills have 15% increased Reservation Efficiency\nSceptres: 8% increased Life Recovery Rate while your Companion is in your Presence"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableCatSpecial.webp",
+  "id": "Idol_of_Egrin",
+  "text": "Idol of Egrin\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: Enemies you Curse take 6% increased Damage\nSceptres: 20% increased Curse Duration\nBonded:\nHelmets: 20% increased Area of Effect of Curses\nSceptres: Curse zones erupt after 20% reduced delay"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableStagSpecial.webp",
+  "id": "Idol_of_Maxarius",
+  "text": "Idol of Maxarius\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBody Armours: +1 Charm Slots\nSceptres: Flasks gain 0.2 charges per Second\nBonded:\nBody Armours: Storm Skills have +1 to Limit\nSceptres: 20% increased Life and Mana Recovery from Flasks"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableMonkeySpecial.webp",
+  "id": "Idol_of_Ralakesh",
+  "text": "Idol of Ralakesh\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: 8% increased Reservation Efficiency of Minion Skills\nSceptres: 40% increased Armour, Evasion and Energy Shield while your Companion is in your Presence\nBonded:\nHelmets: Minions Revive 8% faster\nSceptres: Companions have 25% increased maximum Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofGreust.webp",
+  "id": "Idol_of_Greust",
+  "text": "Idol of Greust\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nShields: +25% of Armour also applies to Elemental Damage\nBucklers: Gain Deflection Rating equal to 20% of Evasion Rating\nSceptres: Companions deal 10% more Damage for each different type of dead Companion you have\nBonded:\nShields: 12% increased Damage for each type of Elemental Ailment on Enemy\nBucklers: 12% increased Damage for each type of Elemental Ailment on Enemy\nSceptres: Recover 3% of maximum Life when one of your Minions is Revived"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofYeena.webp",
+  "id": "Idol_of_Yeena",
+  "text": "Idol of Yeena\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBoots: 30% increased Skill Effect Duration with Plant Skills\nSceptres: Plants have a 25% chance to immediately Overgrow when they enter your Presence for the first time\nBonded:\nBoots: Plants have a 25% chance to immediately Overgrow when they enter your Presence for the first time\nSceptres: 30% increased Skill Effect Duration with Plant Skills"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofEramir.webp",
+  "id": "Idol_of_Eramir",
+  "text": "Idol of Eramir\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBody Armours: Skills have 10% chance to not remove Charges but still count as consuming them\nSceptres: Allies in your Presence share Charges with you\nBonded:\nBody Armours: 15% chance for Charms you use to not consume Charges\nSceptres: 25% increased Endurance, Frenzy and Power Charge Duration"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofOak.webp",
+  "id": "Idol_of_Oak",
+  "text": "Idol of Oak\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBoots: 15% chance when you gain an Endurance Charge to gain an additional Endurance Charge\nSceptres: If you would gain an Endurance Charge, Allies in your Presence gain that Charge instead\nBonded:\nBoots: +1 to Maximum Endurance Charges\nSceptres: 40% increased Armour if you've consumed an Endurance Charge Recently"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdoloAlira.webp",
+  "id": "Idol_of_Alira",
+  "text": "Idol of Alira\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: 15% chance when you gain a Power Charge to gain an additional Power Charge\nSceptres: If you would gain a Power Charge, Allies in your Presence gain that Charge instead\nBonded:\nHelmets: +1 to Maximum Power Charges\nSceptres: 40% increased maximum Energy Shield if you've consumed a Power Charge Recently"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdoloKraityn.webp",
+  "id": "Idol_of_Kraityn",
+  "text": "Idol of Kraityn\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nGloves: 15% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge\nSceptres: If you would gain a Frenzy Charge, Allies in your Presence gain that Charge instead\nBonded:\nGloves: +1 to Maximum Frenzy Charges\nSceptres: 40% increased Evasion Rating if you've consumed a Frenzy Charge Recently"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/IdolofSilk.webp",
+  "id": "Idol_of_Silk",
+  "text": "Idol of Silk\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nShields: 15% increased Block chance while your Companion is in your Presence\nBucklers: companions gain onslaught when you parry [1]\nSceptres: Companions in your Presence gain 1 Rage on hit\nBonded:\nShields: +3% to maximum Block chance\nBucklers: 30% increased Parry Range\nSceptres: Companions have 30% increased Area of Effect"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/RitualCorruptedIdol1.webp",
+  "id": "Idol_of_the_Sycophant",
+  "text": "Idol of the Sycophant\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon, Wand or Staff: -20% to all Elemental Resistances, Gain 20% of Damage as Extra Damage of a random Element\nSceptres: Companions in your Presence have -20% to all Elemental Resistances, Companions in your Presence Gain 20% of Damage as Extra Damage of a random Element\nBonded:\nMartial Weapon, Wand or Staff: -20% to Chaos Resistance, Gain 20% of Damage as Extra Chaos Damage\nSceptres: Allies in your Presence Gain 20% of Damage as Extra Chaos Damage, Companions in your Presence have -20% to Chaos Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/RitualCorruptedIdol2.webp",
+  "id": "Idol_of_the_Martyr",
+  "text": "Idol of the Martyr\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon, Wand or Staff: 25% reduced Spirit, Meta Skills gain 40% increased Energy\nSceptres: 40% reduced Presence Area of Effect, Aura Skills have 25% increased Magnitudes\nBonded:\nMartial Weapon, Wand or Staff: Invocated skills have 25% increased Maximum Energy, Meta Skills have 25% reduced Reservation Efficiency\nSceptres: Allies in your Presence Regenerate 3% of your Maximum Life per second, 25% reduced Life Regeneration rate"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/RitualCorruptedIdol3.webp",
+  "id": "Idol_of_the_Pharisee",
+  "text": "Idol of the Pharisee\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon, Wand or Staff: 30% reduced maximum Mana, Gain 2% of Damage as Extra Physical Damage per ten percent missing Mana\nSceptres: 30% reduced Mana Cost Efficiency of Command Skills, Minions deal 60% increased Damage with Command Skills\nBonded:\nMartial Weapon, Wand or Staff: 30% reduced Mana Cost Efficiency, 12% increased Skill Speed while on Low Mana\nSceptres: 25% reduced Reservation Efficiency of Minion Skills, Temporary Minion Skills have +2 to Limit of Minions summoned"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketablePanther.webp",
+  "id": "Panther_Idol",
+  "text": "Panther Idol\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBody Armours: +10% of Armour also applies to Chaos Damage\nSceptres: Minions have +20% to Chaos Resistance\nBonded:\nBody Armours: +8% to Chaos Resistance\nSceptres: Minions have 20% additional Physical Damage Reduction"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableHawk.webp",
+  "id": "Hawk_Idol",
+  "text": "Hawk Idol\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBody Armours: 10% increased Deflection Rating\nSceptres: Companions have 12% increased Attack Speed\nBonded:\nBody Armours: +12% to Cold Resistance\nSceptres: 8% increased Attack Speed while your Companion is in your Presence"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableStoat.webp",
+  "id": "Stoat_Idol",
+  "text": "Stoat Idol\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBody Armours: 5% of Damage taken bypasses Energy Shield\nSceptres: Companions have 25% increased maximum Life\nBonded:\nBody Armours: +12% to Lightning Resistance\nSceptres: 25% increased Damage while your Companion is in your Presence"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreIce.webp",
+  "id": "Hayoxis_Soul_Core_of_Heatproofing",
+  "text": "Hayoxi's Soul Core of Heatproofing\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: +40% of Armour also applies to Cold Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreLightning.webp",
+  "id": "Zalatls_Soul_Core_of_Insulation",
+  "text": "Zalatl's Soul Core of Insulation\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBoots: +40% of Armour also applies to Lightning Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreFire.webp",
+  "id": "Topotantes_Soul_Core_of_Dampening",
+  "text": "Topotante's Soul Core of Dampening\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nGloves: +40% of Armour also applies to Fire Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreEnergyShield.webp",
+  "id": "Atmohuas_Soul_Core_of_Retreat",
+  "text": "Atmohua's Soul Core of Retreat\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBody Armours: Gain additional Ailment Threshold equal to 15% of maximum Energy Shield, Gain additional Stun Threshold equal to 15% of maximum Energy Shield\nFoci: Gain additional Ailment Threshold equal to 15% of maximum Energy Shield, Gain additional Stun Threshold equal to 15% of maximum Energy Shield"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreTimeCooldown.webp",
+  "id": "Quipolatls_Soul_Core_of_Flow",
+  "text": "Quipolatl's Soul Core of Flow\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: 8% increased Skill Effect Duration, 8% increased Cooldown Recovery Rate"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreRage.webp",
+  "id": "Tzamotos_Soul_Core_of_Ferocity",
+  "text": "Tzamoto's Soul Core of Ferocity\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: +4 to Maximum Rage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreCurses2.webp",
+  "id": "Uromotis_Soul_Core_of_Attenuation",
+  "text": "Uromoti's Soul Core of Attenuation\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBoots: 15% increased Curse Duration, 15% increased Poison Duration"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreFrenzyCharge.webp",
+  "id": "Opilotis_Soul_Core_of_Assault",
+  "text": "Opiloti's Soul Core of Assault\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: 50% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge\nWand or Staff: 50% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreEnduranceCharge.webp",
+  "id": "Guatelitzis_Soul_Core_of_Endurance",
+  "text": "Guatelitzi's Soul Core of Endurance\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: 50% chance when you gain an Endurance Charge to gain an additional Endurance Charge\nWand or Staff: 50% chance when you gain an Endurance Charge to gain an additional Endurance Charge"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCorePowerCharge.webp",
+  "id": "Xopecs_Soul_Core_of_Power",
+  "text": "Xopec's Soul Core of Power\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: 50% chance when you gain a Power Charge to gain an additional Power Charge\nWand or Staff: 50% chance when you gain a Power Charge to gain an additional Power Charge"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreTimeSlow.webp",
+  "id": "Estazuntis_Soul_Core_of_Convalescence",
+  "text": "Estazunti's Soul Core of Convalescence\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBoots: 12% increased speed of Recoup Effects\nHelmets: 8% of Damage taken Recouped as Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreChaos1.webp",
+  "id": "Tacatis_Soul_Core_of_Affliction",
+  "text": "Tacati's Soul Core of Affliction\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nHelmets: Enemies you Curse have -5% to Chaos Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreProjectile.webp",
+  "id": "Cholotls_Soul_Core_of_War",
+  "text": "Cholotl's Soul Core of War\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nBows: 20% increased Projectile Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreChaos2.webp",
+  "id": "Citaqualotls_Soul_Core_of_Foulness",
+  "text": "Citaqualotl's Soul Core of Foulness\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nMartial Weapon: Adds 19 to 29 Chaos damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/NewSoulCoreMinion.webp",
+  "id": "Xipocados_Soul_Core_of_Dominion",
+  "text": "Xipocado's Soul Core of Dominion\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 50\nWand or Staff: Minions deal 40% increased Damage with Command Skills\nSceptres: Minions deal 40% increased Damage with Command Skills"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreChaos.webp",
+  "id": "Soul_Core_of_Tacati",
+  "text": "Soul Core of Tacati\nStack Size: 1 / 10\nMartial Weapon: 15% chance to Poison on Hit with this weapon\nArmour: +11% to Chaos Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCorePhysical.webp",
+  "id": "Soul_Core_of_Opiloti",
+  "text": "Soul Core of Opiloti\nStack Size: 1 / 10\nMartial Weapon: 15% chance to cause Bleeding on Hit\nHelmets: 20% increased Charm Charges gained"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreLife.webp",
+  "id": "Soul_Core_of_Jiquani",
+  "text": "Soul Core of Jiquani\nStack Size: 1 / 10\nMartial Weapon: Recover 2% of maximum Life on Kill\nBody Armours: 3% increased maximum Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreMana.webp",
+  "id": "Soul_Core_of_Zalatl",
+  "text": "Soul Core of Zalatl\nStack Size: 1 / 10\nMartial Weapon: Recover 2% of maximum Mana on Kill\nHelmets: 3% increased maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreElementalResist.webp",
+  "id": "Soul_Core_of_Citaqualotl",
+  "text": "Soul Core of Citaqualotl\nStack Size: 1 / 10\nMartial Weapon: 30% increased Elemental Damage with Attacks\nArmour: +5% to all Elemental Resistances"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreFire.webp",
+  "id": "Soul_Core_of_Puhuarte",
+  "text": "Soul Core of Puhuarte\nStack Size: 1 / 10\nMartial Weapon: 30% increased Flammability Magnitude\nGloves: +1% to Maximum Fire Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreCold.webp",
+  "id": "Soul_Core_of_Tzamoto",
+  "text": "Soul Core of Tzamoto\nStack Size: 1 / 10\nMartial Weapon: 30% increased Freeze Buildup\nHelmets: +1% to Maximum Cold Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreLightning.webp",
+  "id": "Soul_Core_of_Xopec",
+  "text": "Soul Core of Xopec\nStack Size: 1 / 10\nMartial Weapon: 30% increased chance to Shock\nBoots: +1% to Maximum Lightning Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreWealthRarity.webp",
+  "id": "Soul_Core_of_Azcapa",
+  "text": "Soul Core of Azcapa\nStack Size: 1 / 10\nMartial Weapon: +15 to Spirit\nGloves: 10% increased Quantity of Gold Dropped by Slain Enemies"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreTriElement.webp",
+  "id": "Soul_Core_of_Topotante",
+  "text": "Soul Core of Topotante\nStack Size: 1 / 10\nMartial Weapon: Attacks with this Weapon Penetrate 15% Elemental Resistances\nBoots: 25% increased Elemental Ailment Threshold"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreSpeed.webp",
+  "id": "Soul_Core_of_Quipolatl",
+  "text": "Soul Core of Quipolatl\nStack Size: 1 / 10\nMartial Weapon: 5% increased Attack Speed\nBoots: 15% reduced Slowing Potency of Debuffs on You"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreCrit.webp",
+  "id": "Soul_Core_of_Ticaba",
+  "text": "Soul Core of Ticaba\nStack Size: 1 / 10\nMartial Weapon: +5% to Critical Damage Bonus\nBody Armours: Hits against you have 20% reduced Critical Damage Bonus\nShields and Bucklers: Hits against you have 20% reduced Critical Damage Bonus"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreStrength.webp",
+  "id": "Soul_Core_of_Atmohua",
+  "text": "Soul Core of Atmohua\nStack Size: 1 / 10\nMartial Weapon: Convert 20% of Requirements to Strength\nArmour: Convert 20% of Requirements to Strength"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreDex.webp",
+  "id": "Soul_Core_of_Cholotl",
+  "text": "Soul Core of Cholotl\nStack Size: 1 / 10\nMartial Weapon: Convert 20% of Requirements to Dexterity\nArmour: Convert 20% of Requirements to Dexterity"
+ },
+ {
+  "icon": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreint.webp",
+  "id": "Soul_Core_of_Zantipi",
+  "text": "Soul Core of Zantipi\nStack Size: 1 / 10\nMartial Weapon: Convert 20% of Requirements to Intelligence\nArmour: Convert 20% of Requirements to Intelligence"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableSnake.webp",
+  "id": "Snake_Idol",
+  "text": "Snake Idol\nStack Size: 1 / 10\nGloves: 8% increased Curse Magnitudes\nSceptres: Allies in your Presence have 10% increased Attack Speed\nBonded:\nGloves: Remnants you create have 15% increased effect\nSceptres: 10% increased Skill Speed while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableMonkey.webp",
+  "id": "Primate_Idol",
+  "text": "Primate Idol\nStack Size: 1 / 10\nHelmets: Minions have 15% increased maximum Life\nSceptres: Allies in your Presence deal 40% increased Damage\nBonded:\nHelmets: Remnants can be collected from 30% further away\nSceptres: 40% increased Damage while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableOwl.webp",
+  "id": "Owl_Idol",
+  "text": "Owl Idol\nStack Size: 1 / 10\nFoci: 12% increased Cooldown Recovery Rate\nSceptres: Allies in your Presence have 10% increased Cast Speed\nBonded:\nFoci: 20% increased effect of Archon Buffs on you\nSceptres: 10% increased Skill Speed while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableCat.webp",
+  "id": "Cat_Idol",
+  "text": "Cat Idol\nStack Size: 1 / 10\nGloves: 25% increased Accuracy Rating\nSceptres: Allies in your Presence have 14% increased Critical Hit Chance\nBonded:\nGloves: 30% increased Charm Charges gained\nSceptres: 25% increased Critical Hit Chance while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableWolf.webp",
+  "id": "Wolf_Idol",
+  "text": "Wolf Idol\nStack Size: 1 / 10\nGloves: 15% increased Magnitude of Bleeding you inflict\nSceptres: Allies in your Presence have 20% increased Critical Damage Bonus\nBonded:\nGloves: 25% reduced Magnitude of Bleeding on You\nSceptres: 25% increased Critical Hit Chance while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableStag.webp",
+  "id": "Stag_Idol",
+  "text": "Stag Idol\nStack Size: 1 / 10\nLimited to: 1\nHelmets: Projectiles have 15% chance to Fork\nSceptres: Allies in your Presence deal 1 to 40 added Attack Lightning Damage\nBonded:\nHelmets: Projectiles have 25% chance for an additional Projectile when Forking\nSceptres: 40% increased Attack Damage while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableBoar.webp",
+  "id": "Boar_Idol",
+  "text": "Boar Idol\nStack Size: 1 / 10\nGloves: Gain 1 Rage on Melee Hit\nSceptres: Allies in your Presence Regenerate 0.5% of your Maximum Life per second\nBonded:\nGloves: 25% increased Warcry Cooldown Recovery Rate\nSceptres: 25% increased Life Regeneration rate while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableBear.webp",
+  "id": "Bear_Idol",
+  "text": "Bear Idol\nStack Size: 1 / 10\nHelmets: 10% increased Area of Effect\nSceptres: Allies in your Presence deal 12 to 18 added Attack Physical Damage\nBonded:\nHelmets: 12% increased Reservation Efficiency of Companion Skills\nSceptres: 40% increased Attack Damage while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableOx.webp",
+  "id": "Ox_Idol",
+  "text": "Ox Idol\nStack Size: 1 / 10\nShields and Bucklers: 15% increased Block chance\nSceptres: Allies in your Presence have +12% to all Elemental Resistances\nBonded:\nShields and Bucklers: 15% chance for Damage of Enemies Hitting you to be Unlucky\nSceptres: +20% of Armour also applies to Elemental Damage while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableRabbit.webp",
+  "id": "Rabbit_Idol",
+  "text": "Rabbit Idol\nStack Size: 1 / 10\nLimited to: 1\nBody Armours: 12% increased Rarity of Items found\nSceptres: 15% increased Spirit\nBonded:\nBody Armours: 10% increased Quantity of Gold Dropped by Slain Enemies\nSceptres: Minions have 30% increased Cooldown Recovery Rate for Command Skills"
+ },
+ {
+  "icon": "Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableFox.webp",
+  "id": "Fox_Idol",
+  "text": "Fox Idol\nStack Size: 1 / 10\nLimited to: 1\nBody Armours: Idols socketed in this item gain the benefits of their Bonded modifiers, display additional socketable mods for idols [1]\nSceptres: 50% increased Presence Area of Effect\nBonded:\nBody Armours: +5% to Quality of all Skills\nSceptres: Minions have 30% increased Area of Effect"
+ },
+ {
+  "icon": "Art/2DItems/Currency/AbyssalEyeSocketables/AmanamusGaze.webp",
+  "id": "Amanamus_Gaze",
+  "text": "Amanamu's Gaze\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: Remove a Damaging Ailment when you use a Command Skill\nBody Armours: +2 to Armour per 1 Spirit\nBoots: 1% increased Movement Speed per 15 Spirit, up to a maximum of 40%\nOther Modifiers to Movement Speed except for Sprinting do not apply"
+ },
+ {
+  "icon": "Art/2DItems/Currency/AbyssalEyeSocketables/TecrodsGaze.webp",
+  "id": "Tecrods_Gaze",
+  "text": "Tecrod's Gaze\nLimited to: 1 Ancient Augment\nRequires: Level 60\nBody Armours: Regenerate 1.5% of maximum Life per second\nGloves: 25% increased Life Cost Efficiency\nBoots: 10% increased Movement Speed when on Low Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/AbyssalEyeSocketables/KurgalsGaze.webp",
+  "id": "Kurgals_Gaze",
+  "text": "Kurgal's Gaze\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: Increases and Reductions to Life Regeneration Rate also apply to Mana Regeneration Rate\nGloves: 40% increased effect of Arcane Surge on you\nBoots: 15% increased Mana Cost Efficiency if you haven't Dodge Rolled Recently"
+ },
+ {
+  "icon": "Art/2DItems/Currency/AbyssalEyeSocketables/UlamansGaze.webp",
+  "id": "Ulamans_Gaze",
+  "text": "Ulaman's Gaze\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: +1 to Accuracy Rating per 1 Item Evasion Rating on Equipped Helmet\nGloves: Critical Hit chance is Lucky against Parried enemies\nBody Armours: Prevent +3% of Damage from Deflected Hits"
+ },
+ {
+  "icon": "Art/2DItems/Currency/PerfectSoulCores/SoulCoreBlood.webp",
+  "id": "Guatelitzis_Thesis",
+  "text": "Guatelitzi's Thesis\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: Gain Armour equal to 35% of Life Lost from Hits in the past 8 seconds\nBody Armours: 10% of Physical Damage prevented Recouped as Life\nBoots: Lose 5% of maximum Life per second while Sprinting, 25% increased Movement Speed while Sprinting"
+ },
+ {
+  "icon": "Art/2DItems/Currency/PerfectSoulCores/SoulCoreSacrifice.webp",
+  "id": "Citaqualotls_Thesis",
+  "text": "Citaqualotl's Thesis\nLimited to: 1 Ancient Augment\nRequires: Level 60\nBody Armours: You Recoup 50% of Damage taken by your Offerings as Life\nGloves: One of your Persistent Minions revives when an Offering expires\nBoots: Sacrifice 10% of maximum Life to gain that much Guard when you Dodge Roll"
+ },
+ {
+  "icon": "Art/2DItems/Currency/PerfectSoulCores/SoulCoreSoul.webp",
+  "id": "Jiquanis_Thesis",
+  "text": "Jiquani's Thesis\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: +1 to maximum Mana per 2 Item Energy Shield on Equipped Helmet\nGloves: Energy Shield Recharge starts after spending a total of\n2000 Mana, no more than once every 2 seconds\nBoots: Increases and Reductions to Movement Speed also\napply to Energy Shield Recharge Rate"
+ },
+ {
+  "icon": "Art/2DItems/Currency/PerfectSoulCores/SoulCoreScience.webp",
+  "id": "Quipolatls_Thesis",
+  "text": "Quipolatl's Thesis\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: A random Skill that requires Glory generates 50% of its maximum Glory when your Marks Activate\nGloves: Your Energy Shield Recharge starts when your Minions are Reformed\nBody Armours: +75% of Armour also applies to Chaos Damage while on full Energy Shield"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ExpeditionReligionAncientAugment.webp",
+  "id": "Emergent_Vigour",
+  "text": "Emergent Vigour\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: +1 to maximum Life per 8 Armour on Equipped Helmet\nBody Armours: Gain Maximum Energy Shield equal to 50% of total\nStrength Requirements of Equipped Armour Items\nBoots: Hits against you have no Critical Damage Bonus while on Consecrated Ground\nBonded:\nHelmets: +20 to Spirit\nBody Armours: +20 to Strength\nBoots: 20% increased Effect of Consecrated Ground you create"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ExpeditionScienceAncientAugment.webp",
+  "id": "Emergent_Possibility",
+  "text": "Emergent Possibility\nLimited to: 1 Ancient Augment\nRequires: Level 60\nBody Armours: 15% of Chaos Damage from Hits taken as a Damage of a random Element\nGloves: Gain 1% of Damage as Extra Damage of a random Element per\nRune Socketed in Equipped Items\nBoots: 50% increased Runic Ward Regeneration Rate while Sprinting\nBonded:\nBody Armours: +13% to Chaos Resistance\nGloves: 20% increased Elemental Damage\nBoots: 15% increased Runic Ward Cost Efficiency"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ExpeditionValorAncientAugment.webp",
+  "id": "Emergent_Protection",
+  "text": "Emergent Protection\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: Gain 1 Endurance Charge on reaching Low Life, only once every 2 seconds\nGloves: Banners also grant 2% of Life Regenerated per second to affected targets\nBoots: When you stop Sprinting, gain Guard equal to 4% of maximum Life per second spent Sprinting, up to a maximum of 20%, for 4 seconds\nBonded:\nHelmets: 40% increased Endurance Charge Duration\nGloves: Regenerate 0.5% of maximum Life per second\nBoots: 20% increased Guard gained"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ExpeditionWarAncientAugment.webp",
+  "id": "Emergent_Instinct",
+  "text": "Emergent Instinct\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: Targets that are Blinded, Maimed, and Bleeding cannot Evade your Hits\nGloves: Regenerate 5% of maximum Life per Second if you have used a Command Skill Recently\nBody Armours: Thorns Damage is Lucky against targets with Fully Broken Armour\nBonded:\nHelmets: 30% increased Immobilisation buildup\nGloves: 20% increased Life Regeneration rate\nBody Armours: 30% increased Thorns damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Ritual/RitualAmbushPredators.webp",
+  "id": "Carved_Cunning",
+  "text": "Carved Cunning\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: Enemies which are on Full Life cannot Evade your Hits\nBody Armours: Prevent +5% of Damage from Deflected Hits if you've\nDeflected no Hits Recently\nBoots: Gain Onslaught for 4 seconds when your Marks Activate\nBonded:\nHelmets: 30% increased Accuracy Rating\nBody Armours: 8% increased Deflection Rating\nBoots: Buffs on you expire 10% slower"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Ritual/RitualMajesticBeasts.webp",
+  "id": "Carved_Majesty",
+  "text": "Carved Majesty\nLimited to: 1 Ancient Augment\nRequires: Level 60\nBody Armours: +3 to Spirit per Idol socketed in your Equipment\nGloves: Companions gain Onslaught for 4 seconds on Hitting your Marked targets\nBoots: 1% increased Movement Speed while Sprinting per Persistent Minion\nBonded:\nBody Armours: 5% increased Spirit\nGloves: Companions deal 30% increased Damage\nBoots: Minions have 12% increased maximum Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Ritual/RitualMischievousCreatures.webp",
+  "id": "Carved_Mischief",
+  "text": "Carved Mischief\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: Gain Guard equal to 10% of maximum Life for 4 seconds on taking Savage Hit\nGloves: +5% to maximum Block chance if you've Blocked with a raised Shield Recently\nBody Armours: 200% increased Stun Threshold if you've been Stunned Recently\nBonded:\nHelmets: Buffs on you expire 10% slower\nGloves: 20% increased Block chance\nBody Armours: 25% increased Stun Threshold"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Ritual/RitualTenaciousBeasts.webp",
+  "id": "Carved_Tenacity",
+  "text": "Carved Tenacity\nLimited to: 1 Ancient Augment\nRequires: Level 60\nHelmets: Enemies have no Critical Damage Bonus for 4 seconds after you Blind them\nGloves: Enemies you Critically Hit get 100% reduced Life Regeneration Rate for 4 seconds\nBoots: Your speed is Unaffected by Slows while Sprinting\nBonded:\nHelmets: 20% increased Blind Effect\nGloves: 15% increased Critical Hit Chance\nBoots: 8% increased Movement Speed while Sprinting"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Delirium/DeliriumEndgameSocketable.webp",
+  "id": "Raven-Touched_Shard",
+  "text": "Raven-Touched Shard\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 60\nSocket-bound\nHelmets: Raven-Touched"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/AddedWardLesser.webp",
+  "id": "Lesser_Ward_Rune",
+  "text": "Lesser Ward Rune\nStack Size: 1 / 10\nArmour: +15 to maximum Runic Ward\nBonded:\nArmour: 15% increased Global Armour, Evasion and Energy Shield"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/AddedWardNormal.webp",
+  "id": "Ward_Rune",
+  "text": "Ward Rune\nStack Size: 1 / 10\nRequires: Level 15\nArmour: +20 to maximum Runic Ward\nBonded:\nArmour: 15% increased Global Armour, Evasion and Energy Shield"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/AddedWardGreater.webp",
+  "id": "Greater_Ward_Rune",
+  "text": "Greater Ward Rune\nStack Size: 1 / 10\nRequires: Level 30\nArmour: +25 to maximum Runic Ward\nBonded:\nArmour: 15% increased Global Armour, Evasion and Energy Shield"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/AddedWardPerfect.webp",
+  "id": "Perfect_Ward_Rune",
+  "text": "Perfect Ward Rune\nStack Size: 1 / 10\nRequires: Level 50\nArmour: +30 to maximum Runic Ward\nBonded:\nArmour: 15% increased Global Armour, Evasion and Energy Shield"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/WardRegenerationLesser.webp",
+  "id": "Lesser_Charging_Rune",
+  "text": "Lesser Charging Rune\nStack Size: 1 / 10\nArmour: 8% increased Runic Ward Regeneration Rate\nBonded:\nArmour: Regenerate 10 Runic Ward per second"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/WardRegenerationNormal.webp",
+  "id": "Charging_Rune",
+  "text": "Charging Rune\nStack Size: 1 / 10\nRequires: Level 15\nArmour: 12% increased Runic Ward Regeneration Rate\nBonded:\nArmour: Regenerate 15 Runic Ward per second"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/WardRegenerationGreater.webp",
+  "id": "Greater_Charging_Rune",
+  "text": "Greater Charging Rune\nStack Size: 1 / 10\nRequires: Level 30\nArmour: 16% increased Runic Ward Regeneration Rate\nBonded:\nArmour: Regenerate 20 Runic Ward per second"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/WardRegenerationPerfect.webp",
+  "id": "Perfect_Charging_Rune",
+  "text": "Perfect Charging Rune\nStack Size: 1 / 10\nRequires: Level 50\nArmour: 20% increased Runic Ward Regeneration Rate\nBonded:\nArmour: Regenerate 25 Runic Ward per second"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard1.webp",
+  "id": "Warding_Rune_of_Reinforcement",
+  "text": "Warding Rune of Reinforcement\nStack Size: 1 / 10\nRequires: Level 15\nArmour: 20% increased Runic Ward\nBonded:\nArmour: Gain 2% of maximum Life as Extra maximum Runic Ward"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard2.webp",
+  "id": "Warding_Rune_of_Protection",
+  "text": "Warding Rune of Protection\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nArmour: Every 4 seconds, gain Guard equal to 20% of maximum Runic Ward for 2 seconds\nBonded:\nArmour: 8% increased Guard gained"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard3.webp",
+  "id": "Warding_Rune_of_Disintegration",
+  "text": "Warding Rune of Disintegration\nStack Size: 1 / 10\nRequires: Level 15\nMartial Weapon: Attacks Break Armour equal to 15% of maximum Runic Ward\nBonded:\nMartial Weapon: Break 10% increased Armour"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard4.webp",
+  "id": "Warding_Rune_of_Desperation",
+  "text": "Warding Rune of Desperation\nStack Size: 1 / 10\nRequires: Level 15\nWand or Staff: Spell damage Penetrates 25% of enemy Elemental Resistances while on Low Runic Ward\nBonded:\nWand or Staff: 12% increased Elemental Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard8.webp",
+  "id": "Warding_Rune_of_Symbiosis",
+  "text": "Warding Rune of Symbiosis\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nBoots: 1% increased Energy Shield Recharge Rate per 30 maximum Runic Ward\nBonded:\nBoots: Regenerate 1% of maximum Energy Shield per second"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard9.webp",
+  "id": "Warding_Rune_of_Courage",
+  "text": "Warding Rune of Courage\nStack Size: 1 / 10\nRequires: Level 15\nHelmets: 25% increased Armour and Evasion Rating while on Low Runic Ward\nBonded:\nHelmets: 20% increased Armour and Evasion Rating when on Low Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard10.webp",
+  "id": "Warding_Rune_of_Stability",
+  "text": "Warding Rune of Stability\nStack Size: 1 / 10\nRequires: Level 30\nShields and Bucklers: +4 to Stun Threshold per 10 maximum Runic Ward\nBonded:\nShields and Bucklers: 15% increased Stun buildup while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard13.webp",
+  "id": "Warding_Rune_of_Glancing",
+  "text": "Warding Rune of Glancing\nStack Size: 1 / 10\nRequires: Level 30\nBody Armours: +3 to Deflection Rating per 10 maximum Runic Ward\nBonded:\nBody Armours: Prevent +1% of Damage from Deflected Hits"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard14.webp",
+  "id": "Warding_Rune_of_Heart",
+  "text": "Warding Rune of Heart\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nBody Armours: Gain 5% of maximum Life as Extra maximum Runic Ward\nBonded:\nBody Armours: 1% more Runic Ward Regeneration rate per 2% of maximum Runic Ward lost from Hits Recently, up to 100% more"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard15.webp",
+  "id": "Warding_Rune_of_Nourishment",
+  "text": "Warding Rune of Nourishment\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nArmour: 15% Life Recovery from Flasks also applies to Runic Ward\nBonded:\nArmour: 15% increased Life Recovery from Flasks"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard16.webp",
+  "id": "Warding_Rune_of_Annihilation",
+  "text": "Warding Rune of Annihilation\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nMartial Weapon: Attacks spend 5% of your maximum Runic Ward if possible to gain that much added Physical damage\nBonded:\nMartial Weapon: 10% reduced Runic Ward Cost Efficiency"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard18.webp",
+  "id": "Warding_Rune_of_Armature",
+  "text": "Warding Rune of Armature\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 45\nMartial Weapon: Gain maximum Runic Ward equal to 15% of this Weapon's maximum damage\nBonded:\nMartial Weapon: 5% increased Attack Speed while missing Runic Ward"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard19.webp",
+  "id": "Warding_Rune_of_Obsession",
+  "text": "Warding Rune of Obsession\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 45\nWands: All damage taken bypasses Runic Ward, Runic Ward Regeneration Rate is doubled\nBonded:\nWands: 12% increased maximum Runic Ward"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard20.webp",
+  "id": "Warding_Rune_of_Equinox",
+  "text": "Warding Rune of Equinox\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 45\nCaster Weapon: 40% less Mana Regeneration Rate, Mana Recovery from Regeneration is also applied to Runic Ward\nBonded:\nCaster Weapon: 20% increased Runic Ward Regeneration Rate if you've dealt a Critical Hit Recently"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard21.webp",
+  "id": "Warding_Rune_of_Salvaging",
+  "text": "Warding Rune of Salvaging\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nSceptres: Recover 3% of maximum Runic Ward when one of your Reviving Minions is Killed\nBonded:\nSceptres: Recover 3% of maximum Life when one of your Minions is Revived"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard23.webp",
+  "id": "Warding_Rune_of_Bodyguards",
+  "text": "Warding Rune of Bodyguards\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 45\nSceptres: Minions in your Presence have Onslaught while you are on Low Runic Ward\nBonded:\nSceptres: Damage of Enemies Hitting you is Unlucky if\nyour Runic Ward has been damaged Recently"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/RunicWard24.webp",
+  "id": "Warding_Rune_of_Hollowing",
+  "text": "Warding Rune of Hollowing\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 45\nCaster Weapon: Gain 15% of maximum Life as Extra maximum Runic Ward, 15% less maximum Life\nBonded:\nCaster Weapon: +1% to all Maximum Elemental Resistances while on full Runic Ward"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ElementalConversionRuneFire.webp",
+  "id": "Passion_of_Aldur",
+  "text": "Passion of Aldur\nStack Size: 1 / 10\nSocket-bound\nWeapon: Transforms all Cold and Lightning modifiers on the item into equivalent Fire modifiers\nBonded:\nWeapon: 25% increased Fire Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ElementalConversionRuneCold.webp",
+  "id": "Breath_of_Aldur",
+  "text": "Breath of Aldur\nStack Size: 1 / 10\nSocket-bound\nWeapon: When socketed, transforms all Fire and Lightning modifiers to equivalent Cold modifiers\nBonded:\nWeapon: 25% increased Cold Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ElementalConversionRuneLightning.webp",
+  "id": "Ire_of_Aldur",
+  "text": "Ire of Aldur\nStack Size: 1 / 10\nSocket-bound\nWeapon: Transforms all Fire and Cold modifiers on the item into equivalent Lightning modifiers\nBonded:\nWeapon: 25% increased Lightning Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/ElementalConversionRuneChaos.webp",
+  "id": "Betrayal_of_Aldur",
+  "text": "Betrayal of Aldur\nStack Size: 1 / 10\nSocket-bound\nWeapon: Transforms all Fire, Cold and Lightning modifiers on the item into equivalent Chaos modifiers\nBonded:\nWeapon: 25% increased Chaos Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune1.webp",
+  "id": "Ancient_Rune_of_Splinters",
+  "text": "Ancient Rune of Splinters\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nBows: +50% Surpassing chance to fire an additional Arrow\nBonded:\nBows: 30% increased Projectile Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune2.webp",
+  "id": "Ancient_Rune_of_Dueling",
+  "text": "Ancient Rune of Dueling\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nBucklers: 30% increased Parried Debuff Magnitude\nBonded:\nBucklers: 15% increased Block chance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune3.webp",
+  "id": "Ancient_Rune_of_the_Titan",
+  "text": "Ancient Rune of the Titan\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nTwo Hand Maces: 10% chance for Slam Skills you use yourself to cause an additional Aftershock\nBonded:\nTwo Hand Maces: 15% increased Area of Effect for Attacks"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune4.webp",
+  "id": "Ancient_Rune_of_Shattering",
+  "text": "Ancient Rune of Shattering\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nOne Hand Maces: 40% increased effect of Fully Broken Armour\nBonded:\nOne Hand Maces: Break 50% increased Armour"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune5.webp",
+  "id": "Ancient_Rune_of_Prowess",
+  "text": "Ancient Rune of Prowess\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nSpears: 30% chance when you gain a Charge to gain an additional Charge\nBonded:\nSpears: 30% increased Endurance, Frenzy and Power Charge Duration"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune6.webp",
+  "id": "Ancient_Rune_of_Control",
+  "text": "Ancient Rune of Control\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nQuarterstaves: 50% increased Immobilisation buildup\nBonded:\nQuarterstaves: 30% increased Damage against Immobilised Enemies"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune7.webp",
+  "id": "Ancient_Rune_of_Discovery",
+  "text": "Ancient Rune of Discovery\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nStaves: 30% chance to create an additional Remnant\nBonded:\nStaves: +1 to maximum number of Elemental Infusions"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune8.webp",
+  "id": "Ancient_Rune_of_Decay",
+  "text": "Ancient Rune of Decay\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nWands: 25% increased Withered Magnitude\nBonded:\nWands: 15% chance that when Volatility on you explodes, you regain an equivalent amount of Volatility"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune9.webp",
+  "id": "Ancient_Rune_of_Witchcraft",
+  "text": "Ancient Rune of Witchcraft\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nFoci: 40% increased Area of Effect of Curses\nBonded:\nFoci: 15% faster Curse Activation"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune10.webp",
+  "id": "Ancient_Rune_of_the_Horde",
+  "text": "Ancient Rune of the Horde\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nSceptres: Minions have 8% increased Attack and Cast Speed\nBonded:\nSceptres: Minions have 10% increased Movement Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune11.webp",
+  "id": "Ancient_Rune_of_Animosity",
+  "text": "Ancient Rune of Animosity\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nTalismans: Gain 2 Druidic Prowess when you Heavy Stun a Rare or Unique Enemy\nBonded:\nTalismans: 40% increased Stun Buildup"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune12.webp",
+  "id": "Ancient_Rune_of_Detonation",
+  "text": "Ancient Rune of Detonation\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nCrossbows: Grenades have 10% chance to activate a second time\nBonded:\nCrossbows: 40% increased Crossbow Reload Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EndgameRune13.webp",
+  "id": "Ancient_Rune_of_Retaliation",
+  "text": "Ancient Rune of Retaliation\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 30\nShields: 8% increased Attack Speed if you have Blocked Recently\nBonded:\nShields: +3% to maximum Block chance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune1.webp",
+  "id": "Rune_of_Vitality",
+  "text": "Rune of Vitality\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nWeapon: +80 to maximum Life\nShields and Bucklers: Recover 15 Life when you Block\nBonded:\nWeapon: 15% increased amount of Life Leeched\nShields and Bucklers: 5% increased maximum Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune2.webp",
+  "id": "Rune_of_the_Hunt",
+  "text": "Rune of the Hunt\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nBoots: 8% increased Movement Speed while Sprinting\nSceptres: Companions deal 30% increased Damage\nBonded:\nBoots: 50% increased Stun Recovery\nSceptres: 8% increased Mana Recovery rate while your Companion is in your Presence"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune3.webp",
+  "id": "Rune_of_Acrobatics",
+  "text": "Rune of Acrobatics\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nWeapon: Flasks gain 0.2 charges per Second\nBoots: +0.3 metres to Dodge Roll distance\nBonded:\nWeapon: Charms gain 0.25 charges per Second\nBoots: 30% increased Armour if you haven't Dodge Rolled Recently"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune4.webp",
+  "id": "Rune_of_Culmination",
+  "text": "Rune of Culmination\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nGloves: 50% chance to build an additional Combo on Hit\nOne Hand Mace or Quarterstaff: Rolls only the minimum or maximum Damage value for Physical Damage\nBonded:\nGloves: 5% increased Attack Speed\nOne Hand Mace or Quarterstaff: 20% increased Bleeding Duration"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune5.webp",
+  "id": "Rune_of_Renown",
+  "text": "Rune of Renown\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nGloves: 50% increased Glory generation\nCaster Weapon: Archon recovery period expires 30% faster\nBonded:\nGloves: Banner Skills have 20% increased Aura Magnitudes\nCaster Weapon: 30% increased Archon Buff duration"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune6.webp",
+  "id": "Rune_of_Accumulation",
+  "text": "Rune of Accumulation\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nGloves: Gain 3 Life per Enemy Hit with Attacks, Gain 1 Mana per Enemy Hit with Attacks\nCrossbow, Bow or Spear: On Hitting an enemy, gains maximum added Cold damage equal to the enemy's Power for 20 seconds, up to a total of 32\nBonded:\nGloves: +30 to maximum Life, +30 to maximum Mana\nCrossbow, Bow or Spear: 30% increased Freeze Buildup"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune7.webp",
+  "id": "Rune_of_Foundations",
+  "text": "Rune of Foundations\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nBody Armours: +30 to Armour, +30 to Evasion Rating, +10 to maximum Energy Shield\nBonded:\nBody Armours: +20 to maximum Life, +20 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune8.webp",
+  "id": "Rune_of_the_Prism",
+  "text": "Rune of the Prism\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nBody Armours: -10% to all Maximum Elemental Resistances, +20% to all Elemental Resistances\nBonded:\nBody Armours: 20% of Damage is taken from Mana before Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune9.webp",
+  "id": "Rune_of_the_Blossom",
+  "text": "Rune of the Blossom\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nBody Armours: +50 to Spirit, -1 to Spirit per 2 Levels\nBonded:\nBody Armours: 5% increased Spirit Reservation Efficiency of Skills"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune10.webp",
+  "id": "Rune_of_Consistency",
+  "text": "Rune of Consistency\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nHelmets: 200% increased Critical Hit Chance, You have no Critical Damage Bonus\nCaster Weapon: 50% increased Spell Damage while your Companion is in your Presence\nBonded:\nHelmets: Hits against you have 25% reduced Critical Damage Bonus\nCaster Weapon: 8% increased Mana Recovery rate while your Companion is in your Presence"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune11.webp",
+  "id": "Rune_of_Reach",
+  "text": "Rune of Reach\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nHelmets: Remnants you create have 15% increased effect\nWand or Staff: Remnants can be collected from 50% further away, Remnants you create have 25% reduced effect\nBonded:\nHelmets: Recover 3% of Maximum Mana when you collect a Remnant\nWand or Staff: 20% increased Exposure Effect"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune12.webp",
+  "id": "Rune_of_Vital_Flame",
+  "text": "Rune of Vital Flame\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nOne Hand Mace, Two Hand Mace or Talisman: Adds 13 to 16 Fire Damage, 15% of Skill Mana Costs Converted to Life Costs\nBonded:\nOne Hand Mace, Two Hand Mace or Talisman: 30% increased Ignite Magnitude"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune13.webp",
+  "id": "Rune_of_Confrontation",
+  "text": "Rune of Confrontation\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15\nQuarterstaff or Spear: Gain 4 Rage on Melee Hit, -10 to Maximum Rage\nBonded:\nQuarterstaff or Spear: rage effect +% [10]"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune14.webp",
+  "id": "DNT-Unused_Rune_of_Wild_Ferocity",
+  "text": "[DNT-Unused] Rune of Wild Ferocity\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune15.webp",
+  "id": "DNT-Unused_Rune_of_Partnership",
+  "text": "[DNT-Unused] Rune of Partnership\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune16.webp",
+  "id": "DNT-Unused_Rune_of_Reverberation",
+  "text": "[DNT-Unused] Rune of Reverberation\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune17.webp",
+  "id": "DNT-Unused_Rune_of_Vital_Flame",
+  "text": "[DNT-Unused] Rune of Vital Flame\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune18.webp",
+  "id": "DNT-Unused_Rune_of_Confrontation",
+  "text": "[DNT-Unused] Rune of Confrontation\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune19.webp",
+  "id": "DNT-Unused_Rune_of_Chance",
+  "text": "[DNT-Unused] Rune of Chance\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune12.webp",
+  "id": "DNT-Unused_Rune_of_Confidence",
+  "text": "[DNT-Unused] Rune of Confidence\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/EarlyMythicRune16.webp",
+  "id": "DNT-Unused_Rune_of_Duplication",
+  "text": "[DNT-Unused] Rune of Duplication\nStack Size: 1 / 10\nLimited to: 1\nRequires: Level 15"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRune2.webp",
+  "id": "Serles_Triumph",
+  "text": "Serle's Triumph\nStack Size: 1 / 10\nLimited to: 1\nSocket-bound\nAll Equipment: +1 Suffix Modifier allowed, local maximum mods allowed + [1]"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRune3.webp",
+  "id": "Cadigans_Epiphany",
+  "text": "Cadigan's Epiphany\nStack Size: 1 / 10\nLimited to: 1\nSocket-bound\nGloves: Destroys all Augment Sockets on the item to create a Jewel Socket"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRune1.webp",
+  "id": "Astrids_Creativity",
+  "text": "Astrid's Creativity\nStack Size: 1 / 10\nLimited to: 1\nAll Equipment: Can have 1 additional Crafted Modifiers"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneTime.webp",
+  "id": "Uhtreds_Sidereus",
+  "text": "Uhtred's Sidereus\nStack Size: 1 / 10\nLimited to: 1\nSocket-bound\nBoots: Can roll Chronomancy modifiers\nBonded:\nBoots: 10% increased Cooldown Recovery Rate"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneDex.webp",
+  "id": "Kolrs_Hunt",
+  "text": "Kolr's Hunt\nStack Size: 1 / 10\nLimited to: 1\nSocket-bound\nGloves: Can roll Marksman modifiers\nBonded:\nGloves: 20% increased Projectile Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRunePhysical.webp",
+  "id": "Voranas_Carnage",
+  "text": "Vorana's Carnage\nStack Size: 1 / 10\nLimited to: 1\nSocket-bound\nHelmets: Can roll Berserking modifiers\nBonded:\nHelmets: Gain 2 Rage on Melee Hit"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneFire.webp",
+  "id": "Thruds_Might",
+  "text": "Thrud's Might\nStack Size: 1 / 10\nLimited to: 1\nSocket-bound\nWeapon: Can roll Destruction modifiers\nBonded:\nWeapon: +5% to all Elemental Resistances"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneCold.webp",
+  "id": "Medveds_Tending",
+  "text": "Medved's Tending\nStack Size: 1 / 10\nLimited to: 1\nSocket-bound\nBody Armours: Can roll Soul modifiers\nBonded:\nBody Armours: 3% increased maximum Life, 3% increased maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneChaos.webp",
+  "id": "Katlas_Gloom",
+  "text": "Katla's Gloom\nStack Size: 1 / 10\nLimited to: 1\nSocket-bound\nGloves: Can roll Decay modifiers\nBonded:\nGloves: 25% reduced Effect of Non-Damaging Ailments on you"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUnique.webp",
+  "id": "Aldurs_Legacy",
+  "text": "Aldur's Legacy\nStack Size: 1 / 10\nAll Equipment: When socketed into a Unique Kalguuran or Ezomyte item, destroys the item to create a Rune imbued with that item's power"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Bramblejack",
+  "text": "Legacy of Bramblejack\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBody Armours: 250% of Melee Physical Damage taken reflected to Attacker\nBonded:\nBody Armours: Regenerate 3% of maximum Life per second while Surrounded"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Blackbraid",
+  "text": "Legacy of Blackbraid\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBody Armours: +50% of Armour also applies to Elemental Damage\nBonded:\nBody Armours: +15% to all Elemental Resistances"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Edyrns_Tusks",
+  "text": "Legacy of Edyrns Tusks\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBody Armours: 50% chance to inflict Bleeding on Hit, 50% reduced Slowing Potency of Debuffs on You\nBonded:\nBody Armours: 35% increased Thorns damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Kingsguard",
+  "text": "Legacy of Kingsguard\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBody Armours: Recover 5% of maximum Life for each Endurance Charge consumed\nBonded:\nBody Armours: +30 to maximum Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Bristleboar",
+  "text": "Legacy of Bristleboar\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBody Armours: Gain 5 Rage when Hit by an Enemy, Gain 10 Rage when Critically Hit by an Enemy\nBonded:\nBody Armours: +3 to Maximum Rage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Foxshade",
+  "text": "Legacy of Foxshade\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBody Armours: 10% increased Movement Speed when on Full Life, 100% increased Evasion Rating when on Full Life\nBonded:\nBody Armours: 20% increased Evasion Rating"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Ashrend",
+  "text": "Legacy of Ashrend\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBody Armours: Cannot be Ignited, -10 Physical Damage taken from Attack Hits\nBonded:\nBody Armours: +35% to Fire Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Briskwrap",
+  "text": "Legacy of Briskwrap\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBody Armours: Gain Deflection Rating equal to 30% of Evasion Rating\nBonded:\nBody Armours: 35% increased Flask Mana Recovery rate"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Unleashed",
+  "text": "Legacy of The Unleashed\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBody Armours: 25% of Damage taken from Hits bypasses Energy Shield if Energy Shield is below half\nBonded:\nBody Armours: 20% increased Armour while Shapeshifted"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Horns_of_Bynden",
+  "text": "Legacy of Horns of Bynden\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: Every Rage also grants 1% increased Armour, Gain 1 Rage on Melee Hit\nBonded:\nHelmets: +3 to Maximum Rage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Wings_of_Caelyn",
+  "text": "Legacy of Wings of Caelyn\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: Gain 1 Rage on Melee Hit, Every Rage also grants 1% increased Stun Threshold\nBonded:\nHelmets: Every five Rage also grants you 1% increased Movement Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Ezomyte_Peak",
+  "text": "Legacy of Ezomyte Peak\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: 15% increased Area of Effect, Unwavering Stance\nBonded:\nHelmets: 50% reduced Slowing Potency of Debuffs on You"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Deidbell",
+  "text": "Legacy of Deidbell\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: Warcries Explode Corpses dealing 10% of their Life as Physical Damage\nBonded:\nHelmets: Warcry Skills have 20% increased Area of Effect"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Elevore",
+  "text": "Legacy of Elevore\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: Charms gain 1 charge per Second, +1 Charm Slots\nBonded:\nHelmets: Charms gain 0.5 charges per Second"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Starkonjas_Head",
+  "text": "Legacy of Starkonja's Head\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: 100% increased Global Evasion Rating when on Low Life, 5% of Damage from Hits is taken from your Damageable Companion's Life before you\nBonded:\nHelmets: 5% of Damage from Hits is taken from your Damageable Companion's Life before you"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Crown_of_Thorns",
+  "text": "Legacy of Crown of Thorns\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: Pain Attunement\nBonded:\nHelmets: 17 to 26 Physical Thorns damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Greymake",
+  "text": "Legacy of Greymake\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: +50 to all Attributes\nBonded:\nHelmets: +1 Maximum Life per Level"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Erians_Cobble",
+  "text": "Legacy of Erian's Cobble\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: +30 to Accuracy Rating, +10 to maximum Life, +10 to maximum Mana, 10% increased Rarity of Items found, 10% increased Critical Hit Chance, +5 to all Attributes, +5% to all Elemental Resistances, 3 Life Regeneration per second\nBonded:\nHelmets: +20 to Armour, +20 to Evasion Rating, +20 to maximum Energy Shield"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Smiling_Knight",
+  "text": "Legacy of The Smiling Knight\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: Aggravate Bleeding on targets you Critically Hit with Attacks\nBonded:\nHelmets: 20% increased Critical Hit Chance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Vile_Knight",
+  "text": "Legacy of The Vile Knight\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: Deal 4% increased Damage with Hits to Rare or Unique Enemies for each second they've ever been in your Presence, up to a maximum of 200%\nBonded:\nHelmets: 20% increased Presence Area of Effect"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Northpaw",
+  "text": "Legacy of Northpaw\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nGloves: Base Critical Hit Chance for Attacks with Weapons is 7%\nBonded:\nGloves: 15% increased Critical Damage Bonus"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Candlemaker",
+  "text": "Legacy of Candlemaker\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nGloves: 40% increased Fire Damage, Flammability Magnitude is doubled\nBonded:\nGloves: 20% increased Ignite Duration on Enemies"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Deathblow",
+  "text": "Legacy of Deathblow\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nGloves: Culling Strike\nBonded:\nGloves: Gain 30 Life per enemy killed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Legionstride",
+  "text": "Legacy of Legionstride\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBoots: +10% to Block chance\nBonded:\nBoots: 10% reduced Damage taken from Projectile Hits"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Trampletoe",
+  "text": "Legacy of Trampletoe\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBoots: Deal 10% of Overkill damage to enemies within 2 metres of the enemy killed\nBonded:\nBoots: 15% increased Global Physical Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Briarpatch",
+  "text": "Legacy of Briarpatch\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBoots: +15% to Thorns Critical Hit Chance\nBonded:\nBoots: 15% increased Thorns Critical Damage Bonus"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Bushwhack",
+  "text": "Legacy of Bushwhack\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBoots: Physical Damage is Pinning\nBonded:\nBoots: +20 to Dexterity"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Wanderlust",
+  "text": "Legacy of Wanderlust\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBoots: Your speed is unaffected by Slows\nBonded:\nBoots: 5% increased Movement Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Knight-errant",
+  "text": "Legacy of The Knight-errant\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBoots: Iron Reflexes\nBonded:\nBoots: 25% increased Elemental Ailment Threshold"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Oberns_Bastion",
+  "text": "Legacy of Obern's Bastion\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBoots: 200% increased Stun Recovery\nBonded:\nBoots: 40% reduced Chill Duration on you, 40% reduced Freeze Duration on you"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Dionadair",
+  "text": "Legacy of Dionadair\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nShields: Double Stun Threshold while Shield is Raised\nBonded:\nShields: 15% increased Stun Threshold"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Wulfsbane",
+  "text": "Legacy of Wulfsbane\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nShields: Intimidate Enemies on Block for 8 seconds\nBonded:\nShields: +25 to Strength"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Chernobogs_Pillar",
+  "text": "Legacy of Chernobog's Pillar\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nShields: Gain 1% of damage as Fire damage per 2% Chance to Block\nBonded:\nShields: +30% to Chaos Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Alkem_Eira",
+  "text": "Legacy of Alkem Eira\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nShields: 30% of damage Blocked is Recouped as Mana\nBonded:\nShields: 20% of damage Blocked is Recouped as Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Oaksworn",
+  "text": "Legacy of Oaksworn\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nShields: 50% increased Life Regeneration rate\nBonded:\nShields: 50 Life Regeneration per second"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Dunkelhalt",
+  "text": "Legacy of Dunkelhalt\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBucklers: 50% increased Parried Debuff Magnitude\nBonded:\nBucklers: 50% increased Parry Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Rondel_de_Ezo",
+  "text": "Legacy of Rondel de Ezo\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBucklers: Curse Enemies with Enfeeble on Block\nBonded:\nBucklers: 100% increased Block chance against Projectiles"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Brynhands_Mark",
+  "text": "Legacy of Brynhand's Mark\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nOne Hand Maces: Causes Double Stun Buildup\nBonded:\nOne Hand Maces: Adds 14 to 20 Physical Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Trenchtimbre",
+  "text": "Legacy of Trenchtimbre\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nOne Hand Maces: Increases and Reductions to Minion Attack Speed also affect you\nBonded:\nOne Hand Maces: +1 to Level of all Minion Skills"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Mj%C3%B6lner",
+  "text": "Legacy of Mjölner\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nOne Hand Maces: +200 Intelligence Requirement, +3 to Level of all Lightning Skills\nBonded:\nOne Hand Maces: +1 to Level of all Lightning Skills"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Twisted_Empyrean",
+  "text": "Legacy of Twisted Empyrean\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nTwo Hand Maces: Attacks with this Weapon have Added Cold Damage equal to 6% to 10% of maximum Mana\nBonded:\nTwo Hand Maces: 15% of Damage is taken from Mana before Life"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Hoghunt",
+  "text": "Legacy of Hoghunt\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nTwo Hand Maces: +5% to Critical Hit Chance, Maim on Critical Hit\nBonded:\nTwo Hand Maces: 25% increased Attack Damage against Maimed Enemies"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Hrimnors_Hymn",
+  "text": "Legacy of Hrimnor's Hymn\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nTwo Hand Maces: 25% chance for Slam Skills you use yourself to cause an additional Aftershock\nBonded:\nTwo Hand Maces: 15% chance for Slam Skills you use yourself to cause an additional Aftershock"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Brain_Rattler",
+  "text": "Legacy of Brain Rattler\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nTwo Hand Maces: All damage with this Weapon causes Electrocution buildup\nBonded:\nTwo Hand Maces: Damage Penetrates 10% Lightning Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Lifesprig",
+  "text": "Legacy of Lifesprig\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nWands: +2 to Level of all Spell Skills\nBonded:\nWands: Leeches 1% of maximum Life when you Cast a Spell"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Duality",
+  "text": "Legacy of Duality\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nQuarterstaves: Gain 250 Guard for 0.5 seconds per Combo expended when using Skills\nBonded:\nQuarterstaves: Gain Finality for 0.2 seconds per Combo expended when using Skills"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Tyrannys_Grip",
+  "text": "Legacy of Tyranny's Grip\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nSpears: Strikes deal Splash Damage\nBonded:\nSpears: Knocks Enemies Back on Hit"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Sentry",
+  "text": "Legacy of The Sentry\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nQuarterstaves: Adds 23 to 34 Fire damage to Attacks, 100% increased Flammability Magnitude\nBonded:\nQuarterstaves: +2% to Maximum Fire Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Adonias_Ego",
+  "text": "Legacy of Adonia's Ego\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nWands: +1 to Maximum Power Charges\nBonded:\nWands: +65 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Cursecarver",
+  "text": "Legacy of Cursecarver\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nWands: +3 to Level of all Curse Skills\nBonded:\nWands: 35% increased Mana Regeneration Rate"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Dusk_Vigil",
+  "text": "Legacy of Dusk Vigil\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nStaves: Gain 30% of Physical Damage as Extra Fire Damage\nBonded:\nStaves: Triggered Spells deal 20% increased Spell Damage"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_The_Blood_Thorn",
+  "text": "Legacy of The Blood Thorn\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nQuarterstaves: Adds 4 to 8 Physical Damage, Causes Bleeding on Hit\nBonded:\nQuarterstaves: 10% increased Magnitude of Bleeding you inflict"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Quill_Rain",
+  "text": "Legacy of Quill Rain\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBows: 50% increased Attack Speed, 20% less Attack Damage\nBonded:\nBows: 70% increased Arrow Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Ironbound",
+  "text": "Legacy of Ironbound\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nBows: Hits with this weapon have 1 to 3 Added Physical Damage per 1% Block Chance\nBonded:\nBows: 3% increased Block chance per 100 total Item Armour on Equipped Armour Items"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Amor_Mandragora",
+  "text": "Legacy of Amor Mandragora\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nTalismans: Gain 1 Druidic Prowess for every 20 total Rage spent\nBonded:\nTalismans: Enemies in your Presence are Hindered"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Spiteful_Floret",
+  "text": "Legacy of Spiteful Floret\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nTalismans: Every 5 Rage also grants 5% of Damage taken Recouped as Life\nBonded:\nTalismans: Attacks have 20% chance to cause Bleeding"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Svalinn",
+  "text": "Legacy of Svalinn\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nShields: Chance to Block Damage is Lucky, You take 20% of damage from Blocked Hits\nBonded:\nShields: +50 to maximum Runic Ward"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Keeper_of_the_Arc",
+  "text": "Legacy of Keeper of the Arc\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nHelmets: Alternating every 5 seconds:\nTake 20% less Damage from Hits\nTake 20% less Damage over time\nBonded:\nHelmets: 25% increased Mana Regeneration Rate"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Olrovasara",
+  "text": "Legacy of Olrovasara\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nOne Hand Maces: On Hitting an enemy, gains maximum added Lightning damage equal to\nthe enemy's Power for 20 seconds, up to a total of 120\nBonded:\nOne Hand Maces: 15% increased Attack Speed"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_A_Worthy_Foe",
+  "text": "Legacy of A Worthy Foe\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nShields: Off-hand Hits inflict Runefather's Challenge\nBonded:\nShields: +45% to Cold Resistance"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Serles_Grit",
+  "text": "Legacy of Serle's Grit\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nOne Hand Maces: Maximum Quality is 40%\nBonded:\nOne Hand Maces: Skills which Empower an Attack have 20% chance to not count that Attack"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Runeseekers_Call",
+  "text": "Legacy of Runeseeker's Call\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nWands: 75% increased effect of Socketed Runes\nBonded:\nWands: +100 to maximum Mana"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
+  "id": "Legacy_of_Facebreaker",
+  "text": "Legacy of Facebreaker\nLimited to: 1 Aldur's Legacy\nRequires: Level 65\nGloves: +1 to Armour per Strength\nBonded:\nGloves: 1% increased Damage per 15 Strength"
+ },
+ {
+  "icon": "Art/2DItems/Belts/Uniques/DarknessEnthroned.webp",
+  "id": "Darkness_Enthroned",
+  "text": "Darkness Enthroned Fine Belt\nRequires: Level 62\nHas (1—3) Charm Slots\nFlasks gain 0.17 charges per Second\n(50—100)% increased effect of Socketed Augment Items\nThis item gains bonuses from Socketed Items as though it was a Body Armour\nHas 2 Augment Sockets (Hidden)"
+ },
+ {
+  "icon": "Art/2DItems/Currency/CurrencyAddEquipmentSocket.webp",
+  "id": "Artificers_Orb",
+  "text": "Artificer's Orb\nStack Size: 1 / 20\nAdds an Augment Socket to a Martial Weapon, wand, staff or Armour"
+ },
+ {
+  "icon": "Art/2DItems/Currency/IncursionCraftingOrbs/IncursionSocketableExtractorCurrency.webp",
+  "id": "Orb_of_Extraction",
+  "text": "Orb of Extraction\nStack Size: 1 / 10\nDestroys an Equipment item, returning any non Socket-Bound Augments socketed in it"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Essence/CorruptedEssenceHorror.webp",
+  "id": "Essence_of_Horror",
+  "text": "Essence of Horror\nStack Size: 1 / 10\nRemoves a random modifier and augments a Rare item with a new guaranteed modifier\nGloves or Boots: 60% increased effect of Socketed Augment Items"
+ },
+ {
+  "icon": "Art/2DItems/Currency/Expedition2/Alloy1.webp",
+  "id": "Sovereign_Alloy",
+  "text": "Sovereign Alloy\nStack Size: 1 / 10\nRemoves a random modifier and augments a Rare item with a new guaranteed modifier\nWeapons: (20—30)% increased effect of Socketed Augment Items\nArmour: (24—30)% increased Runic Ward\nJewellery or Belt: (20—30)% increased Explicit Resistance Modifier magnitudes"
+ },
+ {
+  "icon": "Art/2DArt/SkillIcons/passives/Wildspeaker/WildspeakerBonusPerSocketedTalisman.webp",
+  "id": "/us/Idolatry",
+  "text": "Idolatry\nAscendancy: Spirit Walker\nCharacter: Huntress\nCompanions deal 10% increased damage per Idol in your Equipment\n2% increased Reservation Efficiency of Skills per Idol in your Equipment\n-4% to all Elemental Resistances per non-Idol Augment in your Equipment"
+ },
+ {
+  "icon": null,
+  "id": "Soul_Core",
+  "text": "Soul Core\nSoul Cores are artifacts of the ancient Vaal empire and function as a type of Augment."
+ },
+ {
+  "icon": null,
+  "id": "Abyssal_Eye",
+  "text": "Abyssal Eye\nAbyssal Eyes are artifacts recovered from Abyssals which function as a type of Augment."
+ },
+ {
+  "icon": null,
+  "id": "Rune",
+  "text": "Rune\nRunes are Augments of Kalguuran origin and make."
+ },
+ {
+  "icon": null,
+  "id": "Idol",
+  "text": "Idol\nIdols are a type of Augment fashioned by the Azmeri."
+ },
+ {
+  "icon": null,
+  "id": "Ancient_Augment",
+  "text": "Ancient Augment\nThese are Augments which have powerful singular effects, but are more limited. You may not have more than one Augment of this type socketed at a time."
+ },
+ {
+  "icon": null,
+  "id": "Exceptional_Item",
+  "text": "Exceptional Item\nExceptional Items have Quality over maximum or an additional Augment Socket.\nHigh Tier Rare Items found have a chance to instead drop as an Exceptional Normal Item."
+ },
+ {
+  "icon": null,
+  "id": "Socket-bound_Augments",
+  "text": "Socket-bound Augments\nSocket-bound Augments permanently fill any Augment Socket they are placed into.\nOnce Socketed, they cannot be removed, replaced or extracted by any means."
+ },
+ {
+  "icon": null,
+  "id": "Congealed_Mist",
+  "text": "Congealed Mist\nA mysterious Augment that shifts and shimmers. Is that whispering you hear?"
+ },
+ {
+  "icon": null,
+  "id": "Aldurs_Legacies",
+  "text": "Aldur's Legacies\nAldur's Legacies are Augments which have taken the power of a Unique Ezomyte or Kalguuran Unique. You may not have more than one Augment of this type socketed at a time."
+ }
+]
