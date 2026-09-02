@@ -22,11 +22,20 @@
 
 <main>
 
-<!-- ═══════════ 第一步：选择武器类型 ═══════════ -->
-<section id="screen-class" class="screen active">
+<!-- ═══════════ 第零步：选择大类 ═══════════ -->
+<section id="screen-category" class="screen active">
   <div class="hero">
-    <h2>选择要制作的武器类型</h2>
+    <h2>选择要做装的物品大类</h2>
     <p>完整的词缀池 / 权重 / 档位数据，与游戏 0.5 版本一致</p>
+  </div>
+  <div id="category-grid" class="class-grid"></div>
+</section>
+
+<!-- ═══════════ 第一步：选择类型（武器/防具部位/珠宝类型） ═══════════ -->
+<section id="screen-class" class="screen">
+  <div class="step-head">
+    <button class="btn ghost back" id="btn-back-category">‹ 返回分类</button>
+    <h2 id="class-title">选择类型</h2>
   </div>
   <div id="class-grid" class="class-grid"></div>
 </section>
@@ -34,18 +43,20 @@
 <!-- ═══════════ 第二步：选择基底 ═══════════ -->
 <section id="screen-base" class="screen">
   <div class="step-head">
-    <button class="btn ghost back" data-nav="screen-class">‹ 换武器类型</button>
+    <button class="btn ghost back" id="btn-back-base">‹ 换类型</button>
     <h2 id="base-title">选择基底</h2>
     <div class="base-tools">
       <input id="base-search" type="text" placeholder="搜索基底（中/英文）…">
       <select id="base-sort">
         <option value="level">按等级</option>
         <option value="dps">按基础 DPS</option>
+        <option value="def">按防御总值</option>
         <option value="aps">按攻速</option>
         <option value="crit">按暴击</option>
       </select>
     </div>
   </div>
+  <div id="attr-filter" class="attr-filter"></div>
   <div id="base-grid" class="base-grid"></div>
 </section>
 
@@ -69,29 +80,112 @@
   </div>
 
   <div class="craft-layout">
-    <!-- 左：通货 -->
+    <!-- 左：通货（8 分类标签） -->
     <aside class="panel currency-panel">
       <div class="panel-title">做装通货</div>
-      <div class="tier-switch" id="tier-switch">
-        <button data-tier="base" class="on">普通</button>
-        <button data-tier="greater" title="只 roll 词缀档位需求 ≥35 的高档位">高级</button>
-        <button data-tier="perfect" title="只 roll 词缀档位需求 ≥50 的最高档位">完美</button>
+      <div class="cat-tabs" id="cat-tabs">
+        <button data-cat="currency" class="on">通货</button>
+        <button data-cat="essence">精华</button>
+        <button data-cat="alloy">合金</button>
+        <button data-cat="anoint">涂油</button>
+        <button data-cat="rune">符文</button>
+        <button data-cat="omen">预兆</button>
+        <button data-cat="abyss">深渊</button>
+        <button data-cat="breach">裂隙</button>
       </div>
-      <div id="currency-list"></div>
-      <div class="omen-box" id="omen-box">
-        <div class="omen-head">搭配预兆 <span class="hint">（点击切换 · 再点取消）</span></div>
-        <div id="omen-list" class="omen-list"></div>
+
+      <!-- 通货 -->
+      <div class="cat-pane" id="cat-currency">
+        <div class="tier-switch" id="tier-switch">
+          <button data-tier="base" class="on">普通</button>
+          <button data-tier="greater" title="只 roll 词缀档位需求 ≥35 的高档位">高级</button>
+          <button data-tier="perfect" title="只 roll 词缀档位需求 ≥50 的最高档位">完美</button>
+        </div>
+        <div id="currency-list"></div>
+        <div class="q-box" id="q-box">
+          <div class="omen-head">品质 · 催化剂 <span class="hint" id="q-cur"></span></div>
+          <div id="q-body"></div>
+        </div>
+      </div>
+
+      <!-- 精华 -->
+      <div class="cat-pane hidden" id="cat-essence">
+        <div id="essence-list"></div>
+      </div>
+
+      <!-- 合金 -->
+      <div class="cat-pane hidden" id="cat-alloy">
+        <p class="cat-hint">稀有物品：移除一条随机词缀，附加该合金的保证词缀（0.5 维里西姆残迹产出）</p>
+        <div id="alloy-list"></div>
+      </div>
+
+      <!-- 涂油 -->
+      <div class="cat-pane hidden" id="cat-anoint">
+        <p class="cat-hint">液体情感两种用法：<b>项链</b>在枯萎之树用 3 种组合注入专精天赋；<b>稀有珠宝</b>单种直接附加保证词缀（如强效轻蔑 = +1 允许前缀/后缀）</p>
+        <div id="anoint-current"></div>
+        <div class="q-box" id="liquid-box">
+          <div class="omen-head">谵妄 · 蒸馏情感（稀有珠宝） <span class="hint" id="liquid-cur"></span></div>
+          <div id="liquid-body"></div>
+        </div>
+        <div class="an-game" id="an-game">
+          <div class="an-head">组合油槽（项链） <span class="hint">按顺序点击下方情感填入 第 1 → 2 → 3 格，填满后显示对应专精（组合不存在则不显示）</span></div>
+          <div id="an-slots" class="an-slots"></div>
+          <div id="an-tray" class="an-tray"></div>
+          <div id="an-result"></div>
+        </div>
+        <div class="an-browse-head" id="an-browse-head">浏览全部配方（874）</div>
+        <input id="anoint-search" type="text" placeholder="搜索专精天赋（中/英文）…">
+        <div id="anoint-list" class="anoint-list"></div>
+        <div id="anoint-more"></div>
+      </div>
+
+      <!-- 符文 -->
+      <div class="cat-pane hidden" id="cat-rune">
+        <div class="q-box" id="rune-box">
+          <div class="omen-head">符文镶嵌 <span class="hint" id="rune-cur"></span></div>
+          <div id="rune-list" class="omen-list"></div>
+        </div>
+      </div>
+
+      <!-- 预兆 -->
+      <div class="cat-pane hidden" id="cat-omen">
+        <p class="cat-hint">按所用通货分组 · 可多选叠加 · 同组互斥 · 再点取消</p>
+        <div id="omen-group-list"></div>
+      </div>
+
+      <!-- 深渊 -->
+      <div class="cat-pane hidden" id="cat-abyss">
+        <div id="abyss-list"></div>
+        <div class="bone-box" id="bone-box">
+          <div class="omen-head">渎灵骨档位 <span class="hint">（按部位自动命名：颚骨/肋骨/锁骨）</span></div>
+          <div id="bone-list" class="omen-list"></div>
+        </div>
+      </div>
+
+      <!-- 裂隙 -->
+      <div class="cat-pane hidden" id="cat-breach">
+        <div id="breach-list"></div>
       </div>
     </aside>
 
     <!-- 中：物品卡片 -->
     <div class="panel item-panel">
+      <!-- 操作按钮固定在卡片上方，不随卡片高度变化而移动 -->
+      <div class="item-actions fixed-top">
+        <button id="btn-apply" class="btn primary" disabled title="先在左侧点选通货，再点这里使用">✓ 使用通货</button>
+        <button id="btn-undo" class="btn">↶ 撤销</button>
+        <button id="btn-edit" class="btn" title="手动添加/编辑词缀 —— 导入买来的物品继续做装">✎ 编辑词缀</button>
+        <button id="btn-share" class="btn" title="复制分享链接 —— 别人打开即可复现当前物品状态">🔗 分享</button>
+        <button id="btn-reset" class="btn danger">重置物品</button>
+      </div>
       <div id="item-card-wrap">
         <div id="item-card" class="item-card rarity-normal"></div>
       </div>
-      <div class="item-actions">
-        <button id="btn-undo" class="btn">↶ 撤销</button>
-        <button id="btn-reset" class="btn danger">重置物品</button>
+      <div class="panel-title" style="margin-top:14px">做装目标 <span class="hint" id="target-hint"></span></div>
+      <div class="target-box">
+        <input id="target-input" type="text" placeholder="输入词缀关键词，回车加入目标（如：生命 / 抗性 / 攻速）…">
+        <div id="target-suggest" class="target-suggest"></div>
+        <div id="target-chips" class="target-chips"></div>
       </div>
       <div class="panel-title" style="margin-top:14px">做装日志</div>
       <div id="craft-log" class="craft-log"></div>
@@ -134,6 +228,41 @@
       <button class="modal-close" id="essence-close">✕</button>
     </div>
     <div id="essence-grid" class="essence-grid"></div>
+  </div>
+</div>
+
+<!-- 深渊揭示弹窗 -->
+<div id="desecrate-modal" class="modal hidden">
+  <div class="modal-card">
+    <div class="modal-head">
+      <h3 id="desecrate-title">深渊揭示</h3>
+      <button class="modal-close" id="desecrate-close">✕</button>
+    </div>
+    <p class="desecrate-hint" id="desecrate-hint">从候选深渊词缀中选择一条加入装备</p>
+    <div id="desecrate-grid" class="essence-grid"></div>
+  </div>
+</div>
+
+<!-- 蒸馏情感弹窗（谵妄 · 稀有珠宝） -->
+<div id="liquid-modal" class="modal hidden">
+  <div class="modal-card">
+    <div class="modal-head">
+      <h3 id="liquid-title">蒸馏情感 · 保证工艺词缀</h3>
+      <button class="modal-close" id="liquid-close">✕</button>
+    </div>
+    <p class="desecrate-hint" id="liquid-hint"></p>
+    <div id="liquid-grid" class="essence-grid"></div>
+  </div>
+</div>
+
+<!-- 手动编辑词缀弹窗（导入物品） -->
+<div id="edit-modal" class="modal hidden">
+  <div class="modal-card edit-card">
+    <div class="modal-head">
+      <h3>✎ 编辑词缀 <span class="hint">手动导入买来的物品，继续做装</span></h3>
+      <button class="modal-close" id="edit-close">✕</button>
+    </div>
+    <div id="edit-body" class="edit-body"></div>
   </div>
 </div>
 
@@ -209,6 +338,62 @@
     <circle cx="20" cy="20" r="15" fill="url(#orb-fill)" stroke="url(#g-gold)" stroke-width="1.6"/>
     <ellipse cx="15" cy="14" rx="5" ry="3" fill="#ffffff" opacity=".5" transform="rotate(-25 15 14)"/>
     <text x="20" y="25" text-anchor="middle" font-size="12" fill="#101010" font-weight="700" id="orb-glyph">◆</text>
+  </symbol>
+  <symbol id="ic-ring" viewBox="0 0 48 48">
+    <circle cx="24" cy="29" r="12" fill="none" stroke="currentColor" stroke-width="2.6"/>
+    <path d="M24 5l6 7-6 7-6-7z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M18 24c2 3 4 4 6 4s4-1 6-4" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  </symbol>
+  <symbol id="ic-amulet" viewBox="0 0 48 48">
+    <path d="M11 5c0 13 5 19 13 22M37 5c0 13-5 19-13 22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="24" cy="34" r="8" fill="none" stroke="currentColor" stroke-width="2.6"/>
+    <path d="M24 30l3 4-3 4-3-4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="ic-jewel" viewBox="0 0 48 48">
+    <path d="M14 14h20l8 10-18 19L6 24z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M14 14l10 10 10-10M24 24v19M6 24l8-10 10 10 10-10 8 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="ic-helmet" viewBox="0 0 48 48">
+    <path d="M8 32v-6c0-9 7-16 16-16s16 7 16 16v6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M8 32h32v6H8z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M24 10v22M16 13c-2 5-2 12-2 19M32 13c2 5 2 12 2 19" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  </symbol>
+  <symbol id="ic-chest" viewBox="0 0 48 48">
+    <path d="M14 10l-8 6 4 9 4-2v17h20V23l4 2 4-9-8-6-6 3h-8z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M24 13v27" stroke="currentColor" stroke-width="1.4"/>
+  </symbol>
+  <symbol id="ic-boots" viewBox="0 0 48 48">
+    <path d="M16 6h10v16l12 8c2 1 4 3 4 6v4H10V6z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M10 36h32" stroke="currentColor" stroke-width="2.2"/>
+    <path d="M16 16h6" stroke="currentColor" stroke-width="1.6"/>
+  </symbol>
+  <symbol id="ic-gloves" viewBox="0 0 48 48">
+    <path d="M17 22V10a3 3 0 016 0v8m0-12a3 3 0 016 0v12m0-8a3 3 0 016 0v14c0 9-5 16-12 16S11 39 11 30v-6a3 3 0 016 0" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="ic-weapon" viewBox="0 0 48 48">
+    <path d="M34 6l8 8-20 20-8-8z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M14 26l-6 6 8 8 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M6 34l-3 3 4 4 3-3" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M36 8l4 4" stroke="currentColor" stroke-width="1.6"/>
+  </symbol>
+  <symbol id="ic-shield" viewBox="0 0 48 48">
+    <path d="M24 4l14 5v12c0 11-6 19-14 23-8-4-14-12-14-23V9z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M24 10v26M18 14c-2 4-3 9-3 15M30 14c2 4 3 9 3 15" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  </symbol>
+  <symbol id="ic-focus" viewBox="0 0 48 48">
+    <circle cx="24" cy="24" r="14" fill="none" stroke="currentColor" stroke-width="2.5"/>
+    <circle cx="24" cy="24" r="4" fill="currentColor" opacity=".55"/>
+    <path d="M24 4v6M24 38v6M4 24h6M38 24h6M10 10l4 4M34 34l4 4M38 10l-4 4M14 34l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="ic-quiver" viewBox="0 0 48 48">
+    <path d="M20 6h8v28l-4 8-4-8z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M12 18l8 6M36 18l-8 6M8 30l10 2M40 30l-10 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="ic-belt" viewBox="0 0 48 48">
+    <path d="M6 20h30a6 6 0 010 12H6z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M14 20v12M22 20v12" stroke="currentColor" stroke-width="1.6"/>
+    <rect x="34" y="17" width="9" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2.2"/>
+    <path d="M38.5 21v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
   </symbol>
 </svg>
 
