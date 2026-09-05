@@ -2307,7 +2307,7 @@ function openLiquidModal() {
   }
   /* 首屏已渲染：后台拉词缀池（含首页直进做装台的等待队列）；HTTPS 环境注册 Service Worker 加速二次访问 */
   loadPoolsPackage();
-  if ("serviceWorker" in navigator && location.protocol === "https:") {
+  if ("serviceWorker" in navigator && (location.protocol === "https:" || ["localhost", "127.0.0.1"].includes(location.hostname))) {
     navigator.serviceWorker.register("sw.js").catch(() => {});
   }
 })();
